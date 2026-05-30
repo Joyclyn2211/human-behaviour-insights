@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Human Behaviour · Daily Insights</title>
+  <style>
+    /* ── Reset & Base ── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:        #0f0f13;
+      --surface:   #17171f;
+      --card:      #1e1e28;
+      --border:    #2a2a3a;
+      --accent1:   #c8a96e;
+      --accent2:   #7b9ea6;
+      --accent3:   #a67b9e;
+      --text:      #e8e6f0;
+      --muted:     #7a7890;
+      --biz:       #6e9ec8;
+      --soc:       #7bb89e;
+      --int:       #c87b9e;
+      --tag-bg:    rgba(200,169,110,.12);
+      --tag-c:     #c8a96e;
+    }
+
+    body {
+      font-family: 'Georgia', 'Times New Roman', serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.7;
+    }
+
+    a { color: var(--accent1); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* ── Header ── */
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .logo {
+      font-size: 1.05rem;
+      font-weight: normal;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--accent1);
+    }
+    .logo span { color: var(--muted); }
+    nav { display: flex; gap: 2rem; }
+    nav button {
+      background: none;
+      border: none;
+      color: var(--muted);
+      font-family: inherit;
+      font-size: .85rem;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      cursor: pointer;
+      padding: .25rem 0;
+      border-bottom: 2px solid transparent;
+      transition: color .2s, border-color .2s;
+    }
+    nav button.active, nav button:hover {
+      color: var(--accent1);
+      border-bottom-color: var(--accent1);
+    }
+
+    /* ── Layout ── */
+    .page { display: none; }
+    .page.active { display: block; }
+
+    main { max-width: 900px; margin: 0 auto; padding: 3rem 1.5rem 5rem; }
+
+    /* ── Today header ── */
+    .today-header {
+      margin-bottom: 3rem;
+      border-left: 3px solid var(--accent1);
+      padding-left: 1.25rem;
+    }
+    .today-header .date-line {
+      font-size: .8rem;
+      letter-spacing: .15em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: .4rem;
+    }
+    .today-header h1 {
+      font-size: 2rem;
+      font-weight: normal;
+      color: var(--text);
+      line-height: 1.2;
+    }
+    .today-header .theme-tag {
+      display: inline-block;
+      margin-top: .6rem;
+      background: var(--tag-bg);
+      color: var(--tag-c);
+      font-size: .75rem;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      padding: .25rem .7rem;
+      border-radius: 2px;
+    }
+
+    /* ── Concept card ── */
+    .concept-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      margin-bottom: 2.5rem;
+      overflow: hidden;
+    }
+
+    .concept-header {
+      padding: 1.6rem 2rem 1.2rem;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+    .concept-number {
+      font-size: 2.5rem;
+      color: var(--border);
+      line-height: 1;
+      font-family: 'Georgia', serif;
+      flex-shrink: 0;
+      margin-top: .1rem;
+    }
+    .concept-meta { flex: 1; }
+    .concept-source {
+      font-size: .75rem;
+      text-transform: uppercase;
+      letter-spacing: .1em;
+      color: var(--muted);
+      margin-bottom: .35rem;
+    }
+    .concept-title {
+      font-size: 1.45rem;
+      font-weight: normal;
+      color: var(--text);
+      margin-bottom: .5rem;
+    }
+    .concept-tagline {
+      font-size: .95rem;
+      color: var(--accent1);
+      font-style: italic;
+    }
+
+    .concept-body { padding: 1.6rem 2rem; }
+
+    /* Key Points */
+    .section-label {
+      font-size: .72rem;
+      letter-spacing: .15em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: .6rem;
+    }
+    .section-label::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    .key-points { list-style: none; margin-bottom: 2rem; }
+    .key-points li {
+      padding: .65rem 0 .65rem 1.2rem;
+      border-left: 2px solid var(--border);
+      margin-bottom: .5rem;
+      font-size: .95rem;
+      color: #c8c6d8;
+      transition: border-color .2s;
+    }
+    .key-points li:hover { border-left-color: var(--accent1); }
+
+    /* Steps */
+    .steps { list-style: none; margin-bottom: 2rem; }
+    .steps li {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: .9rem;
+      font-size: .95rem;
+      color: #c8c6d8;
+    }
+    .step-num {
+      background: var(--tag-bg);
+      color: var(--accent1);
+      border-radius: 50%;
+      width: 24px; height: 24px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: .75rem;
+      flex-shrink: 0;
+      margin-top: .2rem;
+    }
+
+    /* Scenarios */
+    .scenarios { display: flex; flex-direction: column; gap: 1rem; }
+
+    .scenario {
+      border-radius: 6px;
+      overflow: hidden;
+    }
+
+    .scenario-header {
+      display: flex;
+      align-items: center;
+      gap: .75rem;
+      padding: .85rem 1.2rem;
+      cursor: pointer;
+      user-select: none;
+      transition: opacity .2s;
+    }
+    .scenario-header:hover { opacity: .85; }
+
+    .scenario.biz .scenario-header { background: rgba(110,158,200,.1); border: 1px solid rgba(110,158,200,.2); }
+    .scenario.soc .scenario-header { background: rgba(123,184,158,.1); border: 1px solid rgba(123,184,158,.2); }
+    .scenario.int .scenario-header { background: rgba(200,123,158,.1); border: 1px solid rgba(200,123,158,.2); }
+
+    .scenario-icon {
+      width: 32px; height: 32px;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1rem;
+      flex-shrink: 0;
+    }
+    .scenario.biz .scenario-icon { background: rgba(110,158,200,.2); }
+    .scenario.soc .scenario-icon { background: rgba(123,184,158,.2); }
+    .scenario.int .scenario-icon { background: rgba(200,123,158,.2); }
+
+    .scenario-tag {
+      font-size: .7rem;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      font-family: 'Helvetica Neue', sans-serif;
+    }
+    .scenario.biz .scenario-tag { color: var(--biz); }
+    .scenario.soc .scenario-tag { color: var(--soc); }
+    .scenario.int .scenario-tag { color: var(--int); }
+
+    .scenario-title-text {
+      font-size: .95rem;
+      color: var(--text);
+      flex: 1;
+    }
+
+    .scenario-chevron {
+      color: var(--muted);
+      transition: transform .25s;
+      font-size: .8rem;
+    }
+    .scenario.open .scenario-chevron { transform: rotate(180deg); }
+
+    .scenario-body {
+      display: none;
+      padding: 1.2rem 1.4rem;
+      font-size: .9rem;
+      color: #b8b6c8;
+      line-height: 1.75;
+    }
+    .scenario.open .scenario-body { display: block; }
+
+    .scenario.biz .scenario-body { background: rgba(110,158,200,.06); border: 1px solid rgba(110,158,200,.12); border-top: none; }
+    .scenario.soc .scenario-body { background: rgba(123,184,158,.06); border: 1px solid rgba(123,184,158,.12); border-top: none; }
+    .scenario.int .scenario-body { background: rgba(200,123,158,.06); border: 1px solid rgba(200,123,158,.12); border-top: none; }
+
+    .scenario-situation {
+      margin-bottom: .85rem;
+      padding: .75rem 1rem;
+      background: rgba(255,255,255,.04);
+      border-radius: 4px;
+      font-style: italic;
+    }
+    .scenario-what {
+      margin-bottom: 1rem;
+      color: var(--muted);
+      font-size: .88rem;
+    }
+
+    .scenario-steps { list-style: none; }
+    .scenario-steps li {
+      display: flex;
+      gap: .75rem;
+      margin-bottom: .7rem;
+      font-size: .88rem;
+      color: #b8b6c8;
+    }
+    .scenario-steps .s-num {
+      color: var(--muted);
+      flex-shrink: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: .75rem;
+      margin-top: .18rem;
+    }
+
+    /* ── History Page ── */
+    .history-intro {
+      margin-bottom: 2.5rem;
+      color: var(--muted);
+      font-size: .95rem;
+    }
+
+    .history-grid { display: flex; flex-direction: column; gap: 1rem; }
+
+    .history-entry {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      overflow: hidden;
+    }
+    .history-entry-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 1.4rem;
+      cursor: pointer;
+    }
+    .history-entry-header:hover { background: rgba(255,255,255,.03); }
+    .history-left { display: flex; align-items: center; gap: 1rem; }
+    .history-day {
+      font-size: .75rem;
+      color: var(--accent1);
+      background: var(--tag-bg);
+      padding: .2rem .6rem;
+      border-radius: 2px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    .history-date { font-size: .85rem; color: var(--muted); }
+    .history-theme { font-size: 1rem; color: var(--text); }
+    .history-concepts-preview {
+      font-size: .8rem;
+      color: var(--muted);
+      margin-top: .2rem;
+    }
+    .history-body { display: none; padding: 1.2rem 1.4rem; border-top: 1px solid var(--border); }
+    .history-entry.open .history-body { display: block; }
+    .history-entry.open .history-entry-header .h-chevron { transform: rotate(180deg); }
+    .h-chevron { color: var(--muted); font-size: .8rem; transition: transform .25s; }
+
+    .history-concept-title {
+      font-size: 1rem;
+      color: var(--accent1);
+      margin: 1rem 0 .4rem;
+    }
+    .history-concept-title:first-child { margin-top: 0; }
+    .history-concept-tagline {
+      font-size: .88rem;
+      color: var(--muted);
+      font-style: italic;
+      margin-bottom: .75rem;
+    }
+    .history-points { list-style: disc; padding-left: 1.2rem; }
+    .history-points li { font-size: .88rem; color: #b8b6c8; margin-bottom: .35rem; }
+
+    /* ── Empty state ── */
+    .empty {
+      text-align: center;
+      padding: 4rem 2rem;
+      color: var(--muted);
+    }
+    .empty .empty-icon { font-size: 2.5rem; margin-bottom: 1rem; }
+    .empty p { font-size: .95rem; }
+
+    /* ── Footer ── */
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: .78rem;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+      letter-spacing: .05em;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 600px) {
+      header { padding: 0 1rem; }
+      nav { gap: 1rem; }
+      nav button { font-size: .75rem; }
+      main { padding: 1.5rem 1rem 4rem; }
+      .concept-header { padding: 1.2rem 1.2rem 1rem; }
+      .concept-body { padding: 1.2rem; }
+      .concept-number { font-size: 2rem; }
+      .concept-title { font-size: 1.2rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Human Behaviour <span>· Daily Insights</span></div>
+  <nav>
+    <button class="active" onclick="showPage('today', this)">Today</button>
+    <button onclick="showPage('history', this)">History</button>
+  </nav>
+</header>
+
+<!-- TODAY PAGE -->
+<div id="page-today" class="page active">
+  <main id="today-main">
+    <div class="empty"><div class="empty-icon">◌</div><p>Loading today's insights…</p></div>
+  </main>
+</div>
+
+<!-- HISTORY PAGE -->
+<div id="page-history" class="page">
+  <main>
+    <div class="today-header">
+      <div class="date-line">Archive</div>
+      <h1>All Daily Entries</h1>
+    </div>
+    <p class="history-intro">Every entry is preserved here. Click any day to expand the full concepts and key points.</p>
+    <div class="history-grid" id="history-grid">
+      <div class="empty"><div class="empty-icon">◌</div><p>Loading history…</p></div>
+    </div>
+  </main>
+</div>
+
+<footer>
+  Human Behaviour Wiki · Updated daily · Built from your personal knowledge base
+</footer>
+
+<script>
+// ── Utilities ──
+function formatDate(dateStr) {
+  const d = new Date(dateStr + 'T00:00:00');
+  return d.toLocaleDateString('en-GB', { weekday:'long', year:'numeric', month:'long', day:'numeric' });
+}
+
+function isToday(dateStr) {
+  const today = new Date().toISOString().slice(0,10);
+  return dateStr === today;
+}
+
+function mostRecentEntry(entries) {
+  return entries.slice().sort((a,b) => b.date.localeCompare(a.date))[0];
+}
+
+// ── Navigation ──
+function showPage(name, btn) {
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
+  document.getElementById('page-' + name).classList.add('active');
+  btn.classList.add('active');
+}
+
+// ── Toggle helpers ──
+function toggleScenario(el) {
+  el.closest('.scenario').classList.toggle('open');
+}
+function toggleHistory(el) {
+  el.closest('.history-entry').classList.toggle('open');
+}
+
+// ── Render Today ──
+function renderToday(entry) {
+  const label = isToday(entry.date) ? 'Today' : formatDate(entry.date);
+  let html = `
+    <div class="today-header">
+      <div class="date-line">${label} · Day ${entry.day}</div>
+      <h1>Today's Insights</h1>
+      <span class="theme-tag">Theme: ${entry.theme}</span>
+    </div>`;
+
+  entry.concepts.forEach((c, i) => {
+    html += renderConceptCard(c, i + 1);
+  });
+
+  document.getElementById('today-main').innerHTML = html;
+}
+
+function renderConceptCard(c, num) {
+  const kp = c.keyPoints.map(p => `<li>${p}</li>`).join('');
+  const ss = c.strategicSteps.map((s,i) => `
+    <li><span class="step-num">${i+1}</span><span>${s}</span></li>`).join('');
+
+  const scenarios = [
+    { key: 'business', cls: 'biz', icon: '💼', label: 'Business' },
+    { key: 'social',   cls: 'soc', icon: '🤝', label: 'Social' },
+    { key: 'intimate', cls: 'int', icon: '💙', label: 'Intimate' }
+  ].map(s => {
+    const sc = c.scenarios[s.key];
+    if (!sc) return '';
+    const steps = sc.applicationSteps.map((st, i) => `
+      <li><span class="s-num">${i+1}.</span><span>${st}</span></li>`).join('');
+    return `
+      <div class="scenario ${s.cls}">
+        <div class="scenario-header" onclick="toggleScenario(this)">
+          <div class="scenario-icon">${s.icon}</div>
+          <div>
+            <div class="scenario-tag">${s.label}</div>
+            <div class="scenario-title-text">${sc.title}</div>
+          </div>
+          <span class="scenario-chevron">▾</span>
+        </div>
+        <div class="scenario-body">
+          <div class="scenario-situation">${sc.situation}</div>
+          <div class="scenario-what">${sc.whatHappens}</div>
+          <div class="section-label" style="margin-top:.5rem">Application steps</div>
+          <ul class="scenario-steps">${steps}</ul>
+        </div>
+      </div>`;
+  }).join('');
+
+  return `
+    <div class="concept-card">
+      <div class="concept-header">
+        <div class="concept-number">0${num}</div>
+        <div class="concept-meta">
+          <div class="concept-source">${c.source}</div>
+          <div class="concept-title">${c.title}</div>
+          <div class="concept-tagline">"${c.tagline}"</div>
+        </div>
+      </div>
+      <div class="concept-body">
+        <div class="section-label">Key Points</div>
+        <ul class="key-points">${kp}</ul>
+
+        <div class="section-label">Strategic Application Steps</div>
+        <ul class="steps">${ss}</ul>
+
+        <div class="section-label">Scenarios</div>
+        <div class="scenarios">${scenarios}</div>
+      </div>
+    </div>`;
+}
+
+// ── Render History ──
+function renderHistory(entries) {
+  const sorted = entries.slice().sort((a,b) => b.date.localeCompare(a.date));
+  const grid = document.getElementById('history-grid');
+
+  if (!sorted.length) {
+    grid.innerHTML = '<div class="empty"><div class="empty-icon">◌</div><p>No entries yet.</p></div>';
+    return;
+  }
+
+  grid.innerHTML = sorted.map(entry => {
+    const preview = entry.concepts.map(c => c.title).join(' · ');
+    const concepts = entry.concepts.map(c => {
+      const pts = c.keyPoints.map(p => `<li>${p}</li>`).join('');
+      return `
+        <div class="history-concept-title">${c.title}</div>
+        <div class="history-concept-tagline">"${c.tagline}"</div>
+        <ul class="history-points">${pts}</ul>`;
+    }).join('');
+
+    return `
+      <div class="history-entry">
+        <div class="history-entry-header" onclick="toggleHistory(this)">
+          <div class="history-left">
+            <span class="history-day">Day ${entry.day}</span>
+            <div>
+              <div class="history-theme">${entry.theme}</div>
+              <div class="history-concepts-preview">${preview}</div>
+            </div>
+          </div>
+          <div style="display:flex;align-items:center;gap:1rem">
+            <span class="history-date">${formatDate(entry.date)}</span>
+            <span class="h-chevron">▾</span>
+          </div>
+        </div>
+        <div class="history-body">${concepts}</div>
+      </div>`;
+  }).join('');
+}
+
+// ── Load data ──
+fetch('./data/entries.json')
+  .then(r => r.json())
+  .then(entries => {
+    const entry = mostRecentEntry(entries);
+    renderToday(entry);
+    renderHistory(entries);
+  })
+  .catch(() => {
+    document.getElementById('today-main').innerHTML =
+      '<div class="empty"><div class="empty-icon">⚠</div><p>Could not load entries.json — make sure the file exists in data/</p></div>';
+  });
+</script>
+</body>
+</html>

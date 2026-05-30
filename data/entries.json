@@ -1,0 +1,115 @@
+[
+  {
+    "date": "2026-05-30",
+    "day": 1,
+    "theme": "Seeing Clearly",
+    "concepts": [
+      {
+        "id": "confirmation-bias",
+        "title": "Confirmation Bias",
+        "source": "Psychology · Daniel Kahneman",
+        "tagline": "Your mind is not a truth-seeking machine — it is a belief-defending machine.",
+        "keyPoints": [
+          "Once you hold a belief, your mind automatically recruits evidence for it, dismisses evidence against it, and interprets ambiguous information in its favour — all without you noticing.",
+          "It operates at three stages: what you seek, how you interpret, and what you remember. Confirming evidence sticks; disconfirming evidence fades.",
+          "The most dangerous form: the feeling of certainty. The more certain you feel, the more likely you are running on unexamined assumption, not verified truth.",
+          "The antidote is not willpower — it is structure. Ask 'What would prove me wrong?' before committing to any conclusion."
+        ],
+        "strategicSteps": [
+          "Before making any decision, spend 5 minutes actively arguing the opposite position as strongly as you can.",
+          "Ask one question daily: 'What evidence have I been ignoring or dismissing this week?'",
+          "When you feel very certain about something, treat that certainty as a signal to slow down — not to speed up.",
+          "Keep a prediction journal: write down your expectations before events, then review after. Your miss-rate will surprise you."
+        ],
+        "scenarios": {
+          "business": {
+            "title": "The Hiring Trap",
+            "situation": "You interview a candidate who reminds you of your best employee. Within 10 minutes you've decided you want to hire them. The rest of the interview becomes a formality.",
+            "whatHappens": "Every answer they give, you interpret generously. Red flags get rationalised. Questions become confirmatory ('I'm sure you're good at X, right?') rather than probing. You hire someone who looks right but isn't right.",
+            "applicationSteps": [
+              "Before the interview, write down 3 specific things that would make you NOT hire this person. Actively look for those.",
+              "Assign one interviewer the explicit role of 'devil's advocate' — their job is to find problems, not potential.",
+              "After the interview, before discussing, everyone writes their assessment independently. Sharing first creates anchoring bias.",
+              "Ask: 'What is the strongest argument against hiring this person?' If you can't answer it, you haven't thought hard enough."
+            ]
+          },
+          "social": {
+            "title": "The First Impression Lock",
+            "situation": "You meet someone at a party and within minutes form an impression — warm, cold, trustworthy, shifty. For the rest of the evening, everything they do confirms what you already decided.",
+            "whatHappens": "Ambiguous behaviour gets filtered through the lens of your first impression. A quiet moment = 'see, they're standoffish.' An enthusiastic comment = 'see, they're trying too hard.' The impression becomes self-sealing.",
+            "applicationSteps": [
+              "Notice the moment you form a first impression. That's the moment confirmation bias begins.",
+              "Deliberately look for one piece of evidence that contradicts your impression before the conversation ends.",
+              "Ask yourself: 'What would this person's best friend say about them?' This forces a more charitable interpretation.",
+              "Before writing someone off socially, ask: 'Have I given them a genuine chance, or have I been collecting evidence for a verdict I already reached?'"
+            ]
+          },
+          "intimate": {
+            "title": "The Recurring Argument",
+            "situation": "You and your partner have a recurring conflict. You're convinced you're right. Every new incident becomes more proof. They feel the same way about their position. The argument never resolves.",
+            "whatHappens": "Both of you are running confirmation bias at full power. You remember every time they did the thing that bothers you; they remember every time you did theirs. You've each built a case file. Neither case file is false — it's just incomplete.",
+            "applicationSteps": [
+              "Before the next difficult conversation, write down the 3 strongest points in their favour — not yours. Read them out loud to yourself first.",
+              "Ask: 'When was the last time I updated my view of this person based on something they did well?' If you can't remember, your mental model of them is frozen in a negative moment.",
+              "In the conversation: 'I want to understand what I'm doing that contributes to this' — before any accusation. This breaks the confirmation loop.",
+              "Agree on a 'pause word' when either of you feels the argument becoming circular. Use it. Step away for 20 minutes before returning."
+            ]
+          }
+        }
+      },
+      {
+        "id": "stoicism-control",
+        "title": "The Stoic Dichotomy of Control",
+        "source": "Philosophy · Epictetus · Marcus Aurelius",
+        "tagline": "Some things are up to us. Everything else is not. This distinction changes everything.",
+        "keyPoints": [
+          "Epictetus divided all of existence into two categories: 'up to us' (your judgments, impulses, desires, and responses) and 'not up to us' (your body, reputation, outcomes, other people's actions).",
+          "Most suffering comes from treating 'not up to us' things as though they were 'up to us' — investing energy in what you cannot control, and neglecting what you can.",
+          "This is not passivity. It is strategic focus. You act fully and excellently on what is within your domain; you release what is not.",
+          "Marcus Aurelius tested every morning challenge against this dichotomy: 'Is this up to me or not?' The answer determined where he put his energy."
+        ],
+        "strategicSteps": [
+          "Each morning, write one current worry or challenge. Then write two columns: 'What I can control' and 'What I cannot.' Put your energy entirely in column one.",
+          "When something goes wrong, ask before reacting: 'Is my distress about what happened, or about what I think it means?' The first is often unavoidable. The second is always a choice.",
+          "Practice 'preferred indifference': pursue goals with full effort, but do not attach your peace to the outcome. The effort is yours; the result is not.",
+          "Weekly: identify one thing you've been trying to control that you genuinely cannot. Write a conscious decision to release it."
+        ],
+        "scenarios": {
+          "business": {
+            "title": "The Outcome You Can't Control",
+            "situation": "You've prepared a pitch for months. The client meeting goes brilliantly. Then they go silent for two weeks. You refresh your email constantly. Your mood tracks their response time.",
+            "whatHappens": "Your energy is entirely in 'not up to us' territory. The client's decision, their timeline, their internal politics — none of it is yours to control. Meanwhile, the worry is consuming mental bandwidth that could go toward the next pitch.",
+            "applicationSteps": [
+              "After any pitch or proposal, immediately write: 'What is in my control now?' (follow-up quality, timing, other opportunities). Put your energy there.",
+              "Set one scheduled 'check-in' time per day for outstanding proposals. Outside that window, close the tab. The refreshing is not action — it is anxiety disguised as action.",
+              "Prepare a 'release statement': 'I did the best preparation I could. The outcome is now outside my domain.' Say it aloud after sending any important proposal.",
+              "Ask: 'If this doesn't come through, what will I do next?' Having the answer removes the catastrophising that makes waiting so painful."
+            ]
+          },
+          "social": {
+            "title": "What They Think of You",
+            "situation": "You said something at a dinner party that landed badly. On the way home, you replay it. For the next three days, you wonder what everyone thought. You consider sending a message to clarify, then reconsider, then reconsider again.",
+            "whatHappens": "You're treating other people's opinions as if they were within your control. They aren't. What you can control: whether you apologise if genuinely needed, and how you behave next time.",
+            "applicationSteps": [
+              "Ask: 'Is there something I can genuinely do to address this?' If yes, do it once, clearly. If no, the rumination is a 'not up to us' problem wearing 'up to us' clothes.",
+              "Write down what actually happened, not what you imagine people thought. The gap between those two things is where most social anxiety lives.",
+              "Practice the Stoic 'view from above': imagine watching the scene from 1000 feet up. How significant does it look from there?",
+              "Ask: 'Am I ruminating because I actually did something wrong, or because I care what they think?' The first deserves action. The second deserves release."
+            ]
+          },
+          "intimate": {
+            "title": "Trying to Change Your Partner",
+            "situation": "Your partner has a habit that bothers you. You've mentioned it. Then mentioned it again. More directly. It hasn't changed. Now it's a source of persistent tension between you.",
+            "whatHappens": "You're in 'not up to us' territory. Your partner's behaviour is not yours to control. What IS yours: how you respond to it, whether you continue to bring it up, how you communicate your needs, and whether this is a dealbreaker.",
+            "applicationSteps": [
+              "Write two columns: 'What I have control over in this relationship' and 'What I do not.' Read the second column and genuinely ask: 'Am I making my peace contingent on things that aren't mine to control?'",
+              "Shift from trying to change behaviour to expressing a need: 'When X happens, I feel Y. What I need is Z.' This is in your domain — their response is not.",
+              "Ask yourself: 'If this never changed, could I be at peace with this relationship?' This is the honest question. The answer guides the decision.",
+              "Practice 'amor fati' in small things: when something they do bothers you, try — even once — choosing to find it acceptable rather than fighting it. Notice what that feels like."
+            ]
+          }
+        }
+      }
+    ]
+  }
+]
