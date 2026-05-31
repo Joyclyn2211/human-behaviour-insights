@@ -322,31 +322,48 @@ def build_concept(pool_entry, entries):
         "scenarios": scenarios_data
     }
 
-def pick_two_concepts(entries):
-    """Pick 2 concepts not used in the last 7 days."""
+LIBRARY_FILE = os.path.join(ROOT, 'data', 'content_library.json')
+
+def load_library():
+    """Load the hand-written rich content library (keyed by concept id)."""
+    if os.path.exists(LIBRARY_FILE):
+        with open(LIBRARY_FILE, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    return {}
+
+def pick_two_concepts(entries, library):
+    """Pick 2 rich concepts from the library, avoiding the last 7 days."""
     recent_ids = set()
     for e in sorted(entries, key=lambda x: x['date'], reverse=True)[:7]:
         for c in e.get('concepts', []):
-            recent_ids.add(c.get('id',''))
+            recent_ids.add(c.get('id', ''))
 
-    available = [p for p in CONCEPT_POOL if p[2] not in recent_ids]
+    all_ids = list(library.keys())
+    available = [cid for cid in all_ids if cid not in recent_ids]
     if len(available) < 2:
-        available = CONCEPT_POOL
+        # Not enough fresh ones; allow the least-recently-used to repeat
+        available = all_ids
 
     return random.sample(available, min(2, len(available)))
 
 def main():
     entries = load_entries()
+    library = load_library()
+
+    if not library:
+        print("No content library found. Run build_library.py first.")
+        return
 
     if already_has_today(entries):
-        print(f"✓ Entry for {today_str()} already exists. Nothing to do.")
+        print(f"OK: Entry for {today_str()} already exists. Nothing to do.")
         return
 
     day_num = len(entries) + 1
     theme = THEMES[(day_num - 1) % len(THEMES)]
-    chosen = pick_two_concepts(entries)
+    chosen_ids = pick_two_concepts(entries, library)
 
-    concepts = [build_concept(c, entries) for c in chosen]
+    # Pull the full, rich, hand-written entry straight from the library
+    concepts = [library[cid] for cid in chosen_ids]
 
     new_entry = {
         "date": today_str(),
@@ -357,8 +374,8 @@ def main():
 
     entries.append(new_entry)
     save_entries(entries)
-    print(f"✓ Day {day_num} entry generated for {today_str()}: {theme}")
-    print(f"  Concepts: {' · '.join(c['title'] for c in concepts)}")
+    print(f"OK: Day {day_num} entry generated for {today_str()}: {theme}")
+    print(f"  Concepts: {' / '.join(c['title'] for c in concepts)}")
 
 if __name__ == '__main__':
     main()

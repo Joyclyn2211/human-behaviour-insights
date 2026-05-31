@@ -1,0 +1,776 @@
+"""
+Builds the complete content_library.json with deep, hand-written entries
+for every concept in the Human Behaviour wiki.
+
+Run once (or whenever adding concepts): python build_library.py
+"""
+import json, os
+
+ROOT = os.path.dirname(os.path.abspath(__file__))
+OUT = os.path.join(ROOT, 'data', 'content_library.json')
+
+LIB = {}
+
+# ── Pull the two already-rich entries from the existing library if present ──
+existing_path = OUT
+existing = {}
+if os.path.exists(existing_path):
+    try:
+        with open(existing_path, encoding='utf-8') as f:
+            existing = json.load(f)
+    except Exception:
+        existing = {}
+
+# Carry over confirmation-bias & stoicism-control if already written
+for k in ("confirmation-bias", "stoicism-control"):
+    if k in existing:
+        LIB[k] = existing[k]
+
+# ── Cognitive Biases ────────────────────────────────────────────────────
+LIB["cognitive-biases"] = {
+    "id": "cognitive-biases",
+    "title": "Cognitive Biases",
+    "source": "Psychology · Kahneman & Tversky",
+    "tagline": "Your brain runs on shortcuts that were brilliant for survival and are quietly sabotaging your modern decisions.",
+    "keyPoints": [
+        "The mind has two systems (Kahneman). System 1 is fast, automatic, emotional — it generates instant impressions and is the source of almost every bias. System 2 is slow, effortful, logical — but lazy, and usually just rubber-stamps whatever System 1 decided.",
+        "Biases are not stupidity. They are efficient heuristics that were adaptive for ancestral survival but misfire in a world of statistics, markets, and strangers. Intelligent people are NOT protected — they're better at justifying biased conclusions.",
+        "The most consequential biases cluster predictably: judging people (fundamental attribution error, halo effect), handling gains/losses (loss aversion, sunk cost), estimating likelihood (availability, representativeness), and defending beliefs (confirmation, anchoring).",
+        "You cannot eliminate biases by knowing about them — System 1 runs below conscious control. What works is STRUCTURE: checklists, outside views, deliberate friction, decision rules that don't depend on in-the-moment judgement.",
+        "The bias blind spot: we see bias clearly in others and feel ourselves the rational exception. This meta-bias is why 'just be objective' never works."
+    ],
+    "strategicSteps": [
+        "Build decision friction for anything important. Force a 24-hour gap and write your reasoning before a consequential choice — this recruits System 2.",
+        "Use the 'outside view': ask 'how do projects like this usually go?' not 'how will MY project go?' Base rates beat gut feeling.",
+        "Run a pre-mortem: imagine it's a year later and the decision failed catastrophically; write how. This surfaces hidden risks.",
+        "Separate person from situation: ask 'what situation could make a reasonable person act this way?' before concluding it's their character.",
+        "Make the bias work FOR you: stake money you'll lose if you skip the gym — loss aversion out-motivates the pull of comfort."
+    ],
+    "scenarios": {
+        "business": {
+            "title": "The Sunk-Cost Project That Won't Die",
+            "situation": "Your team has spent 18 months and a large budget on a feature. The data now clearly shows customers don't want it. Yet every meeting ends with 'we've come too far to stop now.' More money goes in.",
+            "whatHappens": "Sunk cost fallacy compounded by loss aversion and confirmation bias. Money already spent is gone regardless — it should be irrelevant to the forward decision. But quitting feels like 'losing' the investment, so good resources chase bad and any hopeful data scrap gets amplified.",
+            "applicationSteps": [
+                "Erase the past in the question: 'Knowing only what we know today, would we START this now?' If no, the sunk cost is talking.",
+                "Make the loss explicit: 'We lose the 18 months either way. The only choice is whether we also lose the next 6.'",
+                "Assign someone to build the strongest case for KILLING it — without a challenger, only pro-continuation evidence gets aired.",
+                "Set a kill-criterion in advance for the next project, while you're still unbiased."
+            ]
+        },
+        "social": {
+            "title": "The Halo Effect in a New Acquaintance",
+            "situation": "You meet someone polished, articulate, and confident. You instantly assume they're also competent, trustworthy, and successful — and you agree with their opinions more readily than anyone else's.",
+            "whatHappens": "The halo effect: one salient trait (charisma) bleeds into unrelated judgements (competence, honesty). It's how confident frauds succeed and quiet experts get overlooked. System 1 built a whole character profile from 30 seconds.",
+            "applicationSteps": [
+                "Separate observed traits from inferred ones: 'I've seen they're articulate. I have zero evidence yet on competence or honesty.'",
+                "Look for the disconfirming evidence the halo hides — charismatic people get fewer hard questions; ask one.",
+                "Delay consequential trust; reliability only shows over repeated interactions, not first impressions.",
+                "Invert it for the overlooked: 'what might this awkward person be excellent at that their delivery hides?'"
+            ]
+        },
+        "intimate": {
+            "title": "The Fundamental Attribution Error in Conflict",
+            "situation": "Your partner forgets something important. Your instant read: 'They don't care, they're inconsiderate.' But last week when YOU forgot something, you explained it as 'I was overwhelmed' — a situation, not a flaw.",
+            "whatHappens": "We explain others' behaviour by character and our own identical behaviour by circumstances. This asymmetry is the engine of most relationship conflict — each person feels reasonable and sees the other as flawed.",
+            "applicationSteps": [
+                "Catch the character verdict ('they ARE inconsiderate') and convert it to a situational question ('what was going on for them?').",
+                "Apply the symmetry test: 'When I did this, what was my explanation? Is that same explanation available to them?'",
+                "Lead with the situation: 'You forgot X — was something going on?' opens a door; 'You never think of me' slams it.",
+                "Agree a shared rule in calm times: 'We assume good intent and ask about circumstances before assigning blame.'"
+            ]
+        }
+    }
+}
+
+# ── Logotherapy ─────────────────────────────────────────────────────────
+LIB["logotherapy"] = {
+    "id": "logotherapy",
+    "title": "Logotherapy",
+    "source": "Psychology · Viktor Frankl",
+    "tagline": "The primary human drive isn't pleasure or power — it's meaning. And meaning can be found even in suffering you cannot escape.",
+    "keyPoints": [
+        "Frankl developed logotherapy partly in Nazi concentration camps, observing who survived. His conclusion: those with a 'why' — a person to return to, a task only they could do — endured 'almost any how.' Meaning, not comfort, separated collapse from survival.",
+        "Meaning is found three ways: (1) through WORK or creating — a contribution, a deed; (2) through LOVE — connection, beauty, encountering someone; (3) through the ATTITUDE we take toward unavoidable suffering. The third is radical: when you can't change a situation, you can still choose your stance, and that choice creates meaning.",
+        "The 'existential vacuum' is Frankl's diagnosis of modern malaise — emptiness and 'what's the point?' that appears when survival is handled but meaning is absent. Affluence doesn't fill it; only meaning does.",
+        "Self-transcendence is the mechanism: the more you aim directly AT happiness, the more it eludes you. It arrives as a by-product of devoting yourself to something beyond yourself.",
+        "'Tragic optimism' is saying yes to life despite pain, guilt, and death — not toxic positivity that denies suffering, but the hard-won capacity to find meaning within it."
+    ],
+    "strategicSteps": [
+        "Ask the reframed question: not 'what do I want from life?' but 'what is life asking of ME, right now, in this situation?' It shifts you from passive consumer to responsible agent.",
+        "Audit your three sources weekly: what did I CREATE? Who did I genuinely CONNECT with? What difficulty did I face, and what STANCE did I take? Gaps show where meaning is thin.",
+        "Practise 'dereflection' for anxiety: when trapped overthinking yourself, redirect attention OUTWARD toward a task or person. Meaning lives outside the self.",
+        "Find the 'why' before the 'how': before a hard goal, get specific about what it's FOR — who benefits, who you become. A concrete why makes a brutal how survivable.",
+        "Reframe unavoidable suffering as a question of stance: 'Given this is happening, what would it mean to meet it well?'"
+    ],
+    "scenarios": {
+        "business": {
+            "title": "The Hollow Success",
+            "situation": "You're good at your job and well paid. But Friday evenings you feel empty. The work doesn't feel like it matters. You can't tell whether to quit, or whether the emptiness would follow you anywhere.",
+            "whatHappens": "The existential vacuum in professional skin. Competence and salary handle survival but not meaning. Frankl's three sources let you diagnose precisely what's missing — most 'meaningless' jobs contain unnoticed meaning, or reveal a genuine misalignment worth acting on.",
+            "applicationSteps": [
+                "Trace the contribution: 'Who specifically is better off because I did my work well this week?' Make it a real person, not an abstraction.",
+                "Test the three sources: is there room to CREATE? To CONNECT with people you value? If both are genuinely absent, that's real data — not your flaw.",
+                "Before quitting, change your stance for two weeks: approach the same tasks asking 'what would doing this meaningfully look like?'",
+                "If the vacuum persists, ask 'what is life asking of me now?' — the answer might be a new role, or a meaningful pursuit the job exists to fund."
+            ]
+        },
+        "social": {
+            "title": "Supporting a Friend Through the Unfixable",
+            "situation": "A friend faces something terrible and irreversible — a terminal diagnosis, a devastating loss. You want to help but every comforting phrase feels hollow, and you can see it landing badly.",
+            "whatHappens": "We instinctively try to REMOVE suffering — minimise, explain, or fix it. But this can't be removed, so those moves fail and can wound. Frankl's insight: when you can't change the situation, help them find meaning WITHIN it, and simply don't abandon them in it.",
+            "applicationSteps": [
+                "Stop fixing or reframing their pain. Sit in it: 'This is genuinely terrible, and I'm here' beats any silver lining.",
+                "Don't supply meaning — ask gently: 'What matters most to you in how you face this?' or 'Who is helping you hold on?'",
+                "Honour the dignity of their stance — name it: 'The way you're carrying this is remarkable.'",
+                "Be the concrete 'why': your steady, reliable presence can itself become part of their meaning."
+            ]
+        },
+        "intimate": {
+            "title": "The Relationship That's Become Hard",
+            "situation": "You're in a persistently difficult stretch — not explosive, just heavy. You keep asking 'is this still making me happy?' and some days the honest answer is no. You're wondering whether to hold on or let go.",
+            "whatHappens": "Frankl would challenge the question itself. 'What do I want FROM this?' frames you as a consumer of happiness. 'What is this relationship asking of me?' frames you as a participant. The shift from extracting to contributing often reveals whether there's life left to build.",
+            "applicationSteps": [
+                "Switch the question for a week: instead of 'am I happy?', ask 'what does showing up well here ask of me right now?'",
+                "Find what you're avoiding — the conversation, the apology, the change. Meaning usually hides behind it.",
+                "Apply self-transcendence: stop aiming at 'being happy together'; aim at a shared project or caring well — happiness returns as a by-product.",
+                "Use the regret test: 'If this ended, what would I regret not having truly tried?' Try exactly that, fully, for a set period."
+            ]
+        }
+    }
+}
+
+# ── Growth Mindset ──────────────────────────────────────────────────────
+LIB["growth-mindset"] = {
+    "id": "growth-mindset",
+    "title": "Growth Mindset",
+    "source": "Psychology · Carol Dweck",
+    "tagline": "What you believe about whether you can change determines whether you do.",
+    "keyPoints": [
+        "Two mindsets shape how we meet challenge. A FIXED mindset believes ability is innate and unchangeable; a GROWTH mindset believes ability develops through effort. The belief itself becomes self-fulfilling.",
+        "Mindset decides which goals you chase. Fixed minds pursue 'performance goals' (prove you're smart); growth minds pursue 'learning goals' (get better). When proving dominates, challenge becomes threat; when learning dominates, challenge becomes opportunity.",
+        "How we're praised shapes mindset. Praise for intelligence ('you're so smart') breeds fixed mindset; praise for process ('you worked hard on that') breeds growth. The same applies to your own self-talk.",
+        "The 'not yet' reframe is powerful: 'I failed' collapses the future into a verdict; 'I haven't succeeded YET' keeps it open. A small linguistic shift with a large psychological effect.",
+        "Caveat: a growth mindset isn't 'just try harder' or denying real differences. It's the accurate belief that ability is more malleable than it feels — paired with the right strategies."
+    ],
+    "strategicSteps": [
+        "Catch fixed-mindset self-talk ('I'm bad at this') and rewrite it in process terms ('I haven't built this skill yet').",
+        "Add 'yet' to any statement of limitation. Notice how it changes what you do next.",
+        "When you praise others (children, colleagues, partners), praise the effort and strategy, not the trait.",
+        "Treat each failure as a data point, not a verdict: ask 'what did this specifically teach me about what to do differently?'",
+        "Pick one thing you believe you 'can't' do, and find a person who once couldn't and now can. Study what they actually did."
+    ],
+    "scenarios": {
+        "business": {
+            "title": "The Critical Performance Review",
+            "situation": "Your review highlights a real weakness. Your gut reaction is defensiveness — or quiet dismissal: 'that's just not my strength.'",
+            "whatHappens": "Fixed mindset reads feedback as a verdict on who you are, triggering defence. Growth mindset reads it as a map of where to go next. The reaction in that moment reveals — and reinforces — which world you live in.",
+            "applicationSteps": [
+                "Sit with critical feedback for 24 hours before responding — let it land before you defend.",
+                "Ask: 'What would I do with this if I genuinely believed I could improve?' Then do that.",
+                "Reframe 'I'm not good at X' as 'I haven't yet invested in developing X.'",
+                "Find one colleague who improved at exactly this, and ask them how."
+            ]
+        },
+        "social": {
+            "title": "Being Wrong in Public",
+            "situation": "You made a confident claim and someone politely corrected you. Your face flushes. Your instinct is to qualify, deflect, or double down.",
+            "whatHappens": "Fixed mindset treats public correction as a status threat. Growth mindset treats it as free information. How you respond signals — to others and to yourself — which mindset is running.",
+            "applicationSteps": [
+                "Practise saying cleanly: 'You're right, I got that wrong — thank you.' Notice the world doesn't end.",
+                "Ask a genuine follow-up about the correct information — curiosity dissolves embarrassment.",
+                "Track what topics you get corrected on; patterns reveal real gaps to close.",
+                "When you correct others, do it gently — model the grace you want when it's your turn."
+            ]
+        },
+        "intimate": {
+            "title": "'That's Just Who I Am'",
+            "situation": "Your partner names a pattern in your behaviour they find hurtful. Your first impulse: 'That's just who I am. They knew this when they met me.'",
+            "whatHappens": "Fixed mindset uses identity as a shield against the discomfort of change. But 'that's just who I am' is almost always a choice dressed as a fact — and it forecloses growth the relationship may need.",
+            "applicationSteps": [
+                "When you hear 'that's just who I am,' write it down and ask: 'Is this truly fixed, or have I never really tried to change it?'",
+                "Ask your partner: 'What would it look like if I changed this even 20%? What would you notice?' Specific is actionable.",
+                "Pick one small version of the change to practise for two weeks, then report back — growth is demonstrated, not declared.",
+                "Separate identity from behaviour: 'I sometimes do X' can change; 'I AM X' feels like it can't."
+            ]
+        }
+    }
+}
+
+# ── Atomic Habits ───────────────────────────────────────────────────────
+LIB["atomic-habits"] = {
+    "id": "atomic-habits",
+    "title": "Atomic Habits",
+    "source": "Personal Development · James Clear",
+    "tagline": "You don't rise to your goals — you fall to your systems. And your systems are built from tiny, repeated votes for who you are.",
+    "keyPoints": [
+        "Habits are the compound interest of self-improvement. A 1% daily change is invisible day-to-day, then suddenly transformative. The plateau before results is where most people quit.",
+        "The real lever is identity, not outcomes. 'I want to run a marathon' is an outcome goal; 'I am a runner' is an identity. Every action is a vote for the identity you want to become.",
+        "Behaviour change runs on a loop: Cue → Craving → Response → Reward. To build a habit, make it obvious, attractive, easy, and satisfying. To break one, invert each.",
+        "Environment beats willpower. Behaviour is a function of person AND environment. Redesign the environment — make good cues obvious, bad cues invisible — before relying on motivation.",
+        "Habit stacking leverages existing routines: 'After I [current habit], I will [new habit].' You borrow the neural pathway already in place instead of building from scratch."
+    ],
+    "strategicSteps": [
+        "Start with identity: ask 'who is the kind of person who would achieve this?' Then take the smallest action that casts a vote for that identity.",
+        "Make the next habit absurdly small — 'two minutes' small. Consistency builds the identity; volume comes later.",
+        "Design your environment tonight: put one cue for a good habit in plain sight, hide one cue for a bad one.",
+        "Stack a new habit onto something you already do daily: 'After I pour my morning coffee, I will write one sentence.'",
+        "Track the streak visibly. A simple chain of ticks reinforces 'I am someone who does this.'"
+    ],
+    "scenarios": {
+        "business": {
+            "title": "Protecting Deep Work",
+            "situation": "Every Monday you intend to do focused work. By 10am you've been pulled into three 'quick' meetings and the morning is gone. Every week, the same.",
+            "whatHappens": "You're relying on intention to protect your best hours, but the environment hasn't changed — so neither has the outcome. Habits need architecture, not resolve.",
+            "applicationSteps": [
+                "Block 7:30–9:30am as visible 'no meetings' time, recurring, every day.",
+                "Replace the arrival cue (open Slack) with a deliberate one (make tea = deep work begins).",
+                "Use a two-minute on-ramp: open the document and write one line before email.",
+                "Tick a streak each day you protect the block — you're voting for 'I protect my focus.'"
+            ]
+        },
+        "social": {
+            "title": "The Friend You Keep Meaning to Call",
+            "situation": "Someone important to you hasn't heard from you in months. You think of them often, keep meaning to reach out, and haven't.",
+            "whatHappens": "Relationship maintenance doesn't happen on intention alone. Waiting until you 'feel like it' or have 'enough to say' means it never happens.",
+            "applicationSteps": [
+                "Set a recurring monthly reminder: send one genuine message to one person. Non-negotiable.",
+                "Stack it: every time you make morning coffee, send one short check-in.",
+                "Lower the bar radically — 'thinking of you' is a complete message; connection, not performance, is the goal.",
+                "Keep a short list of people you value and rotate through it to remove decision fatigue."
+            ]
+        },
+        "intimate": {
+            "title": "The Drift",
+            "situation": "You and your partner used to talk differently. In the busyness of life, daily interaction became logistics and surface. You miss the connection.",
+            "whatHappens": "Intimacy drifts one skipped conversation at a time, and returns the same way — one small deliberate act at a time, not one grand gesture.",
+            "applicationSteps": [
+                "Introduce one daily ritual: 10 phone-free minutes with one non-logistical question — 'what was the best part of your day?'",
+                "Stack it onto something that already happens daily — dinner, tea, getting into bed.",
+                "Never cancel it for less than a real emergency; consistency is the message.",
+                "Once a month, do something you did early in the relationship — nostalgia reactivates who you are to each other."
+            ]
+        }
+    }
+}
+
+# ── Hyperbolic Discounting ──────────────────────────────────────────────
+LIB["hyperbolic-discounting"] = {
+    "id": "hyperbolic-discounting",
+    "title": "Hyperbolic Discounting",
+    "source": "Behavioural Economics · The Decision Lab",
+    "tagline": "The future feels unreal next to the present — which is why you keep choosing now over later, even when later is better.",
+    "keyPoints": [
+        "We discount the future steeply and irrationally: a reward available NOW feels far more valuable than the same reward tomorrow, even when waiting yields strictly more.",
+        "It creates a split between your present self (intensely values now) and your future self (who bears the consequences). When you plan to start 'Monday,' present-you is writing a cheque future-you must cash.",
+        "This single bias explains procrastination, undersaving, poor health choices, and most self-control failures. The knowledge is there; the future just doesn't feel real enough to compete with now.",
+        "Willpower is the wrong tool — it fails at the exact moment of temptation. Structure works: remove the moment of choice where the discount operates.",
+        "Making the future vivid and concrete shrinks the discount — abstract futures get discounted hardest."
+    ],
+    "strategicSteps": [
+        "Use commitment devices: lock future-you in before present-you can interfere (automatic savings transfers, prepaid classes, public commitments).",
+        "Make the future visceral: calculate the concrete compound result, or write a letter to your future self describing the life you're building.",
+        "Shrink the present-reward gap: pair the future-oriented behaviour with something immediately enjoyable (a favourite podcast only while exercising).",
+        "Replace vague goals with implementation intentions: 'I will run at 7am Mon/Wed/Fri from my front door' beats 'I'll exercise more.'",
+        "Automate the good choice so doing nothing IS the good choice (payday auto-transfer to savings)."
+    ],
+    "scenarios": {
+        "business": {
+            "title": "The Important Work You Keep Postponing",
+            "situation": "You know the big strategic project matters most. Instead you clear email, do small tasks, answer messages — the project's payoff is distant; email's hit of completion is immediate.",
+            "whatHappens": "Hyperbolic discounting favours the small immediate reward (a cleared inbox) over the large delayed one (the finished project). You're not lazy; the future reward is simply being discounted into irrelevance.",
+            "applicationSteps": [
+                "Give the project your first 90 minutes — no email, no phone — before discounting kicks in.",
+                "Remove the choice: full-screen the document, put the phone in another room.",
+                "Break the distant payoff into a visible daily milestone so progress feels immediate.",
+                "Reward yourself the moment you finish the block — give present-you something to encode."
+            ]
+        },
+        "social": {
+            "title": "Investing in Long-Term Friendships",
+            "situation": "Maintaining close friendships takes effort with no immediate payoff. A message, a visit, a call — each feels optional in the moment. The cost of drifting apart is distant; the effort is now.",
+            "whatHappens": "The immediate cost of effort outweighs the heavily-discounted future value of the bond. So nothing happens, repeatedly — until the friendship has quietly faded.",
+            "applicationSteps": [
+                "Schedule it — a standing monthly call or lunch removes the moment-of-choice where discounting wins.",
+                "Make maintenance automatic with recurring reminders, like automatic savings for relationships.",
+                "Lower the effort cost: a 20-second voice note counts.",
+                "Make the future concrete: picture the friendship in 10 years if you do nothing vs. if you stay in touch."
+            ]
+        },
+        "intimate": {
+            "title": "The Conversation You Keep Avoiding",
+            "situation": "There's an honest conversation you need to have with your partner. Having it now costs immediate discomfort. Avoiding it pushes the cost into the future — resentment, distance, a bigger conflict later.",
+            "whatHappens": "Hyperbolic discounting makes avoidance feel rational: the discomfort is now and vivid; the cost of avoidance is later and abstract. So you wait — and the future cost compounds.",
+            "applicationSteps": [
+                "Name the pattern: 'I'm avoiding this because the discomfort is now and the cost is later.'",
+                "Compare concretely: 'What does this conversation cost me today vs. what will silence cost in six months?'",
+                "Lower the activation energy: schedule a specific calm time rather than waiting for the 'right moment' (which present-bias never delivers).",
+                "Pre-commit out loud: 'Can we talk tonight after dinner?' — a small public commitment that future-you must honour."
+            ]
+        }
+    }
+}
+
+# ── Negativity Bias ─────────────────────────────────────────────────────
+LIB["negativity-bias"] = {
+    "id": "negativity-bias",
+    "title": "Negativity Bias",
+    "source": "Psychology · The Decision Lab",
+    "tagline": "Bad hits about twice as hard as good — which quietly distorts your self-image, your relationships, and your picture of the world.",
+    "keyPoints": [
+        "Adverse events have a disproportionately greater psychological impact than positive events of equal size. Losses feel roughly twice as painful as equivalent gains feel good.",
+        "It's wired in, not learned — the effect is cross-cultural and shows at the neural level. The brain allocates more resources to threats because a missed danger was once fatal while a missed opportunity was merely unfortunate.",
+        "It systematically skews perception: one criticism outweighs ten compliments; news feels relentlessly bleak though most metrics of the world are improving; one bad moment can overwrite weeks of warmth.",
+        "In relationships it takes ~5 positive interactions to offset a single negative one (Gottman). The asymmetry isn't fair — but it's the reality you have to design around.",
+        "The brain is 'Velcro for the bad, Teflon for the good' (Rick Hanson). Positive experiences need deliberate attention to be encoded; negative ones stick automatically."
+    ],
+    "strategicSteps": [
+        "Savour deliberately: when something good happens, pause and stay with it 20–30 seconds — the threshold for encoding a positive memory.",
+        "Keep a specific gratitude practice: 'three specific things that happened today and why they mattered' beats vague gratitude.",
+        "Aim for a 5:1 positive-to-negative ratio with people you care about — not to suppress the negative, but to balance the asymmetry.",
+        "Audit your information diet: your feed is a negativity amplifier. One intentional check a day beats continuous doom-scrolling.",
+        "Reframe criticism as data: ask 'what's the useful information here?' to shift the brain from threat to problem-solving."
+    ],
+    "scenarios": {
+        "business": {
+            "title": "The Review That Ignores the Wins",
+            "situation": "Your team delivered a strong quarter. In the review you spend 80% of the time on the 20% that underperformed. The team leaves feeling like they failed.",
+            "whatHappens": "Negativity bias pulls everyone's attention to the shortfall. The genuine wins fade; the gaps dominate. Morale drops not because the quarter was bad, but because the brain over-weights the negative.",
+            "applicationSteps": [
+                "Open with specific, detailed acknowledgement of what worked — 'X succeeded because Y' — before any problem.",
+                "Hold a rough 5:1 ratio of recognition to critique.",
+                "Frame gaps as forward problems to solve, not verdicts on the past.",
+                "End on the strongest win so the meeting's peak-end memory isn't purely negative."
+            ]
+        },
+        "social": {
+            "title": "The Cancelled Plan",
+            "situation": "A friend cancels plans last-minute. Your first interpretation: they don't value you. The neutral explanation (tired, something came up) doesn't compete with the negative narrative, which feels more 'real.'",
+            "whatHappens": "Negativity bias makes the hostile interpretation more salient and more memorable than the benign one — even when the benign one is more likely true.",
+            "applicationSteps": [
+                "Apply the 'most charitable interpretation' rule: write down the most generous reading before settling on a negative one.",
+                "Check the evidence: is there an actual pattern, or is this one event the brain is amplifying?",
+                "If it genuinely matters, ask rather than assume: 'No worries — everything okay?'",
+                "Recall a specific recent time this friend showed they value you, to counterbalance."
+            ]
+        },
+        "intimate": {
+            "title": "One Bad Comment Erases the Week",
+            "situation": "Your partner says something that lands badly. The warmth of the previous good week evaporates, and you find yourself cataloguing other moments like this.",
+            "whatHappens": "A single negative interaction overwrites a week of positives, and negativity bias starts assembling a case file of similar moments — making the relationship feel worse than it is.",
+            "applicationSteps": [
+                "Name it in the moment: 'I'm running negativity bias right now' — meta-awareness stops the cascade.",
+                "Deliberately recall one specific positive from this week — specific, not vague.",
+                "Address the actual comment directly instead of letting it generalise into a verdict.",
+                "Build a shared 'repair' habit so one bad moment gets balanced quickly rather than left to fester."
+            ]
+        }
+    }
+}
+
+# ── Framing Effect ──────────────────────────────────────────────────────
+LIB["framing-effect"] = {
+    "id": "framing-effect",
+    "title": "Framing Effect",
+    "source": "Psychology · The Decision Lab",
+    "tagline": "Change how something is said and you change what people decide — even when the facts are identical.",
+    "keyPoints": [
+        "The same information presented differently produces different decisions. '90% survival' and '10% mortality' describe the identical outcome — but people choose very differently.",
+        "Loss frames usually hit harder than gain frames because of loss aversion: 'avoid a $50 loss' motivates more than 'save $50,' though the outcome is the same.",
+        "No communication is frame-neutral. Every sentence emphasises some aspects and backgrounds others. The only choice is whether you frame consciously or unconsciously.",
+        "Framing operates on everyone — doctors, judges, analysts — regardless of intelligence. Awareness reduces but doesn't eliminate it.",
+        "Reframing is a superpower in reverse: stripping a situation back to its underlying facts (a first-principles move) reveals the frame someone has placed on it."
+    ],
+    "strategicSteps": [
+        "Before accepting any claim, ask 'what frame is this — gain or loss?' and 'what would the same fact look like in the opposite frame?'",
+        "In feedback, frame as addition not deficit: 'developing X would take you from good to excellent' beats 'you lack X.'",
+        "Know your audience's default: lead with loss framing for the risk-averse, gain framing for the growth-oriented.",
+        "Always name the cost of inaction, not just the benefit of action — 'doing nothing also costs you Y.'",
+        "When stuck or anxious, deliberately reframe: 'what is the most accurate and most useful way to describe this situation?'"
+    ],
+    "scenarios": {
+        "business": {
+            "title": "The Proposal That Won't Land",
+            "situation": "You're pitching a project as 'here's what we could gain.' Decision-makers nod politely and don't move. The upside isn't compelling them.",
+            "whatHappens": "Risk-averse executives are moved more by avoiding loss than capturing gain. A pure gain frame leaves the cost of inaction invisible — so the safe-feeling default is to do nothing.",
+            "applicationSteps": [
+                "Add the loss frame: 'without this, we risk losing Y' alongside the upside.",
+                "Match the frame to the audience — lead with risk for the cautious, opportunity for the ambitious.",
+                "In negotiation, always name the cost of NOT agreeing, changing their reference point.",
+                "Present the same numbers both ways so the decision rests on substance, not packaging."
+            ]
+        },
+        "social": {
+            "title": "Declining Without Damage",
+            "situation": "You want to turn down an invitation without hurting the relationship. 'I don't want to come' is honest but lands as rejection.",
+            "whatHappens": "The frame you choose determines whether they hear rejection or care. Same decision, very different reception depending on what you emphasise.",
+            "applicationSteps": [
+                "Frame around the relationship, not your preference: 'I'd love to, but I'm depleted and wouldn't be good company.'",
+                "Emphasise what they'd lose with a depleted you, not what you're avoiding.",
+                "Offer an alternative to keep the connection ('can we do next week instead?').",
+                "Keep it specific and warm — vague excuses read as brush-offs."
+            ]
+        },
+        "intimate": {
+            "title": "Raising a Concern",
+            "situation": "You want to tell your partner something bothers you. 'You never listen to me' frames it as a global, permanent character flaw — and triggers defence.",
+            "whatHappens": "A global loss frame ('you never...') reads as a verdict and invites counterattack. A specific, behaviour-focused frame reads as a solvable issue and keeps the door open.",
+            "applicationSteps": [
+                "Reframe to specific behaviour: 'when you check your phone while I'm talking, I feel unheard.'",
+                "Frame it as changeable, not as who they are — behaviour, not character.",
+                "Use a 'toward' frame to set direction ('I want us closer') and an 'away' frame for urgency ('I'm feeling distant') deliberately.",
+                "Lead with your feeling, not their fault — it's more accurate and less triggering."
+            ]
+        }
+    }
+}
+
+# ── Status Quo Bias ─────────────────────────────────────────────────────
+LIB["status-quo-bias"] = {
+    "id": "status-quo-bias",
+    "title": "Status Quo Bias",
+    "source": "Psychology · The Decision Lab",
+    "tagline": "We prefer whatever already exists — not because it's better, but because change feels like effort and risk.",
+    "keyPoints": [
+        "We systematically favour the current state, even when a clearly better option exists. Doing nothing feels safe by default; changing feels risky and effortful.",
+        "It's driven by loss aversion (the costs of change feel more salient than the benefits) plus omission bias (inaction feels less blameworthy than action, even for identical outcomes).",
+        "Defaults are enormously powerful: opt-out organ donation reaches 90%+ participation while opt-in averages ~15% — same people, different default. Choice architecture often beats actual preference.",
+        "It compounds with hyperbolic discounting (change's benefit is distant, its discomfort is now) and confirmation bias (once settled, we notice evidence the status quo is fine).",
+        "The status quo is what keeps bad jobs, stale habits, broken processes, and tired relationships in place long after better options are available."
+    ],
+    "strategicSteps": [
+        "Use the fresh-start question: 'If I were choosing today with no history, would I pick this?' It removes the status quo as the reference point.",
+        "Make the better option the default: design your environment so the good choice requires less effort than the bad one.",
+        "Frame changes as reversible experiments ('try for 30 days and review') to lower the perceived risk that fuels inertia.",
+        "Flip the default for broken systems: 'we'll keep this only if someone actively argues to' instead of 'we'll keep it unless someone changes it.'",
+        "Use the friend test: advise yourself as you'd advise a friend in the same situation — you're more objective about their status quo than your own."
+    ],
+    "scenarios": {
+        "business": {
+            "title": "The Broken Process Nobody Changes",
+            "situation": "Your team uses a weekly reporting process that takes hours and produces little value. No one likes it; no one changes it. 'It's just how we do things.'",
+            "whatHappens": "Status quo bias plus the coordination effort of change keeps a process alive that everyone privately knows is broken. Inertia masquerades as stability.",
+            "applicationSteps": [
+                "Ask the fresh-start question as a team: 'If we were designing reporting today, would we build this?'",
+                "Flip the default: 'we eliminate this unless someone argues to keep it.'",
+                "Run a 30-day experiment without it and measure what actually breaks (usually nothing).",
+                "Make the better option lower-effort than the current one so it sticks."
+            ]
+        },
+        "social": {
+            "title": "The Friendship on Autopilot",
+            "situation": "A friendship has run on autopilot for years — same conversations, same place, leaving slightly unfulfilled. Neither of you changes anything because this is just how it is.",
+            "whatHappens": "The relationship has a status quo that feels normal, so neither person disrupts it — even though both might welcome something fresher.",
+            "applicationSteps": [
+                "Introduce one new element: a different activity, a more genuine question.",
+                "Name it lightly: 'we always do the same thing — want to try something different?'",
+                "Treat it as a low-risk experiment; the downside of trying is tiny.",
+                "Notice that disruption is often met with relief, not resistance."
+            ]
+        },
+        "intimate": {
+            "title": "The Comfortable Distance",
+            "situation": "You and your partner have settled into a comfortable routine that's also become a comfortable distance. Nothing's wrong — but nothing's especially alive either.",
+            "whatHappens": "The relationship's status quo feels safe, so neither of you disrupts it. The inertia preserves the peace and the staleness together.",
+            "applicationSteps": [
+                "Ask the fresh-start question together: 'If we designed our relationship from scratch today, what would we keep and what would we change?'",
+                "Frame it with curiosity, not complaint — the question itself breaks the status quo frame.",
+                "Pick one small new shared practice as a 30-day experiment.",
+                "Revisit and keep what added life; drop what didn't."
+            ]
+        }
+    }
+}
+
+# ── Self-Knowledge ──────────────────────────────────────────────────────
+LIB["self-knowledge"] = {
+    "id": "self-knowledge",
+    "title": "Self-Knowledge",
+    "source": "Philosophy · Psychology",
+    "tagline": "You can't navigate the world accurately if you can't see yourself accurately — and seeing yourself is the hardest seeing there is.",
+    "keyPoints": [
+        "Self-knowledge has four dimensions: cognitive (your biases and blind spots), emotional (your triggers and patterns), values (what you actually care about vs. what you say), and identity (the story you tell about who you are).",
+        "It's the precondition for effective action. 'Know yourself' (Delphi) and Sun Tzu's 'know yourself, know your enemy' agree: accurate self-perception is rarer and more valuable than intelligence or talent.",
+        "The knowing-doing gap is real: understanding a pattern intellectually doesn't change it. Insight must land emotionally, be embedded in habit, and be encountered repeatedly to alter behaviour.",
+        "The main obstacle is your own mind: confirmation bias and cognitive dissonance protect your existing self-image, rationalising rather than updating when evidence conflicts.",
+        "Behaviour is better data than introspection. What you actually do over a week reveals your real values more reliably than what you believe about yourself."
+    ],
+    "strategicSteps": [
+        "Journal one question each evening: 'What did I feel today that I didn't fully acknowledge at the time?'",
+        "Seek one piece of genuinely honest feedback this week — from someone who'll tell you what you need to hear, not what you want.",
+        "Treat emotional reactions as data: ask 'what does this reaction reveal about what I actually value?'",
+        "Map the gap weekly: 'What do I say I value vs. what did my behaviour this week actually show?'",
+        "Look for what recurs across different situations and relationships — patterns are more honest than single events."
+    ],
+    "scenarios": {
+        "business": {
+            "title": "The Feedback You Keep Hearing",
+            "situation": "Across multiple jobs and reviews, the same critique keeps surfacing — about your communication, or delegation, or patience. You've explained it away each time.",
+            "whatHappens": "Confirmation bias protects your self-image by rationalising each instance as situational. But a pattern across contexts is data about you, not the circumstances. The repetition is the signal.",
+            "applicationSteps": [
+                "List feedback you've received across different roles; circle anything that repeats.",
+                "Resist the situational explanation for repeated patterns — ask 'what if this is actually about me?'",
+                "Pick one recurring item and ask a trusted colleague for a specific recent example.",
+                "Choose one concrete behaviour to change and track it for a month."
+            ]
+        },
+        "social": {
+            "title": "The Reaction That's Too Big",
+            "situation": "Something minor a friend says provokes a reaction in you that's out of proportion. Later you're not even sure why it stung so much.",
+            "whatHappens": "Outsized reactions are signposts to unexamined values or old wounds. The size of the reaction is information about you, not just about what they said.",
+            "applicationSteps": [
+                "When a reaction feels too big, pause and ask 'what nerve did that actually touch?'",
+                "Trace it back: 'when have I felt this exact way before?'",
+                "Separate their (small) action from your (large) reaction — own the gap.",
+                "Journal the trigger; over time the patterns name your sensitivities."
+            ]
+        },
+        "intimate": {
+            "title": "The Pattern You Bring to Every Relationship",
+            "situation": "You notice the same dynamic recurring across relationships — the same kind of conflict, the same role you fall into. The common factor is you.",
+            "whatHappens": "It's easier to see the pattern in partners than in yourself. But a dynamic that repeats across different people is yours to understand — and that understanding is where change becomes possible.",
+            "applicationSteps": [
+                "Name the recurring dynamic honestly, without blaming past partners.",
+                "Ask 'what is my consistent contribution to this pattern?'",
+                "Share the insight with your current partner: 'I've noticed I tend to do X — help me catch it.'",
+                "Pick one early-warning sign and a different response to try when it appears."
+            ]
+        }
+    }
+}
+
+# ── First Principles Thinking ───────────────────────────────────────────
+LIB["first-principles"] = {
+    "id": "first-principles",
+    "title": "First Principles Thinking",
+    "source": "Philosophy · 李善友 (Li Shanyu)",
+    "tagline": "Strip away assumption and inherited convention until you reach what's actually true — then reason up from there.",
+    "keyPoints": [
+        "Most thinking is reasoning by analogy — copying what's been done, what others do, what convention says. It's fast and socially safe, but it inherits every hidden assumption baked into the original.",
+        "First principles thinking reasons up from bedrock truths that cannot be reduced further. The formula (李善友): first principle + deduction = a rational system.",
+        "The hidden enemy is the 'continuity assumption' — the unexamined belief that the future resembles the past and here resembles elsewhere. It's smuggled into almost every conclusion and is invisible because it's foundational.",
+        "Most 'constraints' are inherited conventions, not physical laws. When something seems impossible, ask whether it's a genuine constraint or just an assumption nobody has questioned.",
+        "The most personal application: which of your beliefs, values, and identity claims are genuinely yours (reasoned and tested) versus inherited (absorbed from family, culture, peers) and never examined?"
+    ],
+    "strategicSteps": [
+        "Pick one assumption you treat as fact and ask 'is this actually true, or just a continuity assumption?'",
+        "For any belief, keep asking 'why is this true?' until you reach a direct observation or a logical necessity — or discover you've hit unexamined convention.",
+        "Decompose 'impossible' goals into components and ask which parts are genuinely fixed vs. merely conventional.",
+        "Ask of any important belief: 'If I'd been raised in a different family or culture, would I still hold this?'",
+        "Notice what your community treats as obvious — that's where the unexamined axioms (and the opportunities) hide."
+    ],
+    "scenarios": {
+        "business": {
+            "title": "The Cost Everyone Accepts",
+            "situation": "Your industry 'knows' a certain cost is fixed — 'that's just what it costs.' Everyone plans around it. Margins stay thin because nobody questions the number.",
+            "whatHappens": "Reasoning by analogy ('this is what it has always cost') hides that the cost is a convention, not a physical law. Musk's battery example: $600/kWh was convention; the raw materials cost ~$80. The gap was unexamined assumption.",
+            "applicationSteps": [
+                "Ask 'what is this actually made of, at its most basic, and what does THAT cost?'",
+                "Separate genuine constraints (physics, math) from inherited conventions (how it's been done).",
+                "Rebuild the solution from the verified bedrock, not from competitors' approaches.",
+                "Test the riskiest assumption cheaply before committing."
+            ]
+        },
+        "social": {
+            "title": "The 'Should' You Never Chose",
+            "situation": "You feel obligated to do something socially — a tradition, an expectation, a way of doing things — that you've never actually questioned. It just feels like what one does.",
+            "whatHappens": "The 'should' is a continuity assumption inherited from your environment. It feels like a law of reality, but it's a convention you absorbed and never examined.",
+            "applicationSteps": [
+                "Ask: 'Where did this rule come from? Did I choose it or absorb it?'",
+                "Ask: 'Would someone from a very different background find this obviously necessary, or ask why?'",
+                "Keep what survives examination; consciously drop what doesn't.",
+                "Decide on purpose, rather than by inherited default."
+            ]
+        },
+        "intimate": {
+            "title": "The Inherited Relationship Script",
+            "situation": "You and your partner keep running a script about how relationships 'should' work — roles, rules, expectations — picked up from your families. Friction comes from clashing inherited scripts.",
+            "whatHappens": "Each of you imported first principles from your upbringing and never examined them. The conflict isn't really about the dishes; it's about two unexamined axioms colliding.",
+            "applicationSteps": [
+                "Surface the assumption: 'what do I believe a relationship 'should' do here, and where did I learn it?'",
+                "Have each partner trace a 'should' back to its origin family.",
+                "Ask together: 'what do WE actually want to build, from first principles, rather than inherit?'",
+                "Replace inherited rules with consciously chosen ones you both endorse."
+            ]
+        }
+    }
+}
+
+# ── Mental Models ───────────────────────────────────────────────────────
+LIB["mental-models"] = {
+    "id": "mental-models",
+    "title": "Mental Models",
+    "source": "Philosophy · Charlie Munger",
+    "tagline": "You don't see reality — you see your model of it. The quality of your thinking is the quality of your models.",
+    "keyPoints": [
+        "A mental model is a simplified representation of how something works. You can't think without them; the question is whether yours are accurate, diverse, and consciously chosen.",
+        "Munger's 'latticework': a single model makes everything look like a nail. Models from many disciplines let you triangulate — when several point the same way, confidence rises; when they conflict, you've found an interesting edge.",
+        "You don't need to master whole fields — just the 5% of each that carries 95% of the value: the foundational Big Ideas (compounding, natural selection, incentives, probability, the dichotomy of control).",
+        "Inversion is one of the most underused models: instead of 'how do I achieve X?', ask 'what would guarantee I fail at X?' then avoid those things.",
+        "Every model is wrong somewhere — it simplifies by definition. Mistaking the model for reality is the source of most intellectual error; the most useful models become invisibly 'just how things are.'"
+    ],
+    "strategicSteps": [
+        "Pick one field outside your expertise and learn its single most important model; apply it to a current problem.",
+        "When stuck, run the problem through multiple lenses: 'what would a biologist / economist / philosopher say?'",
+        "Practise inversion weekly: define failure explicitly, then design to avoid it.",
+        "Keep a short list of the 10 models you use most — check whether they're diverse or all from one domain.",
+        "When confident, ask 'which model am I using, and where does it break down?'"
+    ],
+    "scenarios": {
+        "business": {
+            "title": "The One-Tool Decision",
+            "situation": "Your team analyses every problem through the same single lens — always a financial model, or always a marketing frame. Different problems get the same treatment, and some keep going wrong.",
+            "whatHappens": "The 'man with a hammer' syndrome: one model makes every problem look like the kind it solves. Important dimensions get missed because no one is looking through the right lens.",
+            "applicationSteps": [
+                "Before deciding, force the problem through 3 different disciplinary lenses.",
+                "Ask 'what model am I defaulting to, and what is it blind to?'",
+                "Invite someone with a different background specifically to disagree.",
+                "Run inversion: 'what would guarantee this decision fails?'"
+            ]
+        },
+        "social": {
+            "title": "Reading a Situation You Keep Misjudging",
+            "situation": "You keep misreading certain social situations — assuming people are motivated by what would motivate you, and being surprised when they aren't.",
+            "whatHappens": "You're applying a single model of human motivation (your own) to everyone. A richer latticework — incentives, status, fear, belonging — would predict behaviour far better.",
+            "applicationSteps": [
+                "Ask 'what incentives is this person actually facing?' rather than 'what would I do?'",
+                "Add models: status, in-group belonging, loss aversion — run the situation through each.",
+                "Hold your first read as a hypothesis, not a conclusion.",
+                "Check predictions against what actually happens, and update the model."
+            ]
+        },
+        "intimate": {
+            "title": "Assuming Your Partner Thinks Like You",
+            "situation": "You assume your partner processes emotion, conflict, or love the way you do — and feel hurt or confused when they clearly don't.",
+            "whatHappens": "You're running a single model (yourself) for a different person. Without a model of how THEY work — their attachment style, their language of care — you keep mispredicting them.",
+            "applicationSteps": [
+                "Build an explicit model of your partner: how do THEY recharge, show care, handle conflict?",
+                "Ask directly rather than assuming: 'what does feeling loved actually look like for you?'",
+                "Notice where your model of them keeps being wrong, and revise it.",
+                "Hold the difference as information, not as them being 'wrong.'"
+            ]
+        }
+    }
+}
+
+# ── Strategic Thinking ──────────────────────────────────────────────────
+LIB["strategic-thinking"] = {
+    "id": "strategic-thinking",
+    "title": "Strategic Thinking",
+    "source": "Strategy · Sun Tzu",
+    "tagline": "Win before you fight: position, prepare, and adapt so that success flows rather than forces.",
+    "keyPoints": [
+        "Strategy isn't planning — it's seeing the whole situation clearly, positioning well before acting, and adapting continuously to what's real rather than what you assumed.",
+        "Self-knowledge is the foundation: 'know yourself, know your enemy.' Most defeats are self-inflicted — caused by misjudging your own capabilities, emotions, or situation.",
+        "The supreme skill is winning without fighting: resolving situations through positioning and timing before they escalate to costly conflict. Emotional regulation prevents most battles.",
+        "Adaptability beats rigidity: 'water shapes its course to the ground.' Fixed plans meet reality and break; principles stay constant while tactics flex.",
+        "Build 'shi' — leverage and momentum — so force flows naturally, like a boulder downhill, rather than grinding effort uphill."
+    ],
+    "strategicSteps": [
+        "Each morning, separate what you can influence from what you can't, and aim your energy only at the former.",
+        "Before any high-stakes situation, check the terrain: timing, your real capabilities, the other party's actual position.",
+        "Ask 'where am I fighting battles that don't need fighting?' — and what winning without fighting would look like.",
+        "Prepare before you need to: build the relationship, skill, or buffer in advance, not in the moment of crisis.",
+        "Before a hard conversation, get clear on the outcome you actually want and the minimum move that achieves it."
+    ],
+    "scenarios": {
+        "business": {
+            "title": "The Negotiation You're About to Lose",
+            "situation": "You're heading into a negotiation focused on what you want to say and win. You haven't mapped the other side's real position, constraints, or alternatives.",
+            "whatHappens": "Without knowing the terrain — their incentives, pressures, and walk-away point — you're fighting blind. Sun Tzu: victory is determined before the battle, in preparation, not in the room.",
+            "applicationSteps": [
+                "Map their actual position before the meeting: what do they need, fear, and have as alternatives?",
+                "Know your own walk-away point precisely (self-knowledge) so emotion can't move it.",
+                "Look for the win-win that resolves it without a fight — the cheapest victory.",
+                "Prepare your strongest position quietly; don't reveal it prematurely."
+            ]
+        },
+        "social": {
+            "title": "Choosing Which Battles to Fight",
+            "situation": "You find yourself drawn into every disagreement in your social or family group — correcting, debating, defending. It's exhausting and rarely changes anything.",
+            "whatHappens": "Fighting every battle wastes the finite energy that should go to the few that matter. The strategist knows when not to engage is itself a move.",
+            "applicationSteps": [
+                "Before engaging, ask 'is this battle worth my energy, and can I actually win it?'",
+                "Let small things go on purpose — conserve force for what matters.",
+                "When you do engage, aim at resolution, not at being right.",
+                "Notice that withdrawing from a pointless fight is strength, not weakness."
+            ]
+        },
+        "intimate": {
+            "title": "Winning the Argument, Losing the Relationship",
+            "situation": "You're skilled at winning arguments with your partner — but each 'win' leaves more distance between you. The scoreboard says you're ahead; the relationship says you're losing.",
+            "whatHappens": "You're treating an intimate relationship as a battlefield to win, when the supreme skill is not fighting at all. A won argument that costs connection is a strategic defeat.",
+            "applicationSteps": [
+                "Redefine victory: the goal is closeness and resolution, not being right.",
+                "Regulate before responding — most conflicts are won by not escalating.",
+                "Ask 'what does my partner actually need here?' before defending your position.",
+                "Choose the move that protects the relationship, even when you could 'win.'"
+            ]
+        }
+    }
+}
+
+# ── Independent Thinking ────────────────────────────────────────────────
+LIB["independent-thinking"] = {
+    "id": "independent-thinking",
+    "title": "Independent Thinking",
+    "source": "Essay · Paul Graham",
+    "tagline": "Calibrate your beliefs against reality, not against the people around you.",
+    "keyPoints": [
+        "Independent thinking isn't contrarianism or stubbornness — it's the ability to judge what's true against reality rather than against social consensus. The aim is accurate belief, not distinctive belief.",
+        "It has three trainable components (Graham): fastidiousness about truth (asking 'is that true?' reflexively), resistance to being told what to think (delight in ideas that subvert convention), and curiosity (the engine of novel ideas).",
+        "We misjudge our own position: the conventional don't see themselves as conventional, and the independent underestimate how far they diverge. Both calibrate against their immediate circle, not the full range of thought.",
+        "Ideas spread through groups like fashions — current, not necessarily true. Unfashionable ideas are disproportionately likely to be interesting, precisely because they're underexplored.",
+        "Environment is the highest-leverage variable: who you spend time with shapes what you think is normal, thinkable, and permissible. Choose your peers like you choose your inputs."
+    ],
+    "strategicSteps": [
+        "Ask 'is that true?' of one conventional claim each day before accepting it.",
+        "Notice when you feel social pressure to agree — treat it as a signal to examine, not to comply.",
+        "Follow genuine curiosity, not what you think should interest you; the interesting ideas are at the end of real questions.",
+        "Diversify your 'worlds' — spend time across different fields and groups and carry ideas between them.",
+        "Map your community's intellectual fashions: 'what is everyone here believing right now that they haven't examined?'"
+    ],
+    "scenarios": {
+        "business": {
+            "title": "Everyone in the Room Agrees",
+            "situation": "A decision is forming and the whole team is nodding along. It feels obvious, settled. You have a flicker of doubt but don't want to be the one who slows things down.",
+            "whatHappens": "Unanimous agreement often signals an intellectual fashion, not truth — the comfortable consensus nobody has stress-tested. The social cost of dissent silences the very doubt that would help.",
+            "applicationSteps": [
+                "Ask the quiet question: 'what would have to be true for this to be wrong?'",
+                "Separate 'everyone agrees' from 'this is correct' — they're different things.",
+                "Volunteer to argue the opposing case so dissent becomes a role, not an attack.",
+                "Look for the unfashionable option no one is examining."
+            ]
+        },
+        "social": {
+            "title": "The Opinion You Hold Because Your Group Does",
+            "situation": "You realise you hold a strong view mainly because everyone in your social circle holds it. You've never actually examined the evidence yourself.",
+            "whatHappens": "Group belief feels like personal conviction. You've calibrated against your circle, not reality — and the strength of feeling masks the absence of independent examination.",
+            "applicationSteps": [
+                "Ask: 'do I believe this because I've examined it, or because my group does?'",
+                "Read the strongest case for the opposing view — to understand, not to refute.",
+                "Notice the discomfort of questioning a group belief — that discomfort marks the unexamined spot.",
+                "Hold the view more provisionally until you've actually checked it yourself."
+            ]
+        },
+        "intimate": {
+            "title": "Letting Others Define Your Relationship",
+            "situation": "You measure your relationship against what friends, family, or social media say it 'should' look like — milestones, pace, displays — rather than what actually works for the two of you.",
+            "whatHappens": "You're calibrating against social fashion instead of your own reality. The relationship gets judged by an external scoreboard that may have nothing to do with what makes you both happy.",
+            "applicationSteps": [
+                "Ask: 'is this expectation ours, or one we absorbed from others?'",
+                "Define what a good relationship means to the two of you, on your own terms.",
+                "Notice when comparison ('they're already engaged / posting / buying') drives a feeling, and question it.",
+                "Calibrate against your actual experience together, not the external highlight reel."
+            ]
+        }
+    }
+}
+
+# ── Write ───────────────────────────────────────────────────────────────
+with open(OUT, 'w', encoding='utf-8') as f:
+    json.dump(LIB, f, ensure_ascii=False, indent=2)
+
+print(f"Library built with {len(LIB)} rich concepts:")
+for k in LIB:
+    print(f"  - {LIB[k]['title']}")
