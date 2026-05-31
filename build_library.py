@@ -4,7 +4,12 @@ for every concept in the Human Behaviour wiki.
 
 Run once (or whenever adding concepts): python build_library.py
 """
-import json, os
+import json, os, sys
+
+try:
+    sys.stdout.reconfigure(encoding='utf-8')
+except Exception:
+    pass
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(ROOT, 'data', 'content_library.json')
