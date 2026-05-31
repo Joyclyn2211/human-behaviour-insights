@@ -823,5 +823,500 @@
         ]
       }
     }
+  },
+  "cognitive-dissonance": {
+    "id": "cognitive-dissonance",
+    "title": "Cognitive Dissonance",
+    "source": "Psychology · Leon Festinger",
+    "tagline": "When your actions and your beliefs collide, it's usually the belief that bends — not the behaviour.",
+    "keyPoints": [
+      "Cognitive dissonance is the mental discomfort of holding two contradictory beliefs, or acting against what you believe. The mind resolves it fast — usually by changing the belief, not the behaviour.",
+      "We don't reason our way to comfort; we rationalise. After a hard choice, we inflate the chosen option and disparage the rejected one to quiet the discomfort.",
+      "It explains why people defend bad decisions harder over time, why effort makes us love things (we justify the cost), and why disconfirming evidence often strengthens belief instead of weakening it.",
+      "The discomfort is the signal. Noticing the urge to rationalise — that flicker of defensiveness — is the doorway to actually learning something.",
+      "Festinger's classic study: people paid $1 to lie about a boring task later rated it more enjoyable than those paid $20 — the well-paid had an external justification, the underpaid had to change their belief."
+    ],
+    "strategicSteps": [
+      "When you feel defensive, pause: 'Am I reasoning, or rationalising to reduce discomfort?'",
+      "Separate the decision from your ego — 'a past version of me chose this; present me can choose differently' removes the pressure to defend.",
+      "Write the strongest case against a decision you've already made; notice how much your mind resists.",
+      "Welcome the discomfort of being wrong as the price of being accurate — name it: 'this is dissonance, not danger.'",
+      "Delay self-justification: after a mistake, describe what happened factually before explaining why it wasn't your fault."
+    ],
+    "scenarios": {
+      "business": {
+        "title": "Defending the Failing Strategy",
+        "situation": "You championed a strategy six months ago. Evidence now suggests it isn't working — but you find yourself arguing for it harder than ever, dismissing the data.",
+        "whatHappens": "Admitting the strategy is wrong means admitting you were wrong — painful dissonance. So the mind protects the ego by attacking the evidence instead of updating the belief.",
+        "applicationSteps": [
+          "Separate the idea from your identity: 'evaluating this strategy is not a verdict on me.'",
+          "Invite the disconfirming data explicitly and thank whoever brings it.",
+          "Ask 'if a colleague had launched this, what would I now advise them?'",
+          "Reframe changing course as competence, not failure — updating on evidence is the skill."
+        ]
+      },
+      "social": {
+        "title": "The Favour That Changed Your Feelings",
+        "situation": "You did someone a big favour you didn't really want to do. Oddly, afterwards you found yourself liking them more, not resenting them.",
+        "whatHappens": "The Ben Franklin effect via dissonance: 'I went out of my way for them' clashes with 'I don't really like them,' so the mind resolves it by deciding you must like them. Effort manufactures affection.",
+        "applicationSteps": [
+          "Notice that effort creates attachment — useful to know in both directions.",
+          "If you want to build a bond, let someone do you a small favour; it engages the same effect.",
+          "Check whether your liking is genuine or a post-hoc justification for effort spent.",
+          "Don't mistake sunk effort for real compatibility."
+        ]
+      },
+      "intimate": {
+        "title": "Justifying What You Tolerate",
+        "situation": "You stay in a situation that quietly troubles you, and you notice yourself constructing increasingly elaborate explanations for why it's fine.",
+        "whatHappens": "Staying despite doubt creates dissonance, so the mind generates reasons to make the staying feel consistent. The rationalisations grow to match the gap.",
+        "applicationSteps": [
+          "Notice the volume of justification — heavy rationalising signals unresolved dissonance.",
+          "Ask 'what would I tell a friend describing this exact situation to me?'",
+          "Name the discomfort directly instead of explaining it away.",
+          "Let the dissonance inform you rather than be silenced — it's data about a real gap."
+        ]
+      }
+    }
+  },
+  "sunk-cost-fallacy": {
+    "id": "sunk-cost-fallacy",
+    "title": "The Sunk Cost Fallacy",
+    "source": "Behavioural Economics · The Decision Lab",
+    "tagline": "Money, time, and effort already spent are gone — yet we keep paying more just to honour them.",
+    "keyPoints": [
+      "A sunk cost is anything already spent that can't be recovered. Rationally it should be irrelevant to what you do next — but emotionally, walking away feels like 'wasting' it.",
+      "It's powered by loss aversion: quitting forces us to formally register the loss, so we keep investing to avoid that feeling — and lose even more.",
+      "It keeps people in the wrong careers, films they're not enjoying, projects that won't work, and relationships that have ended in all but name.",
+      "The only rational question is forward-looking: 'from where I am now, what's the best use of my next hour / dollar / unit of energy?'",
+      "The fallacy intensifies with visible, effortful, personal investment — the more you've put in, the harder the trap grips."
+    ],
+    "strategicSteps": [
+      "Ask the forward question: 'knowing what I know now, would I start this today?' If no, the past is talking.",
+      "Name the sunk cost as already gone: 'that time/money is spent either way — it's not part of this decision.'",
+      "Set kill-criteria in advance, while unbiased, so you don't have to decide mid-attachment.",
+      "Separate the decision from the identity: quitting a bad path is wisdom, not failure.",
+      "Picture the regret of continuing: 'how will I feel having spent another year on this?'"
+    ],
+    "scenarios": {
+      "business": {
+        "title": "The Project Too Big to Kill",
+        "situation": "A major initiative has consumed a year and a large budget. It's clearly underperforming, but leadership says 'we've invested too much to stop now.'",
+        "whatHappens": "The past investment is treated as a reason to continue, when it's actually irrelevant. Good resources chase bad to avoid acknowledging the loss already incurred.",
+        "applicationSteps": [
+          "Reframe: 'the investment is gone regardless; the only choice is the next dollar.'",
+          "Ask 'would we fund this today as a fresh proposal?'",
+          "Assign someone to argue for stopping, free of the sunk-cost emotion.",
+          "Decide based on future return, not past spend."
+        ]
+      },
+      "social": {
+        "title": "The Commitment You've Outgrown",
+        "situation": "You joined a club, group, or volunteer role years ago. You no longer enjoy it, but you've given so much time that quitting feels like betraying all that effort.",
+        "whatHappens": "Years invested become a reason to stay, even though the time is unrecoverable. You keep spending present energy to honour past energy.",
+        "applicationSteps": [
+          "Ask 'if I were deciding today whether to join, would I?'",
+          "Acknowledge the past contribution as complete and valuable — and over.",
+          "Separate gratitude for what it was from obligation to continue.",
+          "Free the time for something that fits who you are now."
+        ]
+      },
+      "intimate": {
+        "title": "Staying Because of the Years",
+        "situation": "A relationship has run its course, but the thought 'we've been together so long, I can't throw that away' keeps you in it.",
+        "whatHappens": "The shared history becomes a sunk cost. The years are real and meaningful — but they're not a reason to spend more years if the relationship has genuinely ended.",
+        "applicationSteps": [
+          "Distinguish honouring the past from sacrificing the future to it.",
+          "Ask 'if we met today as the people we are now, would we choose this?'",
+          "Recognise the time together is not 'wasted' just because it ends — it was lived.",
+          "Decide forward, with compassion, not out of fear of 'wasting' history."
+        ]
+      }
+    }
+  },
+  "loss-aversion": {
+    "id": "loss-aversion",
+    "title": "Loss Aversion",
+    "source": "Behavioural Economics · Kahneman & Tversky",
+    "tagline": "Losing $100 hurts about twice as much as gaining $100 feels good — and that asymmetry runs your risk decisions.",
+    "keyPoints": [
+      "Losses loom larger than equivalent gains — roughly 2:1. We're wired to protect what we have far more strongly than to pursue what we don't.",
+      "It's the engine behind the endowment effect (we overvalue what we own), the status quo bias, and the sunk cost fallacy.",
+      "It makes us risk-averse for gains but risk-seeking to avoid losses — people take bigger gambles to avoid a sure loss than to lock in a sure gain.",
+      "Framing exploits it: 'don't lose this' moves people more than 'gain this,' though the outcome is identical.",
+      "Used consciously it's a tool — staking something you'll lose for non-performance out-motivates the promise of a reward."
+    ],
+    "strategicSteps": [
+      "Reframe decisions in neutral terms: 'what's the actual expected outcome?' rather than 'what might I lose?'",
+      "Notice when fear of loss, not pursuit of gain, is driving you — and ask if the asymmetry is distorting the choice.",
+      "Use it deliberately: create a real, concrete loss for skipping a commitment you want to keep.",
+      "For gains you keep avoiding, reframe inaction as a loss: 'not doing this costs me X.'",
+      "Counter the endowment effect: ask 'would I buy this at today's price if I didn't already own it?'"
+    ],
+    "scenarios": {
+      "business": {
+        "title": "Pricing and the Free Trial",
+        "situation": "You're deciding how to get customers to value your product. A plain feature list isn't converting.",
+        "whatHappens": "People undervalue gains they've never experienced. But once they HAVE something (a free trial), loss aversion makes giving it up painful — which is why trials convert.",
+        "applicationSteps": [
+          "Let people experience ownership first (trial, sample) so losing it engages loss aversion.",
+          "Frame cancellation as a loss of specific benefits, not a saving.",
+          "In proposals, name what's lost by inaction, not only what's gained.",
+          "Use deadlines carefully — scarcity triggers loss aversion but erodes trust if abused."
+        ]
+      },
+      "social": {
+        "title": "Clinging to a Commitment You'd Decline Today",
+        "situation": "You hold onto memberships, possessions, or obligations you wouldn't choose now, because giving them up feels like a loss.",
+        "whatHappens": "The endowment effect: ownership inflates value. Releasing something registers as a loss, even when it adds nothing to your life.",
+        "applicationSteps": [
+          "Ask 'would I acquire this today at full cost?' If no, you're holding by loss aversion.",
+          "Reframe letting go as gaining space, time, or freedom.",
+          "Do a periodic 'reset': evaluate keeps as if choosing fresh.",
+          "Notice the relief that usually follows release."
+        ]
+      },
+      "intimate": {
+        "title": "The Fear of Losing Outweighing the Joy of Having",
+        "situation": "You're so afraid of losing a relationship that the fear itself crowds out enjoying it — checking, controlling, bracing for loss.",
+        "whatHappens": "Loss aversion makes the possible loss feel larger than the present good, so anxiety about losing overshadows the experience of having.",
+        "applicationSteps": [
+          "Notice when protecting against loss is costing you the present good.",
+          "Practise appreciation deliberately to rebalance toward what you have.",
+          "Separate genuine risk from loss-aversion catastrophising.",
+          "Act from security, not scarcity — clinging often causes the loss it fears."
+        ]
+      }
+    }
+  },
+  "anchoring-bias": {
+    "id": "anchoring-bias",
+    "title": "Anchoring Bias",
+    "source": "Psychology · Kahneman & Tversky",
+    "tagline": "The first number on the table quietly drags every judgement that follows toward it.",
+    "keyPoints": [
+      "We rely too heavily on the first piece of information (the 'anchor') when making decisions, adjusting from it insufficiently — even when the anchor is arbitrary.",
+      "Anchors work even when you know they're irrelevant. In studies, a random number from a wheel of fortune shifted people's estimates of unrelated facts.",
+      "It dominates negotiation, pricing, salary, and any judgement under uncertainty — whoever sets the first number shapes the range.",
+      "Adjustment from an anchor is almost always too small; we stay in its gravitational field.",
+      "The defence is to generate your own independent estimate BEFORE you hear theirs — and to set the anchor yourself when you can."
+    ],
+    "strategicSteps": [
+      "Decide your number before exposure: form your own estimate or target before hearing theirs.",
+      "When given an anchor, deliberately over-adjust — your instinct will under-correct.",
+      "Set the first anchor yourself in negotiations when you have a reasonable basis.",
+      "Question arbitrary anchors out loud: 'why is that the starting point?'",
+      "Use multiple reference points instead of one to dilute any single anchor's pull."
+    ],
+    "scenarios": {
+      "business": {
+        "title": "The Salary Negotiation",
+        "situation": "In a negotiation, the other side names a number first. Everything afterward — your counter, the final deal — orbits that opening figure.",
+        "whatHappens": "Their first number becomes the anchor. Your counteroffers adjust from it insufficiently, so the final outcome lands closer to their anchor than to fair value.",
+        "applicationSteps": [
+          "Prepare your own well-researched number and, where appropriate, anchor first.",
+          "If they anchor low, don't counter near it — reset with a justified figure of your own.",
+          "Name the anchor effect to yourself so you adjust enough.",
+          "Use objective benchmarks as competing anchors."
+        ]
+      },
+      "social": {
+        "title": "The Reputation That Precedes Someone",
+        "situation": "Before meeting someone, a friend describes them in vivid terms ('she's intense'). That description anchors how you read everything they do.",
+        "whatHappens": "The early label becomes an anchor; you interpret subsequent behaviour as confirming it, adjusting too little from the first impression you were handed.",
+        "applicationSteps": [
+          "Treat secondhand descriptions as one data point, not the frame.",
+          "Form your own read before reconciling it with what you were told.",
+          "Ask 'what would I think if no one had described them?'",
+          "Give later evidence its full weight instead of discounting it toward the anchor."
+        ]
+      },
+      "intimate": {
+        "title": "The First Fight Sets the Frame",
+        "situation": "Early in a relationship, one bad conflict anchors how you interpret later disagreements — every future tension gets read through that first one.",
+        "whatHappens": "The initial conflict becomes an emotional anchor. New disagreements are judged relative to it, distorting your read of how things actually are now.",
+        "applicationSteps": [
+          "Notice when you're judging the present against an old anchor.",
+          "Evaluate each situation on its current facts, not the first impression.",
+          "Update your baseline as the relationship accumulates new evidence.",
+          "Name old anchors aloud together so they lose their grip."
+        ]
+      }
+    }
+  },
+  "planning-fallacy": {
+    "id": "planning-fallacy",
+    "title": "The Planning Fallacy",
+    "source": "Psychology · Kahneman & Tversky",
+    "tagline": "We chronically underestimate how long things take — even when we've been wrong the exact same way before.",
+    "keyPoints": [
+      "We systematically underestimate the time, costs, and risks of future actions while overestimating their benefits — and experience barely cures it.",
+      "The core error is taking the 'inside view': planning from the specific, optimistic details of THIS case, ignoring how similar cases actually went.",
+      "It persists because we imagine the smooth path, not the interruptions, dependencies, and setbacks that always arrive.",
+      "The fix is the 'outside view': base estimates on the actual track record of comparable projects (base rates), not on your optimistic scenario.",
+      "It compounds with optimism bias and the sunk cost fallacy — over-promising leads to over-committing leads to escalation."
+    ],
+    "strategicSteps": [
+      "Take the outside view: 'how long did similar things actually take?' — then trust that over your gut.",
+      "Multiply your honest estimate by a realistic fudge factor drawn from past misses.",
+      "Break work into small pieces and estimate each — large wholes hide the slippage.",
+      "Plan for interruptions explicitly; assume the smooth path won't happen.",
+      "Track estimate-vs-actual over time to calibrate future planning."
+    ],
+    "scenarios": {
+      "business": {
+        "title": "The Deadline Everyone Misses",
+        "situation": "Your team commits to a delivery date based on how the work would go if everything went smoothly. It never does, and you slip — again.",
+        "whatHappens": "The inside view plans from best-case specifics and ignores the base rate of how these projects actually unfold. Optimism becomes a missed deadline and a credibility cost.",
+        "applicationSteps": [
+          "Anchor estimates on the actual history of similar projects, not the ideal path.",
+          "Add explicit buffer for the interruptions that always come.",
+          "Decompose the work and estimate the parts separately.",
+          "Communicate ranges, not false-precision single dates."
+        ]
+      },
+      "social": {
+        "title": "Overcommitting Your Time",
+        "situation": "You say yes to plans, favours, and projects assuming you'll have time — then find yourself overwhelmed and cancelling.",
+        "whatHappens": "You estimate future free time from an optimistic blank-calendar fantasy, ignoring how full your weeks reliably get. The planning fallacy applied to your own life.",
+        "applicationSteps": [
+          "Before committing, look at how the last few comparable weeks actually went.",
+          "Assume your future self will be as busy as your past self has been.",
+          "Build in margin; say yes to fewer things with real capacity.",
+          "Check new commitments against your real track record, not your hopes."
+        ]
+      },
+      "intimate": {
+        "title": "The Underestimated Effort of 'Quick' Promises",
+        "situation": "You promise your partner you'll 'quickly' handle something — and it balloons, leaving them disappointed and you defensive.",
+        "whatHappens": "The planning fallacy makes 'quick' promises that reality doesn't honour. Repeated small misses erode trust more than one honest larger estimate would.",
+        "applicationSteps": [
+          "Give realistic estimates, not optimistic ones, even if they sound less impressive.",
+          "Under-promise and over-deliver to build trust instead of eroding it.",
+          "Factor in your real history with similar tasks before committing.",
+          "When you'll be late, communicate early rather than defending the original estimate."
+        ]
+      }
+    }
+  },
+  "emotional-regulation": {
+    "id": "emotional-regulation",
+    "title": "Emotional Regulation",
+    "source": "Psychology · Affective Science",
+    "tagline": "You can't always choose what you feel — but you can shape how you relate to it, and that changes everything downstream.",
+    "keyPoints": [
+      "Emotional regulation is the set of processes by which we influence which emotions we have, when, and how we experience and express them. It's a skill, not a personality trait.",
+      "The most effective strategy is reappraisal — changing how you interpret a situation before the emotion peaks — which beats suppression, which is costly and leaks out anyway.",
+      "Naming an emotion reduces its intensity ('affect labelling'): putting a feeling into words engages the prefrontal cortex and dampens the amygdala.",
+      "There's a gap between stimulus and response, and regulation lives in that gap. Widening it — through a pause, a breath, a name — is where freedom is.",
+      "Suppression doesn't make emotion disappear; it pushes it underground where it drives behaviour you don't consciously choose."
+    ],
+    "strategicSteps": [
+      "Name it to tame it: when a strong feeling arises, label it precisely ('this is anxiety,' 'this is hurt').",
+      "Reappraise before reacting: 'what's another accurate way to see this situation?'",
+      "Build a pause habit: one breath between trigger and response widens the gap where choice lives.",
+      "Regulate the body first — emotion is physical; slow breathing and movement change the state faster than thinking does.",
+      "Don't suppress — express or process. Journalling or talking discharges what bottling only buries."
+    ],
+    "scenarios": {
+      "business": {
+        "title": "The Email That Makes You See Red",
+        "situation": "A curt, unfair email lands. Your heart rate spikes and your fingers are already drafting a scorching reply.",
+        "whatHappens": "System 1 emotion is driving toward a response you'll regret. Without regulation, the amygdala wins and you escalate a conflict that could have been defused.",
+        "applicationSteps": [
+          "Name the feeling: 'I'm angry and a bit disrespected' — labelling lowers the intensity.",
+          "Impose a delay rule: no replies to charged emails for 60 minutes.",
+          "Reappraise: 'what's the most charitable read of why they wrote this?'",
+          "Draft the hot reply, don't send it, then write the one you'd be proud of."
+        ]
+      },
+      "social": {
+        "title": "Feeling Slighted in the Moment",
+        "situation": "Someone says something at a gathering that stings. You feel the urge to snap back or go cold for the rest of the evening.",
+        "whatHappens": "The emotion arrives faster than thought. Unregulated, it controls your behaviour and can damage a relationship over a momentary feeling.",
+        "applicationSteps": [
+          "Take one slow breath before responding — it physically resets the surge.",
+          "Name internally what you're feeling to create distance from it.",
+          "Reappraise: 'did they likely mean it the way I took it?'",
+          "Choose your response from the widened gap, not the reflex."
+        ]
+      },
+      "intimate": {
+        "title": "Flooding During a Conflict",
+        "situation": "An argument with your partner escalates until you're 'flooded' — heart pounding, unable to think clearly, saying things you'll regret.",
+        "whatHappens": "Physiological flooding hijacks regulation; the thinking brain goes offline. Continuing to 'talk it out' while flooded only deepens the damage.",
+        "applicationSteps": [
+          "Recognise flooding as physical and call a timeout — agree the signal in advance.",
+          "Self-soothe for at least 20 minutes (the body needs that long to settle) before returning.",
+          "Name your state to your partner: 'I'm flooded, I need a short break, I'm not leaving the conversation.'",
+          "Return when regulated — reappraise the issue once your thinking brain is back online."
+        ]
+      }
+    }
+  },
+  "flow-state": {
+    "id": "flow-state",
+    "title": "Flow State",
+    "source": "Psychology · Mihaly Csikszentmihalyi",
+    "tagline": "The fully-absorbed state where action and awareness merge, time distorts, and the work becomes its own reward.",
+    "keyPoints": [
+      "Flow is complete absorption in an activity — self-consciousness fades, time warps, and performance peaks. Csikszentmihalyi found it's where people report being happiest and most fulfilled.",
+      "It appears in the channel between anxiety and boredom: the challenge must slightly exceed your current skill. Too hard breeds anxiety; too easy breeds boredom.",
+      "It requires clear goals, immediate feedback, and deep uninterrupted concentration — conditions modern life actively erodes with notifications and fragmentation.",
+      "Flow is autotelic: the activity becomes intrinsically rewarding, done for its own sake, not for an external payoff.",
+      "It's a major source of meaning and engagement — a life rich in flow tends to be a life that feels worth living, independent of pleasure or status."
+    ],
+    "strategicSteps": [
+      "Match challenge to skill: tune the task slightly above your current ability to enter the channel.",
+      "Protect uninterrupted blocks — flow needs ~15+ minutes of unbroken focus to begin and dies instantly on interruption.",
+      "Set a clear goal for the session so attention has a target.",
+      "Remove friction and notifications before starting; flow can't survive a buzzing phone.",
+      "Build feedback loops so you can see progress in real time and stay engaged."
+    ],
+    "scenarios": {
+      "business": {
+        "title": "The Fragmented Workday",
+        "situation": "You're busy all day but never feel you did anything real — pulled between messages, meetings, and tasks, never sinking into deep work.",
+        "whatHappens": "Constant interruption makes flow impossible. You operate in shallow attention all day, which feels draining and unproductive despite the activity.",
+        "applicationSteps": [
+          "Carve one protected 90-minute deep-work block with notifications off.",
+          "Pick a single clear goal for that block before you start.",
+          "Match the task difficulty to stretch you slightly — not overwhelm, not bore.",
+          "Guard the block ruthlessly; flow is destroyed by a single interruption."
+        ]
+      },
+      "social": {
+        "title": "Hobbies That Recharge vs Drain",
+        "situation": "Your free time goes to passive scrolling that leaves you flat, while activities that once absorbed you sit untouched.",
+        "whatHappens": "Passive consumption never produces flow — there's no challenge-skill match, no clear goal. The most restorative leisure is active and absorbing, not passive.",
+        "applicationSteps": [
+          "Choose active, skill-engaging hobbies over passive consumption.",
+          "Pick activities slightly beyond your current ability to trigger flow.",
+          "Schedule uninterrupted time for them, as you would for work.",
+          "Notice which activities make time disappear — do more of those."
+        ]
+      },
+      "intimate": {
+        "title": "Shared Flow as Connection",
+        "situation": "You and your partner mostly co-exist in parallel (both on phones) rather than sharing genuinely engaging experiences together.",
+        "whatHappens": "Parallel passive activity doesn't build connection. Shared flow — a challenging activity you do together — creates some of the strongest bonding experiences.",
+        "applicationSteps": [
+          "Find an activity you both find absorbing and slightly challenging (dancing, cooking, a sport, a project).",
+          "Do it without phones, with full attention.",
+          "Pick things that give immediate shared feedback so you're engaged together.",
+          "Notice that shared flow creates closeness no passive evening can."
+        ]
+      }
+    }
+  },
+  "deliberate-practice": {
+    "id": "deliberate-practice",
+    "title": "Deliberate Practice",
+    "source": "Psychology · Anders Ericsson",
+    "tagline": "Not all practice improves you — only focused, effortful work at the edge of your ability, with feedback.",
+    "keyPoints": [
+      "Mere repetition doesn't build expertise — once something feels automatic, you stop improving. Deliberate practice is structured, effortful work specifically targeting weaknesses.",
+      "It happens at the edge of your current ability, where it feels uncomfortable and you make errors — the discomfort is the signal that learning is occurring.",
+      "It requires immediate, specific feedback so errors can be corrected, plus full concentration — it's mentally exhausting and can't be sustained for many hours a day.",
+      "It's about specific sub-skills, not vague 'getting better': identify the precise component that's weak and drill it in isolation.",
+      "The popular '10,000 hours' is a simplification — what matters is the QUALITY and structure of practice, not just the time logged."
+    ],
+    "strategicSteps": [
+      "Identify the specific weak sub-skill, not the whole activity — then drill that in isolation.",
+      "Work at the edge of your ability where it's uncomfortable; if it feels easy, it's not deliberate practice.",
+      "Build a feedback loop: a coach, a recording, or a metric that catches errors immediately.",
+      "Practise in focused, shorter bursts with full attention rather than long unfocused sessions.",
+      "Review errors deliberately — the correction, not the repetition, is where growth happens."
+    ],
+    "scenarios": {
+      "business": {
+        "title": "Plateauing at a Skill",
+        "situation": "You've done your job for years and stopped improving. You're experienced but not better than you were three years ago.",
+        "whatHappens": "Experience became automatic repetition. Without targeting specific weaknesses at the edge of ability, the years add tenure but not skill.",
+        "applicationSteps": [
+          "Identify one specific sub-skill that, if improved, would matter most.",
+          "Create a feedback mechanism — a mentor, a recording, a metric.",
+          "Drill that weakness deliberately, accepting the discomfort.",
+          "Review your mistakes specifically rather than just doing more volume."
+        ]
+      },
+      "social": {
+        "title": "Improving a Soft Skill",
+        "situation": "You want to get better at public speaking, listening, or difficult conversations — but just 'doing more of it' isn't moving the needle.",
+        "whatHappens": "Unstructured exposure isn't deliberate practice. Without isolating specific components and getting feedback, you repeat the same level indefinitely.",
+        "applicationSteps": [
+          "Break the soft skill into specific components (pacing, eye contact, questions).",
+          "Work on one component at a time with intentional focus.",
+          "Get feedback — record yourself or ask a trusted observer.",
+          "Target the uncomfortable edge, not what you already do well."
+        ]
+      },
+      "intimate": {
+        "title": "Getting Better at a Relationship Skill",
+        "situation": "You keep having the same kind of misstep with your partner — interrupting, getting defensive, shutting down — and willpower alone hasn't fixed it.",
+        "whatHappens": "Wanting to do better isn't deliberate practice. Without isolating the specific behaviour and building a feedback loop, the pattern repeats.",
+        "applicationSteps": [
+          "Name the one specific behaviour to change (e.g. interrupting).",
+          "Practise the replacement deliberately in low-stakes moments first.",
+          "Ask your partner for a gentle real-time signal as feedback.",
+          "Review afterwards: 'where did I catch it, where did I miss it?'"
+        ]
+      }
+    }
+  },
+  "peak-end-rule": {
+    "id": "peak-end-rule",
+    "title": "The Peak-End Rule",
+    "source": "Psychology · Daniel Kahneman",
+    "tagline": "We don't remember experiences by their average — we remember them by their most intense moment and how they ended.",
+    "keyPoints": [
+      "Memory of an experience is dominated by two points: its emotional peak (best or worst moment) and its ending — not the sum or average of every moment.",
+      "Kahneman distinguishes the 'experiencing self' (lives each moment) from the 'remembering self' (writes the story). The remembering self makes future decisions, and it uses peak-end, not duration.",
+      "'Duration neglect': how long an experience lasted barely affects the memory. A short intense ending can outweigh hours of moderate experience.",
+      "This means how things END is disproportionately powerful — a strong finish reshapes the memory of everything before it.",
+      "It explains why a great trip ruined at the airport feels ruined, and why a hard project with a triumphant finish is remembered fondly."
+    ],
+    "strategicSteps": [
+      "Engineer strong endings: finish experiences, meetings, and days on a high note.",
+      "Create deliberate peaks — one memorable high moment outweighs uniform pleasantness.",
+      "Don't let a bad ending define the whole; consciously recall the peaks too.",
+      "For unavoidable unpleasant experiences, end on the least-bad note, not the worst.",
+      "Design recurring experiences (dates, trips, events) around a peak and a clean close."
+    ],
+    "scenarios": {
+      "business": {
+        "title": "The Client Experience",
+        "situation": "You deliver consistently good service, but a clunky final handoff or invoicing process leaves clients with a slightly sour last impression.",
+        "whatHappens": "Peak-end rule means the rough ending colours the memory of the whole engagement, regardless of how good the middle was.",
+        "applicationSteps": [
+          "Invest disproportionately in the final touchpoint of any client journey.",
+          "Build one memorable peak moment into the experience.",
+          "End meetings on a clear, positive, forward note.",
+          "Fix sour endings (billing, offboarding) even if the core service is great."
+        ]
+      },
+      "social": {
+        "title": "Hosting and Gatherings",
+        "situation": "You host an event that's pleasant throughout but fizzles out awkwardly at the end, and that's what people seem to remember.",
+        "whatHappens": "Guests' memory is shaped by the peak and the ending. A flat or awkward close can undercut an otherwise lovely evening.",
+        "applicationSteps": [
+          "Plan a deliberate high point during the gathering.",
+          "Design the ending — a toast, a shared moment — rather than letting it trail off.",
+          "Send people out on a warm note.",
+          "Don't over-extend; end while energy is still good."
+        ]
+      },
+      "intimate": {
+        "title": "How Days and Dates End",
+        "situation": "You and your partner have nice times together that too often end on a logistical squabble or a tired, distracted note.",
+        "whatHappens": "The peak-end rule means those endings disproportionately shape how you both remember the time together — and accumulate into the story of the relationship.",
+        "applicationSteps": [
+          "Be intentional about how days and dates end — a warm moment, not a logistics argument.",
+          "Create small peaks of connection regularly.",
+          "Repair before sleep so the day doesn't end on conflict.",
+          "End shared time on appreciation, however small."
+        ]
+      }
+    }
   }
 }
