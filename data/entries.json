@@ -111,5 +111,118 @@
         }
       }
     ]
+  },
+  {
+    "date": "2026-05-31",
+    "day": 2,
+    "theme": "Inner Strength",
+    "concepts": [
+      {
+        "id": "cognitive-biases",
+        "title": "Cognitive Biases",
+        "source": "Psychology · Kahneman / Tversky",
+        "tagline": "The mind takes shortcuts (heuristics) that are usually good enough but systematically fail in predictable ways. Knowing …",
+        "keyPoints": [
+          "Decision-making: slow down System 1 by asking \"what would I think if I had opposite priors?\"",
+          "Relationships: assume fundamental attribution error is active; ask about circumstances before judging character.",
+          "Self-assessment: seek calibrated outside feedback; don't rely on introspection alone.",
+          "Habit design: loss aversion can be used deliberately — commitment devices that create losses for non-performance."
+        ],
+        "strategicSteps": [
+          "Start with observation before action: spend one day simply noticing where this concept appears in your life.",
+          "Choose one specific context this week where you will consciously apply this concept.",
+          "At the end of the week, write: 'What changed when I applied this? What did I notice?'",
+          "Share one insight from this concept with someone you trust. Teaching it solidifies it."
+        ],
+        "scenarios": {
+          "business": {
+            "title": "Professional Application",
+            "situation": "You encounter a situation at work that this concept directly applies to.",
+            "whatHappens": "Without awareness of this concept, the default response often makes things worse. With it, you have a strategic choice.",
+            "applicationSteps": [
+              "Before reacting, pause and ask: how does this concept apply to what's happening right now?",
+              "Identify which aspect of the concept is most relevant to this specific situation.",
+              "Apply the concept deliberately and notice what changes.",
+              "Reflect afterward: what would have happened without this lens?"
+            ]
+          },
+          "social": {
+            "title": "Social Application",
+            "situation": "A recurring social situation where this concept could shift the dynamic.",
+            "whatHappens": "Social interactions often run on autopilot. This concept gives you a deliberate tool to engage differently.",
+            "applicationSteps": [
+              "Notice when this concept applies in your next social interaction.",
+              "Choose one specific application of it and try it consciously.",
+              "Observe the other person's response. What changed?",
+              "Ask yourself afterward: what did I learn about them and myself?"
+            ]
+          },
+          "intimate": {
+            "title": "Intimate Relationship Application",
+            "situation": "The concept applied to your closest relationships.",
+            "whatHappens": "Intimate relationships are where our deepest patterns play out. This concept offers a tool for conscious engagement.",
+            "applicationSteps": [
+              "Identify one pattern in your relationship where this concept might apply.",
+              "Share the concept with your partner and explore it together.",
+              "Choose one concrete thing to try differently this week.",
+              "Check in at the end of the week: what shifted?"
+            ]
+          }
+        }
+      },
+      {
+        "id": "logotherapy",
+        "title": "Logotherapy",
+        "source": "Psychology · Viktor Frankl",
+        "tagline": "The primary human drive is not pleasure (Freud) or power (Adler) but the *search for meaning*. Even in suffering, meanin…",
+        "keyPoints": [
+          "Frankl's work was directly influenced by reading Friedrich Nietzsche: \"He who has a *why* to live can bear almost any *how*.\"",
+          "Overlaps with Stoicism: both accept suffering as inevitable; both emphasise attitude as the last freedom.",
+          "Self-transcendence as the path to fulfilment echoes Abraham Maslow later revisions to his Hierarchy of Needs.",
+          "Based partly on survivor testimony; methodological limitations."
+        ],
+        "strategicSteps": [
+          "Start with observation before action: spend one day simply noticing where this concept appears in your life.",
+          "Choose one specific context this week where you will consciously apply this concept.",
+          "At the end of the week, write: 'What changed when I applied this? What did I notice?'",
+          "Share one insight from this concept with someone you trust. Teaching it solidifies it."
+        ],
+        "scenarios": {
+          "business": {
+            "title": "The Meaningless Job",
+            "situation": "You're good at your job. You're paid well. But you go home on Friday feeling hollow. The work doesn't feel like it matters. You can't tell if you should leave or if the problem is in you.",
+            "whatHappens": "Frankl's insight: meaning can be found in three ways — through creating or contributing, through love or connection, or through the attitude we take toward unavoidable suffering. Most 'meaningless' jobs contain at least one of these, unnoticed.",
+            "applicationSteps": [
+              "Write: 'Who benefits from my work, specifically, and how?' If you can't answer this, the problem may be that you've never looked — not that it doesn't exist.",
+              "Identify one person whose work you make easier or better. Make that person real and visible to yourself. Meaning often lives in specifics, not abstractions.",
+              "If genuine meaning isn't findable, ask: 'Is this suffering worth enduring for what it enables elsewhere in my life?' That too is meaning — Frankl called it 'tragic optimism.'",
+              "Ask the Viktor Frankl question directly: 'What is life asking of me right now?' Sometimes the answer isn't a new job — it's a new way of showing up to this one."
+            ]
+          },
+          "social": {
+            "title": "Supporting Someone in Crisis",
+            "situation": "A friend is going through something genuinely terrible — illness, loss, failure. You want to help but don't know what to say. You default to platitudes. You can tell they're not landing.",
+            "whatHappens": "Most people try to remove suffering — by minimising it ('it'll get better'), explaining it ('everything happens for a reason'), or fixing it. Frankl's insight: the more valuable thing is to help someone find meaning within it.",
+            "applicationSteps": [
+              "Ask: 'What do you think this is asking of you?' — gently, and only if the relationship allows it. This shifts from 'when will this end?' to 'what does this mean?'",
+              "Don't rush to comfort. Sit with the difficulty first. 'This is genuinely hard' is often more valuable than reassurance.",
+              "Ask what they need — not what you think they need. 'Do you want me to listen, or to help you think through options?' The question itself communicates care.",
+              "If they're searching for meaning, don't provide it for them. Ask questions that help them find it: 'What matters most to you about getting through this?'"
+            ]
+          },
+          "intimate": {
+            "title": "When the Relationship is Hard",
+            "situation": "You're in a difficult period with your partner — not dramatic, just persistently hard. You're wondering whether this is fixable, or whether you're holding on to something that's run its course.",
+            "whatHappens": "Frankl: the question is never 'what do I want from this relationship?' but 'what does this relationship ask of me?' The frame shift from consumer to contributor often reveals the answer.",
+            "applicationSteps": [
+              "Ask: 'What do I uniquely offer this person that they wouldn't easily find elsewhere?' And: 'What do they offer me?' If you can't answer either, that's important information.",
+              "Identify what you are avoiding: the difficult conversation, the acknowledgment, the change. Avoidance is almost always where meaning is hiding.",
+              "Ask the Frankl question: 'What would I regret not having tried, if this ended?' Then try that thing. At least you'll know.",
+              "If the relationship is genuinely hard but meaningful, ask: 'Can I choose to commit to this fully for 90 days and see who we become?' Meaning requires commitment. Commitment requires a choice."
+            ]
+          }
+        }
+      }
+    ]
   }
 ]

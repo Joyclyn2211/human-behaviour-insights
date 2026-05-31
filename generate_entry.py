@@ -10,7 +10,14 @@ import os
 import glob
 import re
 import random
+import sys
 from datetime import date, datetime
+
+# Ensure UTF-8 console output on Windows (avoids cp1252 crashes on ✓ etc.)
+try:
+    sys.stdout.reconfigure(encoding='utf-8')
+except Exception:
+    pass
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 WIKI = os.path.join(ROOT, '..', 'wiki')

@@ -15,9 +15,16 @@ Usage: python monitor_decision_lab.py
 import json
 import os
 import re
+import sys
 import urllib.request
 import urllib.error
 from datetime import date, datetime
+
+# Ensure UTF-8 console output on Windows
+try:
+    sys.stdout.reconfigure(encoding='utf-8')
+except Exception:
+    pass
 
 ROOT     = os.path.dirname(os.path.abspath(__file__))
 WIKI     = os.path.join(ROOT, '..', 'wiki')
