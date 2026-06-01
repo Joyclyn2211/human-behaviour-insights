@@ -228,5 +228,122 @@
         }
       }
     ]
+  },
+  {
+    "date": "2026-06-01",
+    "day": 3,
+    "theme": "Deliberate Change",
+    "concepts": [
+      {
+        "id": "first-principles",
+        "title": "First Principles Thinking",
+        "source": "Philosophy · 李善友 (Li Shanyu)",
+        "tagline": "Strip away assumption and inherited convention until you reach what's actually true — then reason up from there.",
+        "keyPoints": [
+          "Most thinking is reasoning by analogy — copying what's been done, what others do, what convention says. It's fast and socially safe, but it inherits every hidden assumption baked into the original.",
+          "First principles thinking reasons up from bedrock truths that cannot be reduced further. The formula (李善友): first principle + deduction = a rational system.",
+          "The hidden enemy is the 'continuity assumption' — the unexamined belief that the future resembles the past and here resembles elsewhere. It's smuggled into almost every conclusion and is invisible because it's foundational.",
+          "Most 'constraints' are inherited conventions, not physical laws. When something seems impossible, ask whether it's a genuine constraint or just an assumption nobody has questioned.",
+          "The most personal application: which of your beliefs, values, and identity claims are genuinely yours (reasoned and tested) versus inherited (absorbed from family, culture, peers) and never examined?"
+        ],
+        "strategicSteps": [
+          "Pick one assumption you treat as fact and ask 'is this actually true, or just a continuity assumption?'",
+          "For any belief, keep asking 'why is this true?' until you reach a direct observation or a logical necessity — or discover you've hit unexamined convention.",
+          "Decompose 'impossible' goals into components and ask which parts are genuinely fixed vs. merely conventional.",
+          "Ask of any important belief: 'If I'd been raised in a different family or culture, would I still hold this?'",
+          "Notice what your community treats as obvious — that's where the unexamined axioms (and the opportunities) hide."
+        ],
+        "scenarios": {
+          "business": {
+            "title": "The Cost Everyone Accepts",
+            "situation": "Your industry 'knows' a certain cost is fixed — 'that's just what it costs.' Everyone plans around it. Margins stay thin because nobody questions the number.",
+            "whatHappens": "Reasoning by analogy ('this is what it has always cost') hides that the cost is a convention, not a physical law. Musk's battery example: $600/kWh was convention; the raw materials cost ~$80. The gap was unexamined assumption.",
+            "applicationSteps": [
+              "Ask 'what is this actually made of, at its most basic, and what does THAT cost?'",
+              "Separate genuine constraints (physics, math) from inherited conventions (how it's been done).",
+              "Rebuild the solution from the verified bedrock, not from competitors' approaches.",
+              "Test the riskiest assumption cheaply before committing."
+            ]
+          },
+          "social": {
+            "title": "The 'Should' You Never Chose",
+            "situation": "You feel obligated to do something socially — a tradition, an expectation, a way of doing things — that you've never actually questioned. It just feels like what one does.",
+            "whatHappens": "The 'should' is a continuity assumption inherited from your environment. It feels like a law of reality, but it's a convention you absorbed and never examined.",
+            "applicationSteps": [
+              "Ask: 'Where did this rule come from? Did I choose it or absorb it?'",
+              "Ask: 'Would someone from a very different background find this obviously necessary, or ask why?'",
+              "Keep what survives examination; consciously drop what doesn't.",
+              "Decide on purpose, rather than by inherited default."
+            ]
+          },
+          "intimate": {
+            "title": "The Inherited Relationship Script",
+            "situation": "You and your partner keep running a script about how relationships 'should' work — roles, rules, expectations — picked up from your families. Friction comes from clashing inherited scripts.",
+            "whatHappens": "Each of you imported first principles from your upbringing and never examined them. The conflict isn't really about the dishes; it's about two unexamined axioms colliding.",
+            "applicationSteps": [
+              "Surface the assumption: 'what do I believe a relationship 'should' do here, and where did I learn it?'",
+              "Have each partner trace a 'should' back to its origin family.",
+              "Ask together: 'what do WE actually want to build, from first principles, rather than inherit?'",
+              "Replace inherited rules with consciously chosen ones you both endorse."
+            ]
+          }
+        }
+      },
+      {
+        "id": "atomic-habits",
+        "title": "Atomic Habits",
+        "source": "Personal Development · James Clear",
+        "tagline": "You don't rise to your goals — you fall to your systems. And your systems are built from tiny, repeated votes for who you are.",
+        "keyPoints": [
+          "Habits are the compound interest of self-improvement. A 1% daily change is invisible day-to-day, then suddenly transformative. The plateau before results is where most people quit.",
+          "The real lever is identity, not outcomes. 'I want to run a marathon' is an outcome goal; 'I am a runner' is an identity. Every action is a vote for the identity you want to become.",
+          "Behaviour change runs on a loop: Cue → Craving → Response → Reward. To build a habit, make it obvious, attractive, easy, and satisfying. To break one, invert each.",
+          "Environment beats willpower. Behaviour is a function of person AND environment. Redesign the environment — make good cues obvious, bad cues invisible — before relying on motivation.",
+          "Habit stacking leverages existing routines: 'After I [current habit], I will [new habit].' You borrow the neural pathway already in place instead of building from scratch."
+        ],
+        "strategicSteps": [
+          "Start with identity: ask 'who is the kind of person who would achieve this?' Then take the smallest action that casts a vote for that identity.",
+          "Make the next habit absurdly small — 'two minutes' small. Consistency builds the identity; volume comes later.",
+          "Design your environment tonight: put one cue for a good habit in plain sight, hide one cue for a bad one.",
+          "Stack a new habit onto something you already do daily: 'After I pour my morning coffee, I will write one sentence.'",
+          "Track the streak visibly. A simple chain of ticks reinforces 'I am someone who does this.'"
+        ],
+        "scenarios": {
+          "business": {
+            "title": "Protecting Deep Work",
+            "situation": "Every Monday you intend to do focused work. By 10am you've been pulled into three 'quick' meetings and the morning is gone. Every week, the same.",
+            "whatHappens": "You're relying on intention to protect your best hours, but the environment hasn't changed — so neither has the outcome. Habits need architecture, not resolve.",
+            "applicationSteps": [
+              "Block 7:30–9:30am as visible 'no meetings' time, recurring, every day.",
+              "Replace the arrival cue (open Slack) with a deliberate one (make tea = deep work begins).",
+              "Use a two-minute on-ramp: open the document and write one line before email.",
+              "Tick a streak each day you protect the block — you're voting for 'I protect my focus.'"
+            ]
+          },
+          "social": {
+            "title": "The Friend You Keep Meaning to Call",
+            "situation": "Someone important to you hasn't heard from you in months. You think of them often, keep meaning to reach out, and haven't.",
+            "whatHappens": "Relationship maintenance doesn't happen on intention alone. Waiting until you 'feel like it' or have 'enough to say' means it never happens.",
+            "applicationSteps": [
+              "Set a recurring monthly reminder: send one genuine message to one person. Non-negotiable.",
+              "Stack it: every time you make morning coffee, send one short check-in.",
+              "Lower the bar radically — 'thinking of you' is a complete message; connection, not performance, is the goal.",
+              "Keep a short list of people you value and rotate through it to remove decision fatigue."
+            ]
+          },
+          "intimate": {
+            "title": "The Drift",
+            "situation": "You and your partner used to talk differently. In the busyness of life, daily interaction became logistics and surface. You miss the connection.",
+            "whatHappens": "Intimacy drifts one skipped conversation at a time, and returns the same way — one small deliberate act at a time, not one grand gesture.",
+            "applicationSteps": [
+              "Introduce one daily ritual: 10 phone-free minutes with one non-logistical question — 'what was the best part of your day?'",
+              "Stack it onto something that already happens daily — dinner, tea, getting into bed.",
+              "Never cancel it for less than a real emergency; consistency is the message.",
+              "Once a month, do something you did early in the relationship — nostalgia reactivates who you are to each other."
+            ]
+          }
+        }
+      }
+    ]
   }
 ]
