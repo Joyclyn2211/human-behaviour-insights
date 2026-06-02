@@ -345,5 +345,122 @@
         }
       }
     ]
+  },
+  {
+    "date": "2026-06-02",
+    "day": 4,
+    "theme": "Knowing Yourself",
+    "concepts": [
+      {
+        "id": "mental-models",
+        "title": "Mental Models",
+        "source": "Philosophy · Charlie Munger",
+        "tagline": "You don't see reality — you see your model of it. The quality of your thinking is the quality of your models.",
+        "keyPoints": [
+          "A mental model is a simplified representation of how something works. You can't think without them; the question is whether yours are accurate, diverse, and consciously chosen.",
+          "Munger's 'latticework': a single model makes everything look like a nail. Models from many disciplines let you triangulate — when several point the same way, confidence rises; when they conflict, you've found an interesting edge.",
+          "You don't need to master whole fields — just the 5% of each that carries 95% of the value: the foundational Big Ideas (compounding, natural selection, incentives, probability, the dichotomy of control).",
+          "Inversion is one of the most underused models: instead of 'how do I achieve X?', ask 'what would guarantee I fail at X?' then avoid those things.",
+          "Every model is wrong somewhere — it simplifies by definition. Mistaking the model for reality is the source of most intellectual error; the most useful models become invisibly 'just how things are.'"
+        ],
+        "strategicSteps": [
+          "Pick one field outside your expertise and learn its single most important model; apply it to a current problem.",
+          "When stuck, run the problem through multiple lenses: 'what would a biologist / economist / philosopher say?'",
+          "Practise inversion weekly: define failure explicitly, then design to avoid it.",
+          "Keep a short list of the 10 models you use most — check whether they're diverse or all from one domain.",
+          "When confident, ask 'which model am I using, and where does it break down?'"
+        ],
+        "scenarios": {
+          "business": {
+            "title": "The One-Tool Decision",
+            "situation": "Your team analyses every problem through the same single lens — always a financial model, or always a marketing frame. Different problems get the same treatment, and some keep going wrong.",
+            "whatHappens": "The 'man with a hammer' syndrome: one model makes every problem look like the kind it solves. Important dimensions get missed because no one is looking through the right lens.",
+            "applicationSteps": [
+              "Before deciding, force the problem through 3 different disciplinary lenses.",
+              "Ask 'what model am I defaulting to, and what is it blind to?'",
+              "Invite someone with a different background specifically to disagree.",
+              "Run inversion: 'what would guarantee this decision fails?'"
+            ]
+          },
+          "social": {
+            "title": "Reading a Situation You Keep Misjudging",
+            "situation": "You keep misreading certain social situations — assuming people are motivated by what would motivate you, and being surprised when they aren't.",
+            "whatHappens": "You're applying a single model of human motivation (your own) to everyone. A richer latticework — incentives, status, fear, belonging — would predict behaviour far better.",
+            "applicationSteps": [
+              "Ask 'what incentives is this person actually facing?' rather than 'what would I do?'",
+              "Add models: status, in-group belonging, loss aversion — run the situation through each.",
+              "Hold your first read as a hypothesis, not a conclusion.",
+              "Check predictions against what actually happens, and update the model."
+            ]
+          },
+          "intimate": {
+            "title": "Assuming Your Partner Thinks Like You",
+            "situation": "You assume your partner processes emotion, conflict, or love the way you do — and feel hurt or confused when they clearly don't.",
+            "whatHappens": "You're running a single model (yourself) for a different person. Without a model of how THEY work — their attachment style, their language of care — you keep mispredicting them.",
+            "applicationSteps": [
+              "Build an explicit model of your partner: how do THEY recharge, show care, handle conflict?",
+              "Ask directly rather than assuming: 'what does feeling loved actually look like for you?'",
+              "Notice where your model of them keeps being wrong, and revise it.",
+              "Hold the difference as information, not as them being 'wrong.'"
+            ]
+          }
+        }
+      },
+      {
+        "id": "emotional-regulation",
+        "title": "Emotional Regulation",
+        "source": "Psychology · Affective Science",
+        "tagline": "You can't always choose what you feel — but you can shape how you relate to it, and that changes everything downstream.",
+        "keyPoints": [
+          "Emotional regulation is the set of processes by which we influence which emotions we have, when, and how we experience and express them. It's a skill, not a personality trait.",
+          "The most effective strategy is reappraisal — changing how you interpret a situation before the emotion peaks — which beats suppression, which is costly and leaks out anyway.",
+          "Naming an emotion reduces its intensity ('affect labelling'): putting a feeling into words engages the prefrontal cortex and dampens the amygdala.",
+          "There's a gap between stimulus and response, and regulation lives in that gap. Widening it — through a pause, a breath, a name — is where freedom is.",
+          "Suppression doesn't make emotion disappear; it pushes it underground where it drives behaviour you don't consciously choose."
+        ],
+        "strategicSteps": [
+          "Name it to tame it: when a strong feeling arises, label it precisely ('this is anxiety,' 'this is hurt').",
+          "Reappraise before reacting: 'what's another accurate way to see this situation?'",
+          "Build a pause habit: one breath between trigger and response widens the gap where choice lives.",
+          "Regulate the body first — emotion is physical; slow breathing and movement change the state faster than thinking does.",
+          "Don't suppress — express or process. Journalling or talking discharges what bottling only buries."
+        ],
+        "scenarios": {
+          "business": {
+            "title": "The Email That Makes You See Red",
+            "situation": "A curt, unfair email lands. Your heart rate spikes and your fingers are already drafting a scorching reply.",
+            "whatHappens": "System 1 emotion is driving toward a response you'll regret. Without regulation, the amygdala wins and you escalate a conflict that could have been defused.",
+            "applicationSteps": [
+              "Name the feeling: 'I'm angry and a bit disrespected' — labelling lowers the intensity.",
+              "Impose a delay rule: no replies to charged emails for 60 minutes.",
+              "Reappraise: 'what's the most charitable read of why they wrote this?'",
+              "Draft the hot reply, don't send it, then write the one you'd be proud of."
+            ]
+          },
+          "social": {
+            "title": "Feeling Slighted in the Moment",
+            "situation": "Someone says something at a gathering that stings. You feel the urge to snap back or go cold for the rest of the evening.",
+            "whatHappens": "The emotion arrives faster than thought. Unregulated, it controls your behaviour and can damage a relationship over a momentary feeling.",
+            "applicationSteps": [
+              "Take one slow breath before responding — it physically resets the surge.",
+              "Name internally what you're feeling to create distance from it.",
+              "Reappraise: 'did they likely mean it the way I took it?'",
+              "Choose your response from the widened gap, not the reflex."
+            ]
+          },
+          "intimate": {
+            "title": "Flooding During a Conflict",
+            "situation": "An argument with your partner escalates until you're 'flooded' — heart pounding, unable to think clearly, saying things you'll regret.",
+            "whatHappens": "Physiological flooding hijacks regulation; the thinking brain goes offline. Continuing to 'talk it out' while flooded only deepens the damage.",
+            "applicationSteps": [
+              "Recognise flooding as physical and call a timeout — agree the signal in advance.",
+              "Self-soothe for at least 20 minutes (the body needs that long to settle) before returning.",
+              "Name your state to your partner: 'I'm flooded, I need a short break, I'm not leaving the conversation.'",
+              "Return when regulated — reappraise the issue once your thinking brain is back online."
+            ]
+          }
+        }
+      }
+    ]
   }
 ]
