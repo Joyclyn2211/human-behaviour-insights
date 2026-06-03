@@ -462,5 +462,122 @@
         }
       }
     ]
+  },
+  {
+    "date": "2026-06-03",
+    "day": 5,
+    "theme": "Thinking Better",
+    "concepts": [
+      {
+        "id": "framing-effect",
+        "title": "Framing Effect",
+        "source": "Psychology · The Decision Lab",
+        "tagline": "Change how something is said and you change what people decide — even when the facts are identical.",
+        "keyPoints": [
+          "The same information presented differently produces different decisions. '90% survival' and '10% mortality' describe the identical outcome — but people choose very differently.",
+          "Loss frames usually hit harder than gain frames because of loss aversion: 'avoid a $50 loss' motivates more than 'save $50,' though the outcome is the same.",
+          "No communication is frame-neutral. Every sentence emphasises some aspects and backgrounds others. The only choice is whether you frame consciously or unconsciously.",
+          "Framing operates on everyone — doctors, judges, analysts — regardless of intelligence. Awareness reduces but doesn't eliminate it.",
+          "Reframing is a superpower in reverse: stripping a situation back to its underlying facts (a first-principles move) reveals the frame someone has placed on it."
+        ],
+        "strategicSteps": [
+          "Before accepting any claim, ask 'what frame is this — gain or loss?' and 'what would the same fact look like in the opposite frame?'",
+          "In feedback, frame as addition not deficit: 'developing X would take you from good to excellent' beats 'you lack X.'",
+          "Know your audience's default: lead with loss framing for the risk-averse, gain framing for the growth-oriented.",
+          "Always name the cost of inaction, not just the benefit of action — 'doing nothing also costs you Y.'",
+          "When stuck or anxious, deliberately reframe: 'what is the most accurate and most useful way to describe this situation?'"
+        ],
+        "scenarios": {
+          "business": {
+            "title": "The Proposal That Won't Land",
+            "situation": "You're pitching a project as 'here's what we could gain.' Decision-makers nod politely and don't move. The upside isn't compelling them.",
+            "whatHappens": "Risk-averse executives are moved more by avoiding loss than capturing gain. A pure gain frame leaves the cost of inaction invisible — so the safe-feeling default is to do nothing.",
+            "applicationSteps": [
+              "Add the loss frame: 'without this, we risk losing Y' alongside the upside.",
+              "Match the frame to the audience — lead with risk for the cautious, opportunity for the ambitious.",
+              "In negotiation, always name the cost of NOT agreeing, changing their reference point.",
+              "Present the same numbers both ways so the decision rests on substance, not packaging."
+            ]
+          },
+          "social": {
+            "title": "Declining Without Damage",
+            "situation": "You want to turn down an invitation without hurting the relationship. 'I don't want to come' is honest but lands as rejection.",
+            "whatHappens": "The frame you choose determines whether they hear rejection or care. Same decision, very different reception depending on what you emphasise.",
+            "applicationSteps": [
+              "Frame around the relationship, not your preference: 'I'd love to, but I'm depleted and wouldn't be good company.'",
+              "Emphasise what they'd lose with a depleted you, not what you're avoiding.",
+              "Offer an alternative to keep the connection ('can we do next week instead?').",
+              "Keep it specific and warm — vague excuses read as brush-offs."
+            ]
+          },
+          "intimate": {
+            "title": "Raising a Concern",
+            "situation": "You want to tell your partner something bothers you. 'You never listen to me' frames it as a global, permanent character flaw — and triggers defence.",
+            "whatHappens": "A global loss frame ('you never...') reads as a verdict and invites counterattack. A specific, behaviour-focused frame reads as a solvable issue and keeps the door open.",
+            "applicationSteps": [
+              "Reframe to specific behaviour: 'when you check your phone while I'm talking, I feel unheard.'",
+              "Frame it as changeable, not as who they are — behaviour, not character.",
+              "Use a 'toward' frame to set direction ('I want us closer') and an 'away' frame for urgency ('I'm feeling distant') deliberately.",
+              "Lead with your feeling, not their fault — it's more accurate and less triggering."
+            ]
+          }
+        }
+      },
+      {
+        "id": "cognitive-dissonance",
+        "title": "Cognitive Dissonance",
+        "source": "Psychology · Leon Festinger",
+        "tagline": "When your actions and your beliefs collide, it's usually the belief that bends — not the behaviour.",
+        "keyPoints": [
+          "Cognitive dissonance is the mental discomfort of holding two contradictory beliefs, or acting against what you believe. The mind resolves it fast — usually by changing the belief, not the behaviour.",
+          "We don't reason our way to comfort; we rationalise. After a hard choice, we inflate the chosen option and disparage the rejected one to quiet the discomfort.",
+          "It explains why people defend bad decisions harder over time, why effort makes us love things (we justify the cost), and why disconfirming evidence often strengthens belief instead of weakening it.",
+          "The discomfort is the signal. Noticing the urge to rationalise — that flicker of defensiveness — is the doorway to actually learning something.",
+          "Festinger's classic study: people paid $1 to lie about a boring task later rated it more enjoyable than those paid $20 — the well-paid had an external justification, the underpaid had to change their belief."
+        ],
+        "strategicSteps": [
+          "When you feel defensive, pause: 'Am I reasoning, or rationalising to reduce discomfort?'",
+          "Separate the decision from your ego — 'a past version of me chose this; present me can choose differently' removes the pressure to defend.",
+          "Write the strongest case against a decision you've already made; notice how much your mind resists.",
+          "Welcome the discomfort of being wrong as the price of being accurate — name it: 'this is dissonance, not danger.'",
+          "Delay self-justification: after a mistake, describe what happened factually before explaining why it wasn't your fault."
+        ],
+        "scenarios": {
+          "business": {
+            "title": "Defending the Failing Strategy",
+            "situation": "You championed a strategy six months ago. Evidence now suggests it isn't working — but you find yourself arguing for it harder than ever, dismissing the data.",
+            "whatHappens": "Admitting the strategy is wrong means admitting you were wrong — painful dissonance. So the mind protects the ego by attacking the evidence instead of updating the belief.",
+            "applicationSteps": [
+              "Separate the idea from your identity: 'evaluating this strategy is not a verdict on me.'",
+              "Invite the disconfirming data explicitly and thank whoever brings it.",
+              "Ask 'if a colleague had launched this, what would I now advise them?'",
+              "Reframe changing course as competence, not failure — updating on evidence is the skill."
+            ]
+          },
+          "social": {
+            "title": "The Favour That Changed Your Feelings",
+            "situation": "You did someone a big favour you didn't really want to do. Oddly, afterwards you found yourself liking them more, not resenting them.",
+            "whatHappens": "The Ben Franklin effect via dissonance: 'I went out of my way for them' clashes with 'I don't really like them,' so the mind resolves it by deciding you must like them. Effort manufactures affection.",
+            "applicationSteps": [
+              "Notice that effort creates attachment — useful to know in both directions.",
+              "If you want to build a bond, let someone do you a small favour; it engages the same effect.",
+              "Check whether your liking is genuine or a post-hoc justification for effort spent.",
+              "Don't mistake sunk effort for real compatibility."
+            ]
+          },
+          "intimate": {
+            "title": "Justifying What You Tolerate",
+            "situation": "You stay in a situation that quietly troubles you, and you notice yourself constructing increasingly elaborate explanations for why it's fine.",
+            "whatHappens": "Staying despite doubt creates dissonance, so the mind generates reasons to make the staying feel consistent. The rationalisations grow to match the gap.",
+            "applicationSteps": [
+              "Notice the volume of justification — heavy rationalising signals unresolved dissonance.",
+              "Ask 'what would I tell a friend describing this exact situation to me?'",
+              "Name the discomfort directly instead of explaining it away.",
+              "Let the dissonance inform you rather than be silenced — it's data about a real gap."
+            ]
+          }
+        }
+      }
+    ]
   }
 ]
