@@ -579,5 +579,122 @@
         }
       }
     ]
+  },
+  {
+    "date": "2026-06-04",
+    "day": 6,
+    "theme": "Acting Wisely",
+    "concepts": [
+      {
+        "id": "flow-state",
+        "title": "Flow State",
+        "source": "Psychology · Mihaly Csikszentmihalyi",
+        "tagline": "The fully-absorbed state where action and awareness merge, time distorts, and the work becomes its own reward.",
+        "keyPoints": [
+          "Flow is complete absorption in an activity — self-consciousness fades, time warps, and performance peaks. Csikszentmihalyi found it's where people report being happiest and most fulfilled.",
+          "It appears in the channel between anxiety and boredom: the challenge must slightly exceed your current skill. Too hard breeds anxiety; too easy breeds boredom.",
+          "It requires clear goals, immediate feedback, and deep uninterrupted concentration — conditions modern life actively erodes with notifications and fragmentation.",
+          "Flow is autotelic: the activity becomes intrinsically rewarding, done for its own sake, not for an external payoff.",
+          "It's a major source of meaning and engagement — a life rich in flow tends to be a life that feels worth living, independent of pleasure or status."
+        ],
+        "strategicSteps": [
+          "Match challenge to skill: tune the task slightly above your current ability to enter the channel.",
+          "Protect uninterrupted blocks — flow needs ~15+ minutes of unbroken focus to begin and dies instantly on interruption.",
+          "Set a clear goal for the session so attention has a target.",
+          "Remove friction and notifications before starting; flow can't survive a buzzing phone.",
+          "Build feedback loops so you can see progress in real time and stay engaged."
+        ],
+        "scenarios": {
+          "business": {
+            "title": "The Fragmented Workday",
+            "situation": "You're busy all day but never feel you did anything real — pulled between messages, meetings, and tasks, never sinking into deep work.",
+            "whatHappens": "Constant interruption makes flow impossible. You operate in shallow attention all day, which feels draining and unproductive despite the activity.",
+            "applicationSteps": [
+              "Carve one protected 90-minute deep-work block with notifications off.",
+              "Pick a single clear goal for that block before you start.",
+              "Match the task difficulty to stretch you slightly — not overwhelm, not bore.",
+              "Guard the block ruthlessly; flow is destroyed by a single interruption."
+            ]
+          },
+          "social": {
+            "title": "Hobbies That Recharge vs Drain",
+            "situation": "Your free time goes to passive scrolling that leaves you flat, while activities that once absorbed you sit untouched.",
+            "whatHappens": "Passive consumption never produces flow — there's no challenge-skill match, no clear goal. The most restorative leisure is active and absorbing, not passive.",
+            "applicationSteps": [
+              "Choose active, skill-engaging hobbies over passive consumption.",
+              "Pick activities slightly beyond your current ability to trigger flow.",
+              "Schedule uninterrupted time for them, as you would for work.",
+              "Notice which activities make time disappear — do more of those."
+            ]
+          },
+          "intimate": {
+            "title": "Shared Flow as Connection",
+            "situation": "You and your partner mostly co-exist in parallel (both on phones) rather than sharing genuinely engaging experiences together.",
+            "whatHappens": "Parallel passive activity doesn't build connection. Shared flow — a challenging activity you do together — creates some of the strongest bonding experiences.",
+            "applicationSteps": [
+              "Find an activity you both find absorbing and slightly challenging (dancing, cooking, a sport, a project).",
+              "Do it without phones, with full attention.",
+              "Pick things that give immediate shared feedback so you're engaged together.",
+              "Notice that shared flow creates closeness no passive evening can."
+            ]
+          }
+        }
+      },
+      {
+        "id": "planning-fallacy",
+        "title": "The Planning Fallacy",
+        "source": "Psychology · Kahneman & Tversky",
+        "tagline": "We chronically underestimate how long things take — even when we've been wrong the exact same way before.",
+        "keyPoints": [
+          "We systematically underestimate the time, costs, and risks of future actions while overestimating their benefits — and experience barely cures it.",
+          "The core error is taking the 'inside view': planning from the specific, optimistic details of THIS case, ignoring how similar cases actually went.",
+          "It persists because we imagine the smooth path, not the interruptions, dependencies, and setbacks that always arrive.",
+          "The fix is the 'outside view': base estimates on the actual track record of comparable projects (base rates), not on your optimistic scenario.",
+          "It compounds with optimism bias and the sunk cost fallacy — over-promising leads to over-committing leads to escalation."
+        ],
+        "strategicSteps": [
+          "Take the outside view: 'how long did similar things actually take?' — then trust that over your gut.",
+          "Multiply your honest estimate by a realistic fudge factor drawn from past misses.",
+          "Break work into small pieces and estimate each — large wholes hide the slippage.",
+          "Plan for interruptions explicitly; assume the smooth path won't happen.",
+          "Track estimate-vs-actual over time to calibrate future planning."
+        ],
+        "scenarios": {
+          "business": {
+            "title": "The Deadline Everyone Misses",
+            "situation": "Your team commits to a delivery date based on how the work would go if everything went smoothly. It never does, and you slip — again.",
+            "whatHappens": "The inside view plans from best-case specifics and ignores the base rate of how these projects actually unfold. Optimism becomes a missed deadline and a credibility cost.",
+            "applicationSteps": [
+              "Anchor estimates on the actual history of similar projects, not the ideal path.",
+              "Add explicit buffer for the interruptions that always come.",
+              "Decompose the work and estimate the parts separately.",
+              "Communicate ranges, not false-precision single dates."
+            ]
+          },
+          "social": {
+            "title": "Overcommitting Your Time",
+            "situation": "You say yes to plans, favours, and projects assuming you'll have time — then find yourself overwhelmed and cancelling.",
+            "whatHappens": "You estimate future free time from an optimistic blank-calendar fantasy, ignoring how full your weeks reliably get. The planning fallacy applied to your own life.",
+            "applicationSteps": [
+              "Before committing, look at how the last few comparable weeks actually went.",
+              "Assume your future self will be as busy as your past self has been.",
+              "Build in margin; say yes to fewer things with real capacity.",
+              "Check new commitments against your real track record, not your hopes."
+            ]
+          },
+          "intimate": {
+            "title": "The Underestimated Effort of 'Quick' Promises",
+            "situation": "You promise your partner you'll 'quickly' handle something — and it balloons, leaving them disappointed and you defensive.",
+            "whatHappens": "The planning fallacy makes 'quick' promises that reality doesn't honour. Repeated small misses erode trust more than one honest larger estimate would.",
+            "applicationSteps": [
+              "Give realistic estimates, not optimistic ones, even if they sound less impressive.",
+              "Under-promise and over-deliver to build trust instead of eroding it.",
+              "Factor in your real history with similar tasks before committing.",
+              "When you'll be late, communicate early rather than defending the original estimate."
+            ]
+          }
+        }
+      }
+    ]
   }
 ]
