@@ -696,5 +696,122 @@
         }
       }
     ]
+  },
+  {
+    "date": "2026-06-06",
+    "day": 7,
+    "theme": "Building Resilience",
+    "concepts": [
+      {
+        "id": "deliberate-practice",
+        "title": "Deliberate Practice",
+        "source": "Psychology · Anders Ericsson",
+        "tagline": "Not all practice improves you — only focused, effortful work at the edge of your ability, with feedback.",
+        "keyPoints": [
+          "Mere repetition doesn't build expertise — once something feels automatic, you stop improving. Deliberate practice is structured, effortful work specifically targeting weaknesses.",
+          "It happens at the edge of your current ability, where it feels uncomfortable and you make errors — the discomfort is the signal that learning is occurring.",
+          "It requires immediate, specific feedback so errors can be corrected, plus full concentration — it's mentally exhausting and can't be sustained for many hours a day.",
+          "It's about specific sub-skills, not vague 'getting better': identify the precise component that's weak and drill it in isolation.",
+          "The popular '10,000 hours' is a simplification — what matters is the QUALITY and structure of practice, not just the time logged."
+        ],
+        "strategicSteps": [
+          "Identify the specific weak sub-skill, not the whole activity — then drill that in isolation.",
+          "Work at the edge of your ability where it's uncomfortable; if it feels easy, it's not deliberate practice.",
+          "Build a feedback loop: a coach, a recording, or a metric that catches errors immediately.",
+          "Practise in focused, shorter bursts with full attention rather than long unfocused sessions.",
+          "Review errors deliberately — the correction, not the repetition, is where growth happens."
+        ],
+        "scenarios": {
+          "business": {
+            "title": "Plateauing at a Skill",
+            "situation": "You've done your job for years and stopped improving. You're experienced but not better than you were three years ago.",
+            "whatHappens": "Experience became automatic repetition. Without targeting specific weaknesses at the edge of ability, the years add tenure but not skill.",
+            "applicationSteps": [
+              "Identify one specific sub-skill that, if improved, would matter most.",
+              "Create a feedback mechanism — a mentor, a recording, a metric.",
+              "Drill that weakness deliberately, accepting the discomfort.",
+              "Review your mistakes specifically rather than just doing more volume."
+            ]
+          },
+          "social": {
+            "title": "Improving a Soft Skill",
+            "situation": "You want to get better at public speaking, listening, or difficult conversations — but just 'doing more of it' isn't moving the needle.",
+            "whatHappens": "Unstructured exposure isn't deliberate practice. Without isolating specific components and getting feedback, you repeat the same level indefinitely.",
+            "applicationSteps": [
+              "Break the soft skill into specific components (pacing, eye contact, questions).",
+              "Work on one component at a time with intentional focus.",
+              "Get feedback — record yourself or ask a trusted observer.",
+              "Target the uncomfortable edge, not what you already do well."
+            ]
+          },
+          "intimate": {
+            "title": "Getting Better at a Relationship Skill",
+            "situation": "You keep having the same kind of misstep with your partner — interrupting, getting defensive, shutting down — and willpower alone hasn't fixed it.",
+            "whatHappens": "Wanting to do better isn't deliberate practice. Without isolating the specific behaviour and building a feedback loop, the pattern repeats.",
+            "applicationSteps": [
+              "Name the one specific behaviour to change (e.g. interrupting).",
+              "Practise the replacement deliberately in low-stakes moments first.",
+              "Ask your partner for a gentle real-time signal as feedback.",
+              "Review afterwards: 'where did I catch it, where did I miss it?'"
+            ]
+          }
+        }
+      },
+      {
+        "id": "status-quo-bias",
+        "title": "Status Quo Bias",
+        "source": "Psychology · The Decision Lab",
+        "tagline": "We prefer whatever already exists — not because it's better, but because change feels like effort and risk.",
+        "keyPoints": [
+          "We systematically favour the current state, even when a clearly better option exists. Doing nothing feels safe by default; changing feels risky and effortful.",
+          "It's driven by loss aversion (the costs of change feel more salient than the benefits) plus omission bias (inaction feels less blameworthy than action, even for identical outcomes).",
+          "Defaults are enormously powerful: opt-out organ donation reaches 90%+ participation while opt-in averages ~15% — same people, different default. Choice architecture often beats actual preference.",
+          "It compounds with hyperbolic discounting (change's benefit is distant, its discomfort is now) and confirmation bias (once settled, we notice evidence the status quo is fine).",
+          "The status quo is what keeps bad jobs, stale habits, broken processes, and tired relationships in place long after better options are available."
+        ],
+        "strategicSteps": [
+          "Use the fresh-start question: 'If I were choosing today with no history, would I pick this?' It removes the status quo as the reference point.",
+          "Make the better option the default: design your environment so the good choice requires less effort than the bad one.",
+          "Frame changes as reversible experiments ('try for 30 days and review') to lower the perceived risk that fuels inertia.",
+          "Flip the default for broken systems: 'we'll keep this only if someone actively argues to' instead of 'we'll keep it unless someone changes it.'",
+          "Use the friend test: advise yourself as you'd advise a friend in the same situation — you're more objective about their status quo than your own."
+        ],
+        "scenarios": {
+          "business": {
+            "title": "The Broken Process Nobody Changes",
+            "situation": "Your team uses a weekly reporting process that takes hours and produces little value. No one likes it; no one changes it. 'It's just how we do things.'",
+            "whatHappens": "Status quo bias plus the coordination effort of change keeps a process alive that everyone privately knows is broken. Inertia masquerades as stability.",
+            "applicationSteps": [
+              "Ask the fresh-start question as a team: 'If we were designing reporting today, would we build this?'",
+              "Flip the default: 'we eliminate this unless someone argues to keep it.'",
+              "Run a 30-day experiment without it and measure what actually breaks (usually nothing).",
+              "Make the better option lower-effort than the current one so it sticks."
+            ]
+          },
+          "social": {
+            "title": "The Friendship on Autopilot",
+            "situation": "A friendship has run on autopilot for years — same conversations, same place, leaving slightly unfulfilled. Neither of you changes anything because this is just how it is.",
+            "whatHappens": "The relationship has a status quo that feels normal, so neither person disrupts it — even though both might welcome something fresher.",
+            "applicationSteps": [
+              "Introduce one new element: a different activity, a more genuine question.",
+              "Name it lightly: 'we always do the same thing — want to try something different?'",
+              "Treat it as a low-risk experiment; the downside of trying is tiny.",
+              "Notice that disruption is often met with relief, not resistance."
+            ]
+          },
+          "intimate": {
+            "title": "The Comfortable Distance",
+            "situation": "You and your partner have settled into a comfortable routine that's also become a comfortable distance. Nothing's wrong — but nothing's especially alive either.",
+            "whatHappens": "The relationship's status quo feels safe, so neither of you disrupts it. The inertia preserves the peace and the staleness together.",
+            "applicationSteps": [
+              "Ask the fresh-start question together: 'If we designed our relationship from scratch today, what would we keep and what would we change?'",
+              "Frame it with curiosity, not complaint — the question itself breaks the status quo frame.",
+              "Pick one small new shared practice as a 30-day experiment.",
+              "Revisit and keep what added life; drop what didn't."
+            ]
+          }
+        }
+      }
+    ]
   }
 ]
