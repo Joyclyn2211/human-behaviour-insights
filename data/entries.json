@@ -813,5 +813,122 @@
         }
       }
     ]
+  },
+  {
+    "date": "2026-06-15",
+    "day": 8,
+    "theme": "Finding Meaning",
+    "concepts": [
+      {
+        "id": "independent-thinking",
+        "title": "Independent Thinking",
+        "source": "Essay · Paul Graham",
+        "tagline": "Calibrate your beliefs against reality, not against the people around you.",
+        "keyPoints": [
+          "Independent thinking isn't contrarianism or stubbornness — it's the ability to judge what's true against reality rather than against social consensus. The aim is accurate belief, not distinctive belief.",
+          "It has three trainable components (Graham): fastidiousness about truth (asking 'is that true?' reflexively), resistance to being told what to think (delight in ideas that subvert convention), and curiosity (the engine of novel ideas).",
+          "We misjudge our own position: the conventional don't see themselves as conventional, and the independent underestimate how far they diverge. Both calibrate against their immediate circle, not the full range of thought.",
+          "Ideas spread through groups like fashions — current, not necessarily true. Unfashionable ideas are disproportionately likely to be interesting, precisely because they're underexplored.",
+          "Environment is the highest-leverage variable: who you spend time with shapes what you think is normal, thinkable, and permissible. Choose your peers like you choose your inputs."
+        ],
+        "strategicSteps": [
+          "Ask 'is that true?' of one conventional claim each day before accepting it.",
+          "Notice when you feel social pressure to agree — treat it as a signal to examine, not to comply.",
+          "Follow genuine curiosity, not what you think should interest you; the interesting ideas are at the end of real questions.",
+          "Diversify your 'worlds' — spend time across different fields and groups and carry ideas between them.",
+          "Map your community's intellectual fashions: 'what is everyone here believing right now that they haven't examined?'"
+        ],
+        "scenarios": {
+          "business": {
+            "title": "Everyone in the Room Agrees",
+            "situation": "A decision is forming and the whole team is nodding along. It feels obvious, settled. You have a flicker of doubt but don't want to be the one who slows things down.",
+            "whatHappens": "Unanimous agreement often signals an intellectual fashion, not truth — the comfortable consensus nobody has stress-tested. The social cost of dissent silences the very doubt that would help.",
+            "applicationSteps": [
+              "Ask the quiet question: 'what would have to be true for this to be wrong?'",
+              "Separate 'everyone agrees' from 'this is correct' — they're different things.",
+              "Volunteer to argue the opposing case so dissent becomes a role, not an attack.",
+              "Look for the unfashionable option no one is examining."
+            ]
+          },
+          "social": {
+            "title": "The Opinion You Hold Because Your Group Does",
+            "situation": "You realise you hold a strong view mainly because everyone in your social circle holds it. You've never actually examined the evidence yourself.",
+            "whatHappens": "Group belief feels like personal conviction. You've calibrated against your circle, not reality — and the strength of feeling masks the absence of independent examination.",
+            "applicationSteps": [
+              "Ask: 'do I believe this because I've examined it, or because my group does?'",
+              "Read the strongest case for the opposing view — to understand, not to refute.",
+              "Notice the discomfort of questioning a group belief — that discomfort marks the unexamined spot.",
+              "Hold the view more provisionally until you've actually checked it yourself."
+            ]
+          },
+          "intimate": {
+            "title": "Letting Others Define Your Relationship",
+            "situation": "You measure your relationship against what friends, family, or social media say it 'should' look like — milestones, pace, displays — rather than what actually works for the two of you.",
+            "whatHappens": "You're calibrating against social fashion instead of your own reality. The relationship gets judged by an external scoreboard that may have nothing to do with what makes you both happy.",
+            "applicationSteps": [
+              "Ask: 'is this expectation ours, or one we absorbed from others?'",
+              "Define what a good relationship means to the two of you, on your own terms.",
+              "Notice when comparison ('they're already engaged / posting / buying') drives a feeling, and question it.",
+              "Calibrate against your actual experience together, not the external highlight reel."
+            ]
+          }
+        }
+      },
+      {
+        "id": "negativity-bias",
+        "title": "Negativity Bias",
+        "source": "Psychology · The Decision Lab",
+        "tagline": "Bad hits about twice as hard as good — which quietly distorts your self-image, your relationships, and your picture of the world.",
+        "keyPoints": [
+          "Adverse events have a disproportionately greater psychological impact than positive events of equal size. Losses feel roughly twice as painful as equivalent gains feel good.",
+          "It's wired in, not learned — the effect is cross-cultural and shows at the neural level. The brain allocates more resources to threats because a missed danger was once fatal while a missed opportunity was merely unfortunate.",
+          "It systematically skews perception: one criticism outweighs ten compliments; news feels relentlessly bleak though most metrics of the world are improving; one bad moment can overwrite weeks of warmth.",
+          "In relationships it takes ~5 positive interactions to offset a single negative one (Gottman). The asymmetry isn't fair — but it's the reality you have to design around.",
+          "The brain is 'Velcro for the bad, Teflon for the good' (Rick Hanson). Positive experiences need deliberate attention to be encoded; negative ones stick automatically."
+        ],
+        "strategicSteps": [
+          "Savour deliberately: when something good happens, pause and stay with it 20–30 seconds — the threshold for encoding a positive memory.",
+          "Keep a specific gratitude practice: 'three specific things that happened today and why they mattered' beats vague gratitude.",
+          "Aim for a 5:1 positive-to-negative ratio with people you care about — not to suppress the negative, but to balance the asymmetry.",
+          "Audit your information diet: your feed is a negativity amplifier. One intentional check a day beats continuous doom-scrolling.",
+          "Reframe criticism as data: ask 'what's the useful information here?' to shift the brain from threat to problem-solving."
+        ],
+        "scenarios": {
+          "business": {
+            "title": "The Review That Ignores the Wins",
+            "situation": "Your team delivered a strong quarter. In the review you spend 80% of the time on the 20% that underperformed. The team leaves feeling like they failed.",
+            "whatHappens": "Negativity bias pulls everyone's attention to the shortfall. The genuine wins fade; the gaps dominate. Morale drops not because the quarter was bad, but because the brain over-weights the negative.",
+            "applicationSteps": [
+              "Open with specific, detailed acknowledgement of what worked — 'X succeeded because Y' — before any problem.",
+              "Hold a rough 5:1 ratio of recognition to critique.",
+              "Frame gaps as forward problems to solve, not verdicts on the past.",
+              "End on the strongest win so the meeting's peak-end memory isn't purely negative."
+            ]
+          },
+          "social": {
+            "title": "The Cancelled Plan",
+            "situation": "A friend cancels plans last-minute. Your first interpretation: they don't value you. The neutral explanation (tired, something came up) doesn't compete with the negative narrative, which feels more 'real.'",
+            "whatHappens": "Negativity bias makes the hostile interpretation more salient and more memorable than the benign one — even when the benign one is more likely true.",
+            "applicationSteps": [
+              "Apply the 'most charitable interpretation' rule: write down the most generous reading before settling on a negative one.",
+              "Check the evidence: is there an actual pattern, or is this one event the brain is amplifying?",
+              "If it genuinely matters, ask rather than assume: 'No worries — everything okay?'",
+              "Recall a specific recent time this friend showed they value you, to counterbalance."
+            ]
+          },
+          "intimate": {
+            "title": "One Bad Comment Erases the Week",
+            "situation": "Your partner says something that lands badly. The warmth of the previous good week evaporates, and you find yourself cataloguing other moments like this.",
+            "whatHappens": "A single negative interaction overwrites a week of positives, and negativity bias starts assembling a case file of similar moments — making the relationship feel worse than it is.",
+            "applicationSteps": [
+              "Name it in the moment: 'I'm running negativity bias right now' — meta-awareness stops the cascade.",
+              "Deliberately recall one specific positive from this week — specific, not vague.",
+              "Address the actual comment directly instead of letting it generalise into a verdict.",
+              "Build a shared 'repair' habit so one bad moment gets balanced quickly rather than left to fester."
+            ]
+          }
+        }
+      }
+    ]
   }
 ]
