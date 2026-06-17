@@ -930,5 +930,122 @@
         }
       }
     ]
+  },
+  {
+    "date": "2026-06-17",
+    "day": 9,
+    "theme": "Breaking Patterns",
+    "concepts": [
+      {
+        "id": "hyperbolic-discounting",
+        "title": "Hyperbolic Discounting",
+        "source": "Behavioural Economics · The Decision Lab",
+        "tagline": "The future feels unreal next to the present — which is why you keep choosing now over later, even when later is better.",
+        "keyPoints": [
+          "We discount the future steeply and irrationally: a reward available NOW feels far more valuable than the same reward tomorrow, even when waiting yields strictly more.",
+          "It creates a split between your present self (intensely values now) and your future self (who bears the consequences). When you plan to start 'Monday,' present-you is writing a cheque future-you must cash.",
+          "This single bias explains procrastination, undersaving, poor health choices, and most self-control failures. The knowledge is there; the future just doesn't feel real enough to compete with now.",
+          "Willpower is the wrong tool — it fails at the exact moment of temptation. Structure works: remove the moment of choice where the discount operates.",
+          "Making the future vivid and concrete shrinks the discount — abstract futures get discounted hardest."
+        ],
+        "strategicSteps": [
+          "Use commitment devices: lock future-you in before present-you can interfere (automatic savings transfers, prepaid classes, public commitments).",
+          "Make the future visceral: calculate the concrete compound result, or write a letter to your future self describing the life you're building.",
+          "Shrink the present-reward gap: pair the future-oriented behaviour with something immediately enjoyable (a favourite podcast only while exercising).",
+          "Replace vague goals with implementation intentions: 'I will run at 7am Mon/Wed/Fri from my front door' beats 'I'll exercise more.'",
+          "Automate the good choice so doing nothing IS the good choice (payday auto-transfer to savings)."
+        ],
+        "scenarios": {
+          "business": {
+            "title": "The Important Work You Keep Postponing",
+            "situation": "You know the big strategic project matters most. Instead you clear email, do small tasks, answer messages — the project's payoff is distant; email's hit of completion is immediate.",
+            "whatHappens": "Hyperbolic discounting favours the small immediate reward (a cleared inbox) over the large delayed one (the finished project). You're not lazy; the future reward is simply being discounted into irrelevance.",
+            "applicationSteps": [
+              "Give the project your first 90 minutes — no email, no phone — before discounting kicks in.",
+              "Remove the choice: full-screen the document, put the phone in another room.",
+              "Break the distant payoff into a visible daily milestone so progress feels immediate.",
+              "Reward yourself the moment you finish the block — give present-you something to encode."
+            ]
+          },
+          "social": {
+            "title": "Investing in Long-Term Friendships",
+            "situation": "Maintaining close friendships takes effort with no immediate payoff. A message, a visit, a call — each feels optional in the moment. The cost of drifting apart is distant; the effort is now.",
+            "whatHappens": "The immediate cost of effort outweighs the heavily-discounted future value of the bond. So nothing happens, repeatedly — until the friendship has quietly faded.",
+            "applicationSteps": [
+              "Schedule it — a standing monthly call or lunch removes the moment-of-choice where discounting wins.",
+              "Make maintenance automatic with recurring reminders, like automatic savings for relationships.",
+              "Lower the effort cost: a 20-second voice note counts.",
+              "Make the future concrete: picture the friendship in 10 years if you do nothing vs. if you stay in touch."
+            ]
+          },
+          "intimate": {
+            "title": "The Conversation You Keep Avoiding",
+            "situation": "There's an honest conversation you need to have with your partner. Having it now costs immediate discomfort. Avoiding it pushes the cost into the future — resentment, distance, a bigger conflict later.",
+            "whatHappens": "Hyperbolic discounting makes avoidance feel rational: the discomfort is now and vivid; the cost of avoidance is later and abstract. So you wait — and the future cost compounds.",
+            "applicationSteps": [
+              "Name the pattern: 'I'm avoiding this because the discomfort is now and the cost is later.'",
+              "Compare concretely: 'What does this conversation cost me today vs. what will silence cost in six months?'",
+              "Lower the activation energy: schedule a specific calm time rather than waiting for the 'right moment' (which present-bias never delivers).",
+              "Pre-commit out loud: 'Can we talk tonight after dinner?' — a small public commitment that future-you must honour."
+            ]
+          }
+        }
+      },
+      {
+        "id": "sunk-cost-fallacy",
+        "title": "The Sunk Cost Fallacy",
+        "source": "Behavioural Economics · The Decision Lab",
+        "tagline": "Money, time, and effort already spent are gone — yet we keep paying more just to honour them.",
+        "keyPoints": [
+          "A sunk cost is anything already spent that can't be recovered. Rationally it should be irrelevant to what you do next — but emotionally, walking away feels like 'wasting' it.",
+          "It's powered by loss aversion: quitting forces us to formally register the loss, so we keep investing to avoid that feeling — and lose even more.",
+          "It keeps people in the wrong careers, films they're not enjoying, projects that won't work, and relationships that have ended in all but name.",
+          "The only rational question is forward-looking: 'from where I am now, what's the best use of my next hour / dollar / unit of energy?'",
+          "The fallacy intensifies with visible, effortful, personal investment — the more you've put in, the harder the trap grips."
+        ],
+        "strategicSteps": [
+          "Ask the forward question: 'knowing what I know now, would I start this today?' If no, the past is talking.",
+          "Name the sunk cost as already gone: 'that time/money is spent either way — it's not part of this decision.'",
+          "Set kill-criteria in advance, while unbiased, so you don't have to decide mid-attachment.",
+          "Separate the decision from the identity: quitting a bad path is wisdom, not failure.",
+          "Picture the regret of continuing: 'how will I feel having spent another year on this?'"
+        ],
+        "scenarios": {
+          "business": {
+            "title": "The Project Too Big to Kill",
+            "situation": "A major initiative has consumed a year and a large budget. It's clearly underperforming, but leadership says 'we've invested too much to stop now.'",
+            "whatHappens": "The past investment is treated as a reason to continue, when it's actually irrelevant. Good resources chase bad to avoid acknowledging the loss already incurred.",
+            "applicationSteps": [
+              "Reframe: 'the investment is gone regardless; the only choice is the next dollar.'",
+              "Ask 'would we fund this today as a fresh proposal?'",
+              "Assign someone to argue for stopping, free of the sunk-cost emotion.",
+              "Decide based on future return, not past spend."
+            ]
+          },
+          "social": {
+            "title": "The Commitment You've Outgrown",
+            "situation": "You joined a club, group, or volunteer role years ago. You no longer enjoy it, but you've given so much time that quitting feels like betraying all that effort.",
+            "whatHappens": "Years invested become a reason to stay, even though the time is unrecoverable. You keep spending present energy to honour past energy.",
+            "applicationSteps": [
+              "Ask 'if I were deciding today whether to join, would I?'",
+              "Acknowledge the past contribution as complete and valuable — and over.",
+              "Separate gratitude for what it was from obligation to continue.",
+              "Free the time for something that fits who you are now."
+            ]
+          },
+          "intimate": {
+            "title": "Staying Because of the Years",
+            "situation": "A relationship has run its course, but the thought 'we've been together so long, I can't throw that away' keeps you in it.",
+            "whatHappens": "The shared history becomes a sunk cost. The years are real and meaningful — but they're not a reason to spend more years if the relationship has genuinely ended.",
+            "applicationSteps": [
+              "Distinguish honouring the past from sacrificing the future to it.",
+              "Ask 'if we met today as the people we are now, would we choose this?'",
+              "Recognise the time together is not 'wasted' just because it ends — it was lived.",
+              "Decide forward, with compassion, not out of fear of 'wasting' history."
+            ]
+          }
+        }
+      }
+    ]
   }
 ]
