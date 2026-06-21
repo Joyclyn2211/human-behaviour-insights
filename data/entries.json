@@ -1047,5 +1047,122 @@
         }
       }
     ]
+  },
+  {
+    "date": "2026-06-21",
+    "day": 10,
+    "theme": "Living Intentionally",
+    "concepts": [
+      {
+        "id": "logotherapy",
+        "title": "Logotherapy",
+        "source": "Psychology · Viktor Frankl",
+        "tagline": "The primary human drive isn't pleasure or power — it's meaning. And meaning can be found even in suffering you cannot escape.",
+        "keyPoints": [
+          "Frankl developed logotherapy partly in Nazi concentration camps, observing who survived. His conclusion: those with a 'why' — a person to return to, a task only they could do — endured 'almost any how.' Meaning, not comfort, separated collapse from survival.",
+          "Meaning is found three ways: (1) through WORK or creating — a contribution, a deed; (2) through LOVE — connection, beauty, encountering someone; (3) through the ATTITUDE we take toward unavoidable suffering. The third is radical: when you can't change a situation, you can still choose your stance, and that choice creates meaning.",
+          "The 'existential vacuum' is Frankl's diagnosis of modern malaise — emptiness and 'what's the point?' that appears when survival is handled but meaning is absent. Affluence doesn't fill it; only meaning does.",
+          "Self-transcendence is the mechanism: the more you aim directly AT happiness, the more it eludes you. It arrives as a by-product of devoting yourself to something beyond yourself.",
+          "'Tragic optimism' is saying yes to life despite pain, guilt, and death — not toxic positivity that denies suffering, but the hard-won capacity to find meaning within it."
+        ],
+        "strategicSteps": [
+          "Ask the reframed question: not 'what do I want from life?' but 'what is life asking of ME, right now, in this situation?' It shifts you from passive consumer to responsible agent.",
+          "Audit your three sources weekly: what did I CREATE? Who did I genuinely CONNECT with? What difficulty did I face, and what STANCE did I take? Gaps show where meaning is thin.",
+          "Practise 'dereflection' for anxiety: when trapped overthinking yourself, redirect attention OUTWARD toward a task or person. Meaning lives outside the self.",
+          "Find the 'why' before the 'how': before a hard goal, get specific about what it's FOR — who benefits, who you become. A concrete why makes a brutal how survivable.",
+          "Reframe unavoidable suffering as a question of stance: 'Given this is happening, what would it mean to meet it well?'"
+        ],
+        "scenarios": {
+          "business": {
+            "title": "The Hollow Success",
+            "situation": "You're good at your job and well paid. But Friday evenings you feel empty. The work doesn't feel like it matters. You can't tell whether to quit, or whether the emptiness would follow you anywhere.",
+            "whatHappens": "The existential vacuum in professional skin. Competence and salary handle survival but not meaning. Frankl's three sources let you diagnose precisely what's missing — most 'meaningless' jobs contain unnoticed meaning, or reveal a genuine misalignment worth acting on.",
+            "applicationSteps": [
+              "Trace the contribution: 'Who specifically is better off because I did my work well this week?' Make it a real person, not an abstraction.",
+              "Test the three sources: is there room to CREATE? To CONNECT with people you value? If both are genuinely absent, that's real data — not your flaw.",
+              "Before quitting, change your stance for two weeks: approach the same tasks asking 'what would doing this meaningfully look like?'",
+              "If the vacuum persists, ask 'what is life asking of me now?' — the answer might be a new role, or a meaningful pursuit the job exists to fund."
+            ]
+          },
+          "social": {
+            "title": "Supporting a Friend Through the Unfixable",
+            "situation": "A friend faces something terrible and irreversible — a terminal diagnosis, a devastating loss. You want to help but every comforting phrase feels hollow, and you can see it landing badly.",
+            "whatHappens": "We instinctively try to REMOVE suffering — minimise, explain, or fix it. But this can't be removed, so those moves fail and can wound. Frankl's insight: when you can't change the situation, help them find meaning WITHIN it, and simply don't abandon them in it.",
+            "applicationSteps": [
+              "Stop fixing or reframing their pain. Sit in it: 'This is genuinely terrible, and I'm here' beats any silver lining.",
+              "Don't supply meaning — ask gently: 'What matters most to you in how you face this?' or 'Who is helping you hold on?'",
+              "Honour the dignity of their stance — name it: 'The way you're carrying this is remarkable.'",
+              "Be the concrete 'why': your steady, reliable presence can itself become part of their meaning."
+            ]
+          },
+          "intimate": {
+            "title": "The Relationship That's Become Hard",
+            "situation": "You're in a persistently difficult stretch — not explosive, just heavy. You keep asking 'is this still making me happy?' and some days the honest answer is no. You're wondering whether to hold on or let go.",
+            "whatHappens": "Frankl would challenge the question itself. 'What do I want FROM this?' frames you as a consumer of happiness. 'What is this relationship asking of me?' frames you as a participant. The shift from extracting to contributing often reveals whether there's life left to build.",
+            "applicationSteps": [
+              "Switch the question for a week: instead of 'am I happy?', ask 'what does showing up well here ask of me right now?'",
+              "Find what you're avoiding — the conversation, the apology, the change. Meaning usually hides behind it.",
+              "Apply self-transcendence: stop aiming at 'being happy together'; aim at a shared project or caring well — happiness returns as a by-product.",
+              "Use the regret test: 'If this ended, what would I regret not having truly tried?' Try exactly that, fully, for a set period."
+            ]
+          }
+        }
+      },
+      {
+        "id": "growth-mindset",
+        "title": "Growth Mindset",
+        "source": "Psychology · Carol Dweck",
+        "tagline": "What you believe about whether you can change determines whether you do.",
+        "keyPoints": [
+          "Two mindsets shape how we meet challenge. A FIXED mindset believes ability is innate and unchangeable; a GROWTH mindset believes ability develops through effort. The belief itself becomes self-fulfilling.",
+          "Mindset decides which goals you chase. Fixed minds pursue 'performance goals' (prove you're smart); growth minds pursue 'learning goals' (get better). When proving dominates, challenge becomes threat; when learning dominates, challenge becomes opportunity.",
+          "How we're praised shapes mindset. Praise for intelligence ('you're so smart') breeds fixed mindset; praise for process ('you worked hard on that') breeds growth. The same applies to your own self-talk.",
+          "The 'not yet' reframe is powerful: 'I failed' collapses the future into a verdict; 'I haven't succeeded YET' keeps it open. A small linguistic shift with a large psychological effect.",
+          "Caveat: a growth mindset isn't 'just try harder' or denying real differences. It's the accurate belief that ability is more malleable than it feels — paired with the right strategies."
+        ],
+        "strategicSteps": [
+          "Catch fixed-mindset self-talk ('I'm bad at this') and rewrite it in process terms ('I haven't built this skill yet').",
+          "Add 'yet' to any statement of limitation. Notice how it changes what you do next.",
+          "When you praise others (children, colleagues, partners), praise the effort and strategy, not the trait.",
+          "Treat each failure as a data point, not a verdict: ask 'what did this specifically teach me about what to do differently?'",
+          "Pick one thing you believe you 'can't' do, and find a person who once couldn't and now can. Study what they actually did."
+        ],
+        "scenarios": {
+          "business": {
+            "title": "The Critical Performance Review",
+            "situation": "Your review highlights a real weakness. Your gut reaction is defensiveness — or quiet dismissal: 'that's just not my strength.'",
+            "whatHappens": "Fixed mindset reads feedback as a verdict on who you are, triggering defence. Growth mindset reads it as a map of where to go next. The reaction in that moment reveals — and reinforces — which world you live in.",
+            "applicationSteps": [
+              "Sit with critical feedback for 24 hours before responding — let it land before you defend.",
+              "Ask: 'What would I do with this if I genuinely believed I could improve?' Then do that.",
+              "Reframe 'I'm not good at X' as 'I haven't yet invested in developing X.'",
+              "Find one colleague who improved at exactly this, and ask them how."
+            ]
+          },
+          "social": {
+            "title": "Being Wrong in Public",
+            "situation": "You made a confident claim and someone politely corrected you. Your face flushes. Your instinct is to qualify, deflect, or double down.",
+            "whatHappens": "Fixed mindset treats public correction as a status threat. Growth mindset treats it as free information. How you respond signals — to others and to yourself — which mindset is running.",
+            "applicationSteps": [
+              "Practise saying cleanly: 'You're right, I got that wrong — thank you.' Notice the world doesn't end.",
+              "Ask a genuine follow-up about the correct information — curiosity dissolves embarrassment.",
+              "Track what topics you get corrected on; patterns reveal real gaps to close.",
+              "When you correct others, do it gently — model the grace you want when it's your turn."
+            ]
+          },
+          "intimate": {
+            "title": "'That's Just Who I Am'",
+            "situation": "Your partner names a pattern in your behaviour they find hurtful. Your first impulse: 'That's just who I am. They knew this when they met me.'",
+            "whatHappens": "Fixed mindset uses identity as a shield against the discomfort of change. But 'that's just who I am' is almost always a choice dressed as a fact — and it forecloses growth the relationship may need.",
+            "applicationSteps": [
+              "When you hear 'that's just who I am,' write it down and ask: 'Is this truly fixed, or have I never really tried to change it?'",
+              "Ask your partner: 'What would it look like if I changed this even 20%? What would you notice?' Specific is actionable.",
+              "Pick one small version of the change to practise for two weeks, then report back — growth is demonstrated, not declared.",
+              "Separate identity from behaviour: 'I sometimes do X' can change; 'I AM X' feels like it can't."
+            ]
+          }
+        }
+      }
+    ]
   }
 ]
