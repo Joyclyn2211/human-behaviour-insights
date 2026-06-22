@@ -1164,5 +1164,122 @@
         }
       }
     ]
+  },
+  {
+    "date": "2026-06-22",
+    "day": 11,
+    "theme": "Seeing Clearly",
+    "concepts": [
+      {
+        "id": "confirmation-bias",
+        "title": "Confirmation Bias",
+        "source": "Psychology · Daniel Kahneman",
+        "tagline": "Your mind is not a truth-seeking machine — it is a belief-defending machine.",
+        "keyPoints": [
+          "Once you hold a belief, your mind automatically recruits evidence for it, dismisses evidence against it, and interprets ambiguous information in its favour — all without you noticing.",
+          "It operates at three stages: what you seek, how you interpret, and what you remember. Confirming evidence sticks; disconfirming evidence fades.",
+          "The most dangerous form: the feeling of certainty. The more certain you feel, the more likely you are running on unexamined assumption, not verified truth.",
+          "Intelligence offers no protection — smart people are simply better at building sophisticated justifications for what they already believe.",
+          "The antidote is not willpower — it is structure. Ask 'What would prove me wrong?' before committing to any conclusion."
+        ],
+        "strategicSteps": [
+          "Before making any decision, spend 5 minutes actively arguing the opposite position as strongly as you can.",
+          "Ask one question daily: 'What evidence have I been ignoring or dismissing this week?'",
+          "When you feel very certain about something, treat that certainty as a signal to slow down — not to speed up.",
+          "Keep a prediction journal: write down your expectations before events, then review after. Your miss-rate will surprise you.",
+          "Seek out one person who genuinely disagrees with you and ask them to explain their reasoning — to understand, not to rebut."
+        ],
+        "scenarios": {
+          "business": {
+            "title": "The Hiring Trap",
+            "situation": "You interview a candidate who reminds you of your best employee. Within 10 minutes you've decided you want to hire them. The rest of the interview becomes a formality.",
+            "whatHappens": "Every answer they give, you interpret generously. Red flags get rationalised. Questions become confirmatory ('I'm sure you're good at X, right?') rather than probing. You hire someone who looks right but isn't right.",
+            "applicationSteps": [
+              "Before the interview, write down 3 specific things that would make you NOT hire this person. Actively look for those.",
+              "Assign one interviewer the explicit role of 'devil's advocate' — their job is to find problems, not potential.",
+              "After the interview, before discussing, everyone writes their assessment independently. Sharing first creates anchoring bias.",
+              "Ask: 'What is the strongest argument against hiring this person?' If you can't answer it, you haven't thought hard enough."
+            ]
+          },
+          "social": {
+            "title": "The First Impression Lock",
+            "situation": "You meet someone at a party and within minutes form an impression — warm, cold, trustworthy, shifty. For the rest of the evening, everything they do confirms what you already decided.",
+            "whatHappens": "Ambiguous behaviour gets filtered through the lens of your first impression. A quiet moment = 'see, they're standoffish.' An enthusiastic comment = 'see, they're trying too hard.' The impression becomes self-sealing.",
+            "applicationSteps": [
+              "Notice the moment you form a first impression. That's the moment confirmation bias begins.",
+              "Deliberately look for one piece of evidence that contradicts your impression before the conversation ends.",
+              "Ask yourself: 'What would this person's best friend say about them?' This forces a more charitable interpretation.",
+              "Before writing someone off socially, ask: 'Have I given them a genuine chance, or have I been collecting evidence for a verdict I already reached?'"
+            ]
+          },
+          "intimate": {
+            "title": "The Recurring Argument",
+            "situation": "You and your partner have a recurring conflict. You're convinced you're right. Every new incident becomes more proof. They feel the same way about their position. The argument never resolves.",
+            "whatHappens": "Both of you are running confirmation bias at full power. You remember every time they did the thing that bothers you; they remember every time you did theirs. You've each built a case file. Neither case file is false — it's just incomplete.",
+            "applicationSteps": [
+              "Before the next difficult conversation, write down the 3 strongest points in their favour — not yours. Read them out loud to yourself first.",
+              "Ask: 'When was the last time I updated my view of this person based on something they did well?' If you can't remember, your mental model of them is frozen in a negative moment.",
+              "In the conversation: 'I want to understand what I'm doing that contributes to this' — before any accusation. This breaks the confirmation loop.",
+              "Agree on a 'pause word' when either of you feels the argument becoming circular. Use it. Step away for 20 minutes before returning."
+            ]
+          }
+        }
+      },
+      {
+        "id": "cognitive-biases",
+        "title": "Cognitive Biases",
+        "source": "Psychology · Kahneman & Tversky",
+        "tagline": "Your brain runs on shortcuts that were brilliant for survival and are quietly sabotaging your modern decisions.",
+        "keyPoints": [
+          "The mind has two systems (Kahneman). System 1 is fast, automatic, emotional — it generates instant impressions and is the source of almost every bias. System 2 is slow, effortful, logical — but lazy, and usually just rubber-stamps whatever System 1 decided.",
+          "Biases are not stupidity. They are efficient heuristics that were adaptive for ancestral survival but misfire in a world of statistics, markets, and strangers. Intelligent people are NOT protected — they're better at justifying biased conclusions.",
+          "The most consequential biases cluster predictably: judging people (fundamental attribution error, halo effect), handling gains/losses (loss aversion, sunk cost), estimating likelihood (availability, representativeness), and defending beliefs (confirmation, anchoring).",
+          "You cannot eliminate biases by knowing about them — System 1 runs below conscious control. What works is STRUCTURE: checklists, outside views, deliberate friction, decision rules that don't depend on in-the-moment judgement.",
+          "The bias blind spot: we see bias clearly in others and feel ourselves the rational exception. This meta-bias is why 'just be objective' never works."
+        ],
+        "strategicSteps": [
+          "Build decision friction for anything important. Force a 24-hour gap and write your reasoning before a consequential choice — this recruits System 2.",
+          "Use the 'outside view': ask 'how do projects like this usually go?' not 'how will MY project go?' Base rates beat gut feeling.",
+          "Run a pre-mortem: imagine it's a year later and the decision failed catastrophically; write how. This surfaces hidden risks.",
+          "Separate person from situation: ask 'what situation could make a reasonable person act this way?' before concluding it's their character.",
+          "Make the bias work FOR you: stake money you'll lose if you skip the gym — loss aversion out-motivates the pull of comfort."
+        ],
+        "scenarios": {
+          "business": {
+            "title": "The Sunk-Cost Project That Won't Die",
+            "situation": "Your team has spent 18 months and a large budget on a feature. The data now clearly shows customers don't want it. Yet every meeting ends with 'we've come too far to stop now.' More money goes in.",
+            "whatHappens": "Sunk cost fallacy compounded by loss aversion and confirmation bias. Money already spent is gone regardless — it should be irrelevant to the forward decision. But quitting feels like 'losing' the investment, so good resources chase bad and any hopeful data scrap gets amplified.",
+            "applicationSteps": [
+              "Erase the past in the question: 'Knowing only what we know today, would we START this now?' If no, the sunk cost is talking.",
+              "Make the loss explicit: 'We lose the 18 months either way. The only choice is whether we also lose the next 6.'",
+              "Assign someone to build the strongest case for KILLING it — without a challenger, only pro-continuation evidence gets aired.",
+              "Set a kill-criterion in advance for the next project, while you're still unbiased."
+            ]
+          },
+          "social": {
+            "title": "The Halo Effect in a New Acquaintance",
+            "situation": "You meet someone polished, articulate, and confident. You instantly assume they're also competent, trustworthy, and successful — and you agree with their opinions more readily than anyone else's.",
+            "whatHappens": "The halo effect: one salient trait (charisma) bleeds into unrelated judgements (competence, honesty). It's how confident frauds succeed and quiet experts get overlooked. System 1 built a whole character profile from 30 seconds.",
+            "applicationSteps": [
+              "Separate observed traits from inferred ones: 'I've seen they're articulate. I have zero evidence yet on competence or honesty.'",
+              "Look for the disconfirming evidence the halo hides — charismatic people get fewer hard questions; ask one.",
+              "Delay consequential trust; reliability only shows over repeated interactions, not first impressions.",
+              "Invert it for the overlooked: 'what might this awkward person be excellent at that their delivery hides?'"
+            ]
+          },
+          "intimate": {
+            "title": "The Fundamental Attribution Error in Conflict",
+            "situation": "Your partner forgets something important. Your instant read: 'They don't care, they're inconsiderate.' But last week when YOU forgot something, you explained it as 'I was overwhelmed' — a situation, not a flaw.",
+            "whatHappens": "We explain others' behaviour by character and our own identical behaviour by circumstances. This asymmetry is the engine of most relationship conflict — each person feels reasonable and sees the other as flawed.",
+            "applicationSteps": [
+              "Catch the character verdict ('they ARE inconsiderate') and convert it to a situational question ('what was going on for them?').",
+              "Apply the symmetry test: 'When I did this, what was my explanation? Is that same explanation available to them?'",
+              "Lead with the situation: 'You forgot X — was something going on?' opens a door; 'You never think of me' slams it.",
+              "Agree a shared rule in calm times: 'We assume good intent and ask about circumstances before assigning blame.'"
+            ]
+          }
+        }
+      }
+    ]
   }
 ]
