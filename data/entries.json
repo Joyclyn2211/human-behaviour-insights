@@ -1281,5 +1281,122 @@
         }
       }
     ]
+  },
+  {
+    "date": "2026-06-24",
+    "day": 12,
+    "theme": "Inner Strength",
+    "concepts": [
+      {
+        "id": "first-principles",
+        "title": "First Principles Thinking",
+        "source": "Philosophy · 李善友 (Li Shanyu)",
+        "tagline": "Strip away assumption and inherited convention until you reach what's actually true — then reason up from there.",
+        "keyPoints": [
+          "Most thinking is reasoning by analogy — copying what's been done, what others do, what convention says. It's fast and socially safe, but it inherits every hidden assumption baked into the original.",
+          "First principles thinking reasons up from bedrock truths that cannot be reduced further. The formula (李善友): first principle + deduction = a rational system.",
+          "The hidden enemy is the 'continuity assumption' — the unexamined belief that the future resembles the past and here resembles elsewhere. It's smuggled into almost every conclusion and is invisible because it's foundational.",
+          "Most 'constraints' are inherited conventions, not physical laws. When something seems impossible, ask whether it's a genuine constraint or just an assumption nobody has questioned.",
+          "The most personal application: which of your beliefs, values, and identity claims are genuinely yours (reasoned and tested) versus inherited (absorbed from family, culture, peers) and never examined?"
+        ],
+        "strategicSteps": [
+          "Pick one assumption you treat as fact and ask 'is this actually true, or just a continuity assumption?'",
+          "For any belief, keep asking 'why is this true?' until you reach a direct observation or a logical necessity — or discover you've hit unexamined convention.",
+          "Decompose 'impossible' goals into components and ask which parts are genuinely fixed vs. merely conventional.",
+          "Ask of any important belief: 'If I'd been raised in a different family or culture, would I still hold this?'",
+          "Notice what your community treats as obvious — that's where the unexamined axioms (and the opportunities) hide."
+        ],
+        "scenarios": {
+          "business": {
+            "title": "The Cost Everyone Accepts",
+            "situation": "Your industry 'knows' a certain cost is fixed — 'that's just what it costs.' Everyone plans around it. Margins stay thin because nobody questions the number.",
+            "whatHappens": "Reasoning by analogy ('this is what it has always cost') hides that the cost is a convention, not a physical law. Musk's battery example: $600/kWh was convention; the raw materials cost ~$80. The gap was unexamined assumption.",
+            "applicationSteps": [
+              "Ask 'what is this actually made of, at its most basic, and what does THAT cost?'",
+              "Separate genuine constraints (physics, math) from inherited conventions (how it's been done).",
+              "Rebuild the solution from the verified bedrock, not from competitors' approaches.",
+              "Test the riskiest assumption cheaply before committing."
+            ]
+          },
+          "social": {
+            "title": "The 'Should' You Never Chose",
+            "situation": "You feel obligated to do something socially — a tradition, an expectation, a way of doing things — that you've never actually questioned. It just feels like what one does.",
+            "whatHappens": "The 'should' is a continuity assumption inherited from your environment. It feels like a law of reality, but it's a convention you absorbed and never examined.",
+            "applicationSteps": [
+              "Ask: 'Where did this rule come from? Did I choose it or absorb it?'",
+              "Ask: 'Would someone from a very different background find this obviously necessary, or ask why?'",
+              "Keep what survives examination; consciously drop what doesn't.",
+              "Decide on purpose, rather than by inherited default."
+            ]
+          },
+          "intimate": {
+            "title": "The Inherited Relationship Script",
+            "situation": "You and your partner keep running a script about how relationships 'should' work — roles, rules, expectations — picked up from your families. Friction comes from clashing inherited scripts.",
+            "whatHappens": "Each of you imported first principles from your upbringing and never examined them. The conflict isn't really about the dishes; it's about two unexamined axioms colliding.",
+            "applicationSteps": [
+              "Surface the assumption: 'what do I believe a relationship 'should' do here, and where did I learn it?'",
+              "Have each partner trace a 'should' back to its origin family.",
+              "Ask together: 'what do WE actually want to build, from first principles, rather than inherit?'",
+              "Replace inherited rules with consciously chosen ones you both endorse."
+            ]
+          }
+        }
+      },
+      {
+        "id": "mental-models",
+        "title": "Mental Models",
+        "source": "Philosophy · Charlie Munger",
+        "tagline": "You don't see reality — you see your model of it. The quality of your thinking is the quality of your models.",
+        "keyPoints": [
+          "A mental model is a simplified representation of how something works. You can't think without them; the question is whether yours are accurate, diverse, and consciously chosen.",
+          "Munger's 'latticework': a single model makes everything look like a nail. Models from many disciplines let you triangulate — when several point the same way, confidence rises; when they conflict, you've found an interesting edge.",
+          "You don't need to master whole fields — just the 5% of each that carries 95% of the value: the foundational Big Ideas (compounding, natural selection, incentives, probability, the dichotomy of control).",
+          "Inversion is one of the most underused models: instead of 'how do I achieve X?', ask 'what would guarantee I fail at X?' then avoid those things.",
+          "Every model is wrong somewhere — it simplifies by definition. Mistaking the model for reality is the source of most intellectual error; the most useful models become invisibly 'just how things are.'"
+        ],
+        "strategicSteps": [
+          "Pick one field outside your expertise and learn its single most important model; apply it to a current problem.",
+          "When stuck, run the problem through multiple lenses: 'what would a biologist / economist / philosopher say?'",
+          "Practise inversion weekly: define failure explicitly, then design to avoid it.",
+          "Keep a short list of the 10 models you use most — check whether they're diverse or all from one domain.",
+          "When confident, ask 'which model am I using, and where does it break down?'"
+        ],
+        "scenarios": {
+          "business": {
+            "title": "The One-Tool Decision",
+            "situation": "Your team analyses every problem through the same single lens — always a financial model, or always a marketing frame. Different problems get the same treatment, and some keep going wrong.",
+            "whatHappens": "The 'man with a hammer' syndrome: one model makes every problem look like the kind it solves. Important dimensions get missed because no one is looking through the right lens.",
+            "applicationSteps": [
+              "Before deciding, force the problem through 3 different disciplinary lenses.",
+              "Ask 'what model am I defaulting to, and what is it blind to?'",
+              "Invite someone with a different background specifically to disagree.",
+              "Run inversion: 'what would guarantee this decision fails?'"
+            ]
+          },
+          "social": {
+            "title": "Reading a Situation You Keep Misjudging",
+            "situation": "You keep misreading certain social situations — assuming people are motivated by what would motivate you, and being surprised when they aren't.",
+            "whatHappens": "You're applying a single model of human motivation (your own) to everyone. A richer latticework — incentives, status, fear, belonging — would predict behaviour far better.",
+            "applicationSteps": [
+              "Ask 'what incentives is this person actually facing?' rather than 'what would I do?'",
+              "Add models: status, in-group belonging, loss aversion — run the situation through each.",
+              "Hold your first read as a hypothesis, not a conclusion.",
+              "Check predictions against what actually happens, and update the model."
+            ]
+          },
+          "intimate": {
+            "title": "Assuming Your Partner Thinks Like You",
+            "situation": "You assume your partner processes emotion, conflict, or love the way you do — and feel hurt or confused when they clearly don't.",
+            "whatHappens": "You're running a single model (yourself) for a different person. Without a model of how THEY work — their attachment style, their language of care — you keep mispredicting them.",
+            "applicationSteps": [
+              "Build an explicit model of your partner: how do THEY recharge, show care, handle conflict?",
+              "Ask directly rather than assuming: 'what does feeling loved actually look like for you?'",
+              "Notice where your model of them keeps being wrong, and revise it.",
+              "Hold the difference as information, not as them being 'wrong.'"
+            ]
+          }
+        }
+      }
+    ]
   }
 ]
