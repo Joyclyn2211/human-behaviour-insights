@@ -1398,5 +1398,122 @@
         }
       }
     ]
+  },
+  {
+    "date": "2026-07-03",
+    "day": 13,
+    "theme": "Deliberate Change",
+    "concepts": [
+      {
+        "id": "peak-end-rule",
+        "title": "The Peak-End Rule",
+        "source": "Psychology · Daniel Kahneman",
+        "tagline": "We don't remember experiences by their average — we remember them by their most intense moment and how they ended.",
+        "keyPoints": [
+          "Memory of an experience is dominated by two points: its emotional peak (best or worst moment) and its ending — not the sum or average of every moment.",
+          "Kahneman distinguishes the 'experiencing self' (lives each moment) from the 'remembering self' (writes the story). The remembering self makes future decisions, and it uses peak-end, not duration.",
+          "'Duration neglect': how long an experience lasted barely affects the memory. A short intense ending can outweigh hours of moderate experience.",
+          "This means how things END is disproportionately powerful — a strong finish reshapes the memory of everything before it.",
+          "It explains why a great trip ruined at the airport feels ruined, and why a hard project with a triumphant finish is remembered fondly."
+        ],
+        "strategicSteps": [
+          "Engineer strong endings: finish experiences, meetings, and days on a high note.",
+          "Create deliberate peaks — one memorable high moment outweighs uniform pleasantness.",
+          "Don't let a bad ending define the whole; consciously recall the peaks too.",
+          "For unavoidable unpleasant experiences, end on the least-bad note, not the worst.",
+          "Design recurring experiences (dates, trips, events) around a peak and a clean close."
+        ],
+        "scenarios": {
+          "business": {
+            "title": "The Client Experience",
+            "situation": "You deliver consistently good service, but a clunky final handoff or invoicing process leaves clients with a slightly sour last impression.",
+            "whatHappens": "Peak-end rule means the rough ending colours the memory of the whole engagement, regardless of how good the middle was.",
+            "applicationSteps": [
+              "Invest disproportionately in the final touchpoint of any client journey.",
+              "Build one memorable peak moment into the experience.",
+              "End meetings on a clear, positive, forward note.",
+              "Fix sour endings (billing, offboarding) even if the core service is great."
+            ]
+          },
+          "social": {
+            "title": "Hosting and Gatherings",
+            "situation": "You host an event that's pleasant throughout but fizzles out awkwardly at the end, and that's what people seem to remember.",
+            "whatHappens": "Guests' memory is shaped by the peak and the ending. A flat or awkward close can undercut an otherwise lovely evening.",
+            "applicationSteps": [
+              "Plan a deliberate high point during the gathering.",
+              "Design the ending — a toast, a shared moment — rather than letting it trail off.",
+              "Send people out on a warm note.",
+              "Don't over-extend; end while energy is still good."
+            ]
+          },
+          "intimate": {
+            "title": "How Days and Dates End",
+            "situation": "You and your partner have nice times together that too often end on a logistical squabble or a tired, distracted note.",
+            "whatHappens": "The peak-end rule means those endings disproportionately shape how you both remember the time together — and accumulate into the story of the relationship.",
+            "applicationSteps": [
+              "Be intentional about how days and dates end — a warm moment, not a logistics argument.",
+              "Create small peaks of connection regularly.",
+              "Repair before sleep so the day doesn't end on conflict.",
+              "End shared time on appreciation, however small."
+            ]
+          }
+        }
+      },
+      {
+        "id": "emotional-regulation",
+        "title": "Emotional Regulation",
+        "source": "Psychology · Affective Science",
+        "tagline": "You can't always choose what you feel — but you can shape how you relate to it, and that changes everything downstream.",
+        "keyPoints": [
+          "Emotional regulation is the set of processes by which we influence which emotions we have, when, and how we experience and express them. It's a skill, not a personality trait.",
+          "The most effective strategy is reappraisal — changing how you interpret a situation before the emotion peaks — which beats suppression, which is costly and leaks out anyway.",
+          "Naming an emotion reduces its intensity ('affect labelling'): putting a feeling into words engages the prefrontal cortex and dampens the amygdala.",
+          "There's a gap between stimulus and response, and regulation lives in that gap. Widening it — through a pause, a breath, a name — is where freedom is.",
+          "Suppression doesn't make emotion disappear; it pushes it underground where it drives behaviour you don't consciously choose."
+        ],
+        "strategicSteps": [
+          "Name it to tame it: when a strong feeling arises, label it precisely ('this is anxiety,' 'this is hurt').",
+          "Reappraise before reacting: 'what's another accurate way to see this situation?'",
+          "Build a pause habit: one breath between trigger and response widens the gap where choice lives.",
+          "Regulate the body first — emotion is physical; slow breathing and movement change the state faster than thinking does.",
+          "Don't suppress — express or process. Journalling or talking discharges what bottling only buries."
+        ],
+        "scenarios": {
+          "business": {
+            "title": "The Email That Makes You See Red",
+            "situation": "A curt, unfair email lands. Your heart rate spikes and your fingers are already drafting a scorching reply.",
+            "whatHappens": "System 1 emotion is driving toward a response you'll regret. Without regulation, the amygdala wins and you escalate a conflict that could have been defused.",
+            "applicationSteps": [
+              "Name the feeling: 'I'm angry and a bit disrespected' — labelling lowers the intensity.",
+              "Impose a delay rule: no replies to charged emails for 60 minutes.",
+              "Reappraise: 'what's the most charitable read of why they wrote this?'",
+              "Draft the hot reply, don't send it, then write the one you'd be proud of."
+            ]
+          },
+          "social": {
+            "title": "Feeling Slighted in the Moment",
+            "situation": "Someone says something at a gathering that stings. You feel the urge to snap back or go cold for the rest of the evening.",
+            "whatHappens": "The emotion arrives faster than thought. Unregulated, it controls your behaviour and can damage a relationship over a momentary feeling.",
+            "applicationSteps": [
+              "Take one slow breath before responding — it physically resets the surge.",
+              "Name internally what you're feeling to create distance from it.",
+              "Reappraise: 'did they likely mean it the way I took it?'",
+              "Choose your response from the widened gap, not the reflex."
+            ]
+          },
+          "intimate": {
+            "title": "Flooding During a Conflict",
+            "situation": "An argument with your partner escalates until you're 'flooded' — heart pounding, unable to think clearly, saying things you'll regret.",
+            "whatHappens": "Physiological flooding hijacks regulation; the thinking brain goes offline. Continuing to 'talk it out' while flooded only deepens the damage.",
+            "applicationSteps": [
+              "Recognise flooding as physical and call a timeout — agree the signal in advance.",
+              "Self-soothe for at least 20 minutes (the body needs that long to settle) before returning.",
+              "Name your state to your partner: 'I'm flooded, I need a short break, I'm not leaving the conversation.'",
+              "Return when regulated — reappraise the issue once your thinking brain is back online."
+            ]
+          }
+        }
+      }
+    ]
   }
 ]
