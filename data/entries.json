@@ -1632,5 +1632,122 @@
         }
       }
     ]
+  },
+  {
+    "date": "2026-07-05",
+    "day": 15,
+    "theme": "Thinking Better",
+    "concepts": [
+      {
+        "id": "loss-aversion",
+        "title": "Loss Aversion",
+        "source": "Behavioural Economics · Kahneman & Tversky",
+        "tagline": "Losing $100 hurts about twice as much as gaining $100 feels good — and that asymmetry runs your risk decisions.",
+        "keyPoints": [
+          "Losses loom larger than equivalent gains — roughly 2:1. We're wired to protect what we have far more strongly than to pursue what we don't.",
+          "It's the engine behind the endowment effect (we overvalue what we own), the status quo bias, and the sunk cost fallacy.",
+          "It makes us risk-averse for gains but risk-seeking to avoid losses — people take bigger gambles to avoid a sure loss than to lock in a sure gain.",
+          "Framing exploits it: 'don't lose this' moves people more than 'gain this,' though the outcome is identical.",
+          "Used consciously it's a tool — staking something you'll lose for non-performance out-motivates the promise of a reward."
+        ],
+        "strategicSteps": [
+          "Reframe decisions in neutral terms: 'what's the actual expected outcome?' rather than 'what might I lose?'",
+          "Notice when fear of loss, not pursuit of gain, is driving you — and ask if the asymmetry is distorting the choice.",
+          "Use it deliberately: create a real, concrete loss for skipping a commitment you want to keep.",
+          "For gains you keep avoiding, reframe inaction as a loss: 'not doing this costs me X.'",
+          "Counter the endowment effect: ask 'would I buy this at today's price if I didn't already own it?'"
+        ],
+        "scenarios": {
+          "business": {
+            "title": "Pricing and the Free Trial",
+            "situation": "You're deciding how to get customers to value your product. A plain feature list isn't converting.",
+            "whatHappens": "People undervalue gains they've never experienced. But once they HAVE something (a free trial), loss aversion makes giving it up painful — which is why trials convert.",
+            "applicationSteps": [
+              "Let people experience ownership first (trial, sample) so losing it engages loss aversion.",
+              "Frame cancellation as a loss of specific benefits, not a saving.",
+              "In proposals, name what's lost by inaction, not only what's gained.",
+              "Use deadlines carefully — scarcity triggers loss aversion but erodes trust if abused."
+            ]
+          },
+          "social": {
+            "title": "Clinging to a Commitment You'd Decline Today",
+            "situation": "You hold onto memberships, possessions, or obligations you wouldn't choose now, because giving them up feels like a loss.",
+            "whatHappens": "The endowment effect: ownership inflates value. Releasing something registers as a loss, even when it adds nothing to your life.",
+            "applicationSteps": [
+              "Ask 'would I acquire this today at full cost?' If no, you're holding by loss aversion.",
+              "Reframe letting go as gaining space, time, or freedom.",
+              "Do a periodic 'reset': evaluate keeps as if choosing fresh.",
+              "Notice the relief that usually follows release."
+            ]
+          },
+          "intimate": {
+            "title": "The Fear of Losing Outweighing the Joy of Having",
+            "situation": "You're so afraid of losing a relationship that the fear itself crowds out enjoying it — checking, controlling, bracing for loss.",
+            "whatHappens": "Loss aversion makes the possible loss feel larger than the present good, so anxiety about losing overshadows the experience of having.",
+            "applicationSteps": [
+              "Notice when protecting against loss is costing you the present good.",
+              "Practise appreciation deliberately to rebalance toward what you have.",
+              "Separate genuine risk from loss-aversion catastrophising.",
+              "Act from security, not scarcity — clinging often causes the loss it fears."
+            ]
+          }
+        }
+      },
+      {
+        "id": "deliberate-practice",
+        "title": "Deliberate Practice",
+        "source": "Psychology · Anders Ericsson",
+        "tagline": "Not all practice improves you — only focused, effortful work at the edge of your ability, with feedback.",
+        "keyPoints": [
+          "Mere repetition doesn't build expertise — once something feels automatic, you stop improving. Deliberate practice is structured, effortful work specifically targeting weaknesses.",
+          "It happens at the edge of your current ability, where it feels uncomfortable and you make errors — the discomfort is the signal that learning is occurring.",
+          "It requires immediate, specific feedback so errors can be corrected, plus full concentration — it's mentally exhausting and can't be sustained for many hours a day.",
+          "It's about specific sub-skills, not vague 'getting better': identify the precise component that's weak and drill it in isolation.",
+          "The popular '10,000 hours' is a simplification — what matters is the QUALITY and structure of practice, not just the time logged."
+        ],
+        "strategicSteps": [
+          "Identify the specific weak sub-skill, not the whole activity — then drill that in isolation.",
+          "Work at the edge of your ability where it's uncomfortable; if it feels easy, it's not deliberate practice.",
+          "Build a feedback loop: a coach, a recording, or a metric that catches errors immediately.",
+          "Practise in focused, shorter bursts with full attention rather than long unfocused sessions.",
+          "Review errors deliberately — the correction, not the repetition, is where growth happens."
+        ],
+        "scenarios": {
+          "business": {
+            "title": "Plateauing at a Skill",
+            "situation": "You've done your job for years and stopped improving. You're experienced but not better than you were three years ago.",
+            "whatHappens": "Experience became automatic repetition. Without targeting specific weaknesses at the edge of ability, the years add tenure but not skill.",
+            "applicationSteps": [
+              "Identify one specific sub-skill that, if improved, would matter most.",
+              "Create a feedback mechanism — a mentor, a recording, a metric.",
+              "Drill that weakness deliberately, accepting the discomfort.",
+              "Review your mistakes specifically rather than just doing more volume."
+            ]
+          },
+          "social": {
+            "title": "Improving a Soft Skill",
+            "situation": "You want to get better at public speaking, listening, or difficult conversations — but just 'doing more of it' isn't moving the needle.",
+            "whatHappens": "Unstructured exposure isn't deliberate practice. Without isolating specific components and getting feedback, you repeat the same level indefinitely.",
+            "applicationSteps": [
+              "Break the soft skill into specific components (pacing, eye contact, questions).",
+              "Work on one component at a time with intentional focus.",
+              "Get feedback — record yourself or ask a trusted observer.",
+              "Target the uncomfortable edge, not what you already do well."
+            ]
+          },
+          "intimate": {
+            "title": "Getting Better at a Relationship Skill",
+            "situation": "You keep having the same kind of misstep with your partner — interrupting, getting defensive, shutting down — and willpower alone hasn't fixed it.",
+            "whatHappens": "Wanting to do better isn't deliberate practice. Without isolating the specific behaviour and building a feedback loop, the pattern repeats.",
+            "applicationSteps": [
+              "Name the one specific behaviour to change (e.g. interrupting).",
+              "Practise the replacement deliberately in low-stakes moments first.",
+              "Ask your partner for a gentle real-time signal as feedback.",
+              "Review afterwards: 'where did I catch it, where did I miss it?'"
+            ]
+          }
+        }
+      }
+    ]
   }
 ]
