@@ -1515,5 +1515,122 @@
         }
       }
     ]
+  },
+  {
+    "date": "2026-07-04",
+    "day": 14,
+    "theme": "Knowing Yourself",
+    "concepts": [
+      {
+        "id": "planning-fallacy",
+        "title": "The Planning Fallacy",
+        "source": "Psychology · Kahneman & Tversky",
+        "tagline": "We chronically underestimate how long things take — even when we've been wrong the exact same way before.",
+        "keyPoints": [
+          "We systematically underestimate the time, costs, and risks of future actions while overestimating their benefits — and experience barely cures it.",
+          "The core error is taking the 'inside view': planning from the specific, optimistic details of THIS case, ignoring how similar cases actually went.",
+          "It persists because we imagine the smooth path, not the interruptions, dependencies, and setbacks that always arrive.",
+          "The fix is the 'outside view': base estimates on the actual track record of comparable projects (base rates), not on your optimistic scenario.",
+          "It compounds with optimism bias and the sunk cost fallacy — over-promising leads to over-committing leads to escalation."
+        ],
+        "strategicSteps": [
+          "Take the outside view: 'how long did similar things actually take?' — then trust that over your gut.",
+          "Multiply your honest estimate by a realistic fudge factor drawn from past misses.",
+          "Break work into small pieces and estimate each — large wholes hide the slippage.",
+          "Plan for interruptions explicitly; assume the smooth path won't happen.",
+          "Track estimate-vs-actual over time to calibrate future planning."
+        ],
+        "scenarios": {
+          "business": {
+            "title": "The Deadline Everyone Misses",
+            "situation": "Your team commits to a delivery date based on how the work would go if everything went smoothly. It never does, and you slip — again.",
+            "whatHappens": "The inside view plans from best-case specifics and ignores the base rate of how these projects actually unfold. Optimism becomes a missed deadline and a credibility cost.",
+            "applicationSteps": [
+              "Anchor estimates on the actual history of similar projects, not the ideal path.",
+              "Add explicit buffer for the interruptions that always come.",
+              "Decompose the work and estimate the parts separately.",
+              "Communicate ranges, not false-precision single dates."
+            ]
+          },
+          "social": {
+            "title": "Overcommitting Your Time",
+            "situation": "You say yes to plans, favours, and projects assuming you'll have time — then find yourself overwhelmed and cancelling.",
+            "whatHappens": "You estimate future free time from an optimistic blank-calendar fantasy, ignoring how full your weeks reliably get. The planning fallacy applied to your own life.",
+            "applicationSteps": [
+              "Before committing, look at how the last few comparable weeks actually went.",
+              "Assume your future self will be as busy as your past self has been.",
+              "Build in margin; say yes to fewer things with real capacity.",
+              "Check new commitments against your real track record, not your hopes."
+            ]
+          },
+          "intimate": {
+            "title": "The Underestimated Effort of 'Quick' Promises",
+            "situation": "You promise your partner you'll 'quickly' handle something — and it balloons, leaving them disappointed and you defensive.",
+            "whatHappens": "The planning fallacy makes 'quick' promises that reality doesn't honour. Repeated small misses erode trust more than one honest larger estimate would.",
+            "applicationSteps": [
+              "Give realistic estimates, not optimistic ones, even if they sound less impressive.",
+              "Under-promise and over-deliver to build trust instead of eroding it.",
+              "Factor in your real history with similar tasks before committing.",
+              "When you'll be late, communicate early rather than defending the original estimate."
+            ]
+          }
+        }
+      },
+      {
+        "id": "cognitive-dissonance",
+        "title": "Cognitive Dissonance",
+        "source": "Psychology · Leon Festinger",
+        "tagline": "When your actions and your beliefs collide, it's usually the belief that bends — not the behaviour.",
+        "keyPoints": [
+          "Cognitive dissonance is the mental discomfort of holding two contradictory beliefs, or acting against what you believe. The mind resolves it fast — usually by changing the belief, not the behaviour.",
+          "We don't reason our way to comfort; we rationalise. After a hard choice, we inflate the chosen option and disparage the rejected one to quiet the discomfort.",
+          "It explains why people defend bad decisions harder over time, why effort makes us love things (we justify the cost), and why disconfirming evidence often strengthens belief instead of weakening it.",
+          "The discomfort is the signal. Noticing the urge to rationalise — that flicker of defensiveness — is the doorway to actually learning something.",
+          "Festinger's classic study: people paid $1 to lie about a boring task later rated it more enjoyable than those paid $20 — the well-paid had an external justification, the underpaid had to change their belief."
+        ],
+        "strategicSteps": [
+          "When you feel defensive, pause: 'Am I reasoning, or rationalising to reduce discomfort?'",
+          "Separate the decision from your ego — 'a past version of me chose this; present me can choose differently' removes the pressure to defend.",
+          "Write the strongest case against a decision you've already made; notice how much your mind resists.",
+          "Welcome the discomfort of being wrong as the price of being accurate — name it: 'this is dissonance, not danger.'",
+          "Delay self-justification: after a mistake, describe what happened factually before explaining why it wasn't your fault."
+        ],
+        "scenarios": {
+          "business": {
+            "title": "Defending the Failing Strategy",
+            "situation": "You championed a strategy six months ago. Evidence now suggests it isn't working — but you find yourself arguing for it harder than ever, dismissing the data.",
+            "whatHappens": "Admitting the strategy is wrong means admitting you were wrong — painful dissonance. So the mind protects the ego by attacking the evidence instead of updating the belief.",
+            "applicationSteps": [
+              "Separate the idea from your identity: 'evaluating this strategy is not a verdict on me.'",
+              "Invite the disconfirming data explicitly and thank whoever brings it.",
+              "Ask 'if a colleague had launched this, what would I now advise them?'",
+              "Reframe changing course as competence, not failure — updating on evidence is the skill."
+            ]
+          },
+          "social": {
+            "title": "The Favour That Changed Your Feelings",
+            "situation": "You did someone a big favour you didn't really want to do. Oddly, afterwards you found yourself liking them more, not resenting them.",
+            "whatHappens": "The Ben Franklin effect via dissonance: 'I went out of my way for them' clashes with 'I don't really like them,' so the mind resolves it by deciding you must like them. Effort manufactures affection.",
+            "applicationSteps": [
+              "Notice that effort creates attachment — useful to know in both directions.",
+              "If you want to build a bond, let someone do you a small favour; it engages the same effect.",
+              "Check whether your liking is genuine or a post-hoc justification for effort spent.",
+              "Don't mistake sunk effort for real compatibility."
+            ]
+          },
+          "intimate": {
+            "title": "Justifying What You Tolerate",
+            "situation": "You stay in a situation that quietly troubles you, and you notice yourself constructing increasingly elaborate explanations for why it's fine.",
+            "whatHappens": "Staying despite doubt creates dissonance, so the mind generates reasons to make the staying feel consistent. The rationalisations grow to match the gap.",
+            "applicationSteps": [
+              "Notice the volume of justification — heavy rationalising signals unresolved dissonance.",
+              "Ask 'what would I tell a friend describing this exact situation to me?'",
+              "Name the discomfort directly instead of explaining it away.",
+              "Let the dissonance inform you rather than be silenced — it's data about a real gap."
+            ]
+          }
+        }
+      }
+    ]
   }
 ]
