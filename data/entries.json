@@ -1749,5 +1749,122 @@
         }
       }
     ]
+  },
+  {
+    "date": "2026-07-06",
+    "day": 16,
+    "theme": "Acting Wisely",
+    "concepts": [
+      {
+        "id": "negativity-bias",
+        "title": "Negativity Bias",
+        "source": "Psychology · The Decision Lab",
+        "tagline": "Bad hits about twice as hard as good — which quietly distorts your self-image, your relationships, and your picture of the world.",
+        "keyPoints": [
+          "Adverse events have a disproportionately greater psychological impact than positive events of equal size. Losses feel roughly twice as painful as equivalent gains feel good.",
+          "It's wired in, not learned — the effect is cross-cultural and shows at the neural level. The brain allocates more resources to threats because a missed danger was once fatal while a missed opportunity was merely unfortunate.",
+          "It systematically skews perception: one criticism outweighs ten compliments; news feels relentlessly bleak though most metrics of the world are improving; one bad moment can overwrite weeks of warmth.",
+          "In relationships it takes ~5 positive interactions to offset a single negative one (Gottman). The asymmetry isn't fair — but it's the reality you have to design around.",
+          "The brain is 'Velcro for the bad, Teflon for the good' (Rick Hanson). Positive experiences need deliberate attention to be encoded; negative ones stick automatically."
+        ],
+        "strategicSteps": [
+          "Savour deliberately: when something good happens, pause and stay with it 20–30 seconds — the threshold for encoding a positive memory.",
+          "Keep a specific gratitude practice: 'three specific things that happened today and why they mattered' beats vague gratitude.",
+          "Aim for a 5:1 positive-to-negative ratio with people you care about — not to suppress the negative, but to balance the asymmetry.",
+          "Audit your information diet: your feed is a negativity amplifier. One intentional check a day beats continuous doom-scrolling.",
+          "Reframe criticism as data: ask 'what's the useful information here?' to shift the brain from threat to problem-solving."
+        ],
+        "scenarios": {
+          "business": {
+            "title": "The Review That Ignores the Wins",
+            "situation": "Your team delivered a strong quarter. In the review you spend 80% of the time on the 20% that underperformed. The team leaves feeling like they failed.",
+            "whatHappens": "Negativity bias pulls everyone's attention to the shortfall. The genuine wins fade; the gaps dominate. Morale drops not because the quarter was bad, but because the brain over-weights the negative.",
+            "applicationSteps": [
+              "Open with specific, detailed acknowledgement of what worked — 'X succeeded because Y' — before any problem.",
+              "Hold a rough 5:1 ratio of recognition to critique.",
+              "Frame gaps as forward problems to solve, not verdicts on the past.",
+              "End on the strongest win so the meeting's peak-end memory isn't purely negative."
+            ]
+          },
+          "social": {
+            "title": "The Cancelled Plan",
+            "situation": "A friend cancels plans last-minute. Your first interpretation: they don't value you. The neutral explanation (tired, something came up) doesn't compete with the negative narrative, which feels more 'real.'",
+            "whatHappens": "Negativity bias makes the hostile interpretation more salient and more memorable than the benign one — even when the benign one is more likely true.",
+            "applicationSteps": [
+              "Apply the 'most charitable interpretation' rule: write down the most generous reading before settling on a negative one.",
+              "Check the evidence: is there an actual pattern, or is this one event the brain is amplifying?",
+              "If it genuinely matters, ask rather than assume: 'No worries — everything okay?'",
+              "Recall a specific recent time this friend showed they value you, to counterbalance."
+            ]
+          },
+          "intimate": {
+            "title": "One Bad Comment Erases the Week",
+            "situation": "Your partner says something that lands badly. The warmth of the previous good week evaporates, and you find yourself cataloguing other moments like this.",
+            "whatHappens": "A single negative interaction overwrites a week of positives, and negativity bias starts assembling a case file of similar moments — making the relationship feel worse than it is.",
+            "applicationSteps": [
+              "Name it in the moment: 'I'm running negativity bias right now' — meta-awareness stops the cascade.",
+              "Deliberately recall one specific positive from this week — specific, not vague.",
+              "Address the actual comment directly instead of letting it generalise into a verdict.",
+              "Build a shared 'repair' habit so one bad moment gets balanced quickly rather than left to fester."
+            ]
+          }
+        }
+      },
+      {
+        "id": "dimensional-upgrading",
+        "title": "Dimensional Upgrading (升维)",
+        "source": "Philosophy of Science · 李善友 / Einstein",
+        "tagline": "You can't solve a problem at the level where it appears — rise a dimension and it dissolves.",
+        "keyPoints": [
+          "李善友's reading of Einstein: 'At the original dimension you cannot solve the problem; you can only display it. Only by changing dimension can you solve it.' The stuck feeling is often a signal you're at the wrong level.",
+          "Einstein united time and space into 'spacetime,' and mass and energy into 'mass-energy,' by moving up a dimension — problems that were contradictions at the lower level became coherent at the higher one.",
+          "Most conflict is a clash of options at the same level ('my way vs your way'). Upgrading reframes it as a shared higher question ('what are we actually trying to achieve?') where the options stop competing.",
+          "Dimensional upgrading isn't compromise or splitting the difference — it's finding the larger frame in which the original opposition no longer makes sense.",
+          "Physicist Michio Kaku: 'Nature is simpler in higher dimensions.' The same is often true of human problems — what's tangled at one level is clean one level up."
+        ],
+        "strategicSteps": [
+          "When stuck, ask: 'Am I trying to solve this at the wrong level? What larger question contains this one?'",
+          "Convert either/or into a higher why: behind 'A or B?' is usually 'what am I really trying to achieve?' — answer that first.",
+          "Look for the shared goal above a conflict; opposed positions often serve the same deeper aim.",
+          "Don't split the difference — find the frame where the trade-off disappears.",
+          "After upgrading, re-derive your options from the higher goal rather than defending the original ones."
+        ],
+        "scenarios": {
+          "business": {
+            "title": "The Either/Or Strategy Deadlock",
+            "situation": "Leadership is split: cut costs (Team A) or invest for growth (Team B). The debate is circular — each side has data, neither will move, and the meeting repeats every week.",
+            "whatHappens": "The argument is stuck at the level of two competing options. At that dimension it can only be displayed, not solved — there's no winner because both are partial answers to a question no one has named.",
+            "applicationSteps": [
+              "Rise a level: 'What outcome are both sides actually trying to protect?' (usually: survival + future viability).",
+              "Reframe from 'cut OR invest' to 'what's the path that secures both?' — often a sequenced or segmented answer appears.",
+              "Re-derive options from the higher goal, not from the entrenched positions.",
+              "Name the shared aim out loud so the room stops competing and starts building."
+            ]
+          },
+          "social": {
+            "title": "The Argument That Can't Be Won",
+            "situation": "You and a friend keep debating a topic — politics, a choice, a value — and neither budges. Each round just hardens both sides.",
+            "whatHappens": "You're trading positions at the same level, where the disagreement can only be repeated. The real difference usually sits one level up, in values or goals neither of you has surfaced.",
+            "applicationSteps": [
+              "Ask 'what do we both actually care about underneath this?' — find the shared higher value.",
+              "Shift from defending positions to exploring the level above them together.",
+              "Notice that agreeing on the higher goal often makes the surface disagreement matter less.",
+              "Let the relationship, not the point, be the dimension you optimise for."
+            ]
+          },
+          "intimate": {
+            "title": "My Way vs Your Way",
+            "situation": "You and your partner are locked on a recurring decision — how to spend money, raise kids, split chores — as a contest between two approaches. Whoever 'wins' leaves the other resentful.",
+            "whatHappens": "The conflict is framed at the level of two competing methods. At that dimension someone must lose. The opposition dissolves only when you rise to the shared goal both methods were trying to serve.",
+            "applicationSteps": [
+              "Replace 'my way or your way' with 'what are we both trying to build here?'",
+              "Define the higher shared goal first, before discussing any method.",
+              "Re-derive the approach together from that goal — new options usually appear that neither of you started with.",
+              "Treat the relationship's wellbeing as the top dimension; from there, most method fights shrink."
+            ]
+          }
+        }
+      }
+    ]
   }
 ]
