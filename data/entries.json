@@ -1866,5 +1866,122 @@
         }
       }
     ]
+  },
+  {
+    "date": "2026-07-08",
+    "day": 17,
+    "theme": "Building Resilience",
+    "concepts": [
+      {
+        "id": "independent-thinking",
+        "title": "Independent Thinking",
+        "source": "Essay · Paul Graham",
+        "tagline": "Calibrate your beliefs against reality, not against the people around you.",
+        "keyPoints": [
+          "Independent thinking isn't contrarianism or stubbornness — it's the ability to judge what's true against reality rather than against social consensus. The aim is accurate belief, not distinctive belief.",
+          "It has three trainable components (Graham): fastidiousness about truth (asking 'is that true?' reflexively), resistance to being told what to think (delight in ideas that subvert convention), and curiosity (the engine of novel ideas).",
+          "We misjudge our own position: the conventional don't see themselves as conventional, and the independent underestimate how far they diverge. Both calibrate against their immediate circle, not the full range of thought.",
+          "Ideas spread through groups like fashions — current, not necessarily true. Unfashionable ideas are disproportionately likely to be interesting, precisely because they're underexplored.",
+          "Environment is the highest-leverage variable: who you spend time with shapes what you think is normal, thinkable, and permissible. Choose your peers like you choose your inputs."
+        ],
+        "strategicSteps": [
+          "Ask 'is that true?' of one conventional claim each day before accepting it.",
+          "Notice when you feel social pressure to agree — treat it as a signal to examine, not to comply.",
+          "Follow genuine curiosity, not what you think should interest you; the interesting ideas are at the end of real questions.",
+          "Diversify your 'worlds' — spend time across different fields and groups and carry ideas between them.",
+          "Map your community's intellectual fashions: 'what is everyone here believing right now that they haven't examined?'"
+        ],
+        "scenarios": {
+          "business": {
+            "title": "Everyone in the Room Agrees",
+            "situation": "A decision is forming and the whole team is nodding along. It feels obvious, settled. You have a flicker of doubt but don't want to be the one who slows things down.",
+            "whatHappens": "Unanimous agreement often signals an intellectual fashion, not truth — the comfortable consensus nobody has stress-tested. The social cost of dissent silences the very doubt that would help.",
+            "applicationSteps": [
+              "Ask the quiet question: 'what would have to be true for this to be wrong?'",
+              "Separate 'everyone agrees' from 'this is correct' — they're different things.",
+              "Volunteer to argue the opposing case so dissent becomes a role, not an attack.",
+              "Look for the unfashionable option no one is examining."
+            ]
+          },
+          "social": {
+            "title": "The Opinion You Hold Because Your Group Does",
+            "situation": "You realise you hold a strong view mainly because everyone in your social circle holds it. You've never actually examined the evidence yourself.",
+            "whatHappens": "Group belief feels like personal conviction. You've calibrated against your circle, not reality — and the strength of feeling masks the absence of independent examination.",
+            "applicationSteps": [
+              "Ask: 'do I believe this because I've examined it, or because my group does?'",
+              "Read the strongest case for the opposing view — to understand, not to refute.",
+              "Notice the discomfort of questioning a group belief — that discomfort marks the unexamined spot.",
+              "Hold the view more provisionally until you've actually checked it yourself."
+            ]
+          },
+          "intimate": {
+            "title": "Letting Others Define Your Relationship",
+            "situation": "You measure your relationship against what friends, family, or social media say it 'should' look like — milestones, pace, displays — rather than what actually works for the two of you.",
+            "whatHappens": "You're calibrating against social fashion instead of your own reality. The relationship gets judged by an external scoreboard that may have nothing to do with what makes you both happy.",
+            "applicationSteps": [
+              "Ask: 'is this expectation ours, or one we absorbed from others?'",
+              "Define what a good relationship means to the two of you, on your own terms.",
+              "Notice when comparison ('they're already engaged / posting / buying') drives a feeling, and question it.",
+              "Calibrate against your actual experience together, not the external highlight reel."
+            ]
+          }
+        }
+      },
+      {
+        "id": "atomic-habits",
+        "title": "Atomic Habits",
+        "source": "Personal Development · James Clear",
+        "tagline": "You don't rise to your goals — you fall to your systems. And your systems are built from tiny, repeated votes for who you are.",
+        "keyPoints": [
+          "Habits are the compound interest of self-improvement. A 1% daily change is invisible day-to-day, then suddenly transformative. The plateau before results is where most people quit.",
+          "The real lever is identity, not outcomes. 'I want to run a marathon' is an outcome goal; 'I am a runner' is an identity. Every action is a vote for the identity you want to become.",
+          "Behaviour change runs on a loop: Cue → Craving → Response → Reward. To build a habit, make it obvious, attractive, easy, and satisfying. To break one, invert each.",
+          "Environment beats willpower. Behaviour is a function of person AND environment. Redesign the environment — make good cues obvious, bad cues invisible — before relying on motivation.",
+          "Habit stacking leverages existing routines: 'After I [current habit], I will [new habit].' You borrow the neural pathway already in place instead of building from scratch."
+        ],
+        "strategicSteps": [
+          "Start with identity: ask 'who is the kind of person who would achieve this?' Then take the smallest action that casts a vote for that identity.",
+          "Make the next habit absurdly small — 'two minutes' small. Consistency builds the identity; volume comes later.",
+          "Design your environment tonight: put one cue for a good habit in plain sight, hide one cue for a bad one.",
+          "Stack a new habit onto something you already do daily: 'After I pour my morning coffee, I will write one sentence.'",
+          "Track the streak visibly. A simple chain of ticks reinforces 'I am someone who does this.'"
+        ],
+        "scenarios": {
+          "business": {
+            "title": "Protecting Deep Work",
+            "situation": "Every Monday you intend to do focused work. By 10am you've been pulled into three 'quick' meetings and the morning is gone. Every week, the same.",
+            "whatHappens": "You're relying on intention to protect your best hours, but the environment hasn't changed — so neither has the outcome. Habits need architecture, not resolve.",
+            "applicationSteps": [
+              "Block 7:30–9:30am as visible 'no meetings' time, recurring, every day.",
+              "Replace the arrival cue (open Slack) with a deliberate one (make tea = deep work begins).",
+              "Use a two-minute on-ramp: open the document and write one line before email.",
+              "Tick a streak each day you protect the block — you're voting for 'I protect my focus.'"
+            ]
+          },
+          "social": {
+            "title": "The Friend You Keep Meaning to Call",
+            "situation": "Someone important to you hasn't heard from you in months. You think of them often, keep meaning to reach out, and haven't.",
+            "whatHappens": "Relationship maintenance doesn't happen on intention alone. Waiting until you 'feel like it' or have 'enough to say' means it never happens.",
+            "applicationSteps": [
+              "Set a recurring monthly reminder: send one genuine message to one person. Non-negotiable.",
+              "Stack it: every time you make morning coffee, send one short check-in.",
+              "Lower the bar radically — 'thinking of you' is a complete message; connection, not performance, is the goal.",
+              "Keep a short list of people you value and rotate through it to remove decision fatigue."
+            ]
+          },
+          "intimate": {
+            "title": "The Drift",
+            "situation": "You and your partner used to talk differently. In the busyness of life, daily interaction became logistics and surface. You miss the connection.",
+            "whatHappens": "Intimacy drifts one skipped conversation at a time, and returns the same way — one small deliberate act at a time, not one grand gesture.",
+            "applicationSteps": [
+              "Introduce one daily ritual: 10 phone-free minutes with one non-logistical question — 'what was the best part of your day?'",
+              "Stack it onto something that already happens daily — dinner, tea, getting into bed.",
+              "Never cancel it for less than a real emergency; consistency is the message.",
+              "Once a month, do something you did early in the relationship — nostalgia reactivates who you are to each other."
+            ]
+          }
+        }
+      }
+    ]
   }
 ]
