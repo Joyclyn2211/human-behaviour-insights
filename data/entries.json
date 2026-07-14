@@ -2100,5 +2100,122 @@
         }
       }
     ]
+  },
+  {
+    "date": "2026-07-14",
+    "day": 19,
+    "theme": "Breaking Patterns",
+    "concepts": [
+      {
+        "id": "anchoring-bias",
+        "title": "Anchoring Bias",
+        "source": "Psychology · Kahneman & Tversky",
+        "tagline": "The first number on the table quietly drags every judgement that follows toward it.",
+        "keyPoints": [
+          "We rely too heavily on the first piece of information (the 'anchor') when making decisions, adjusting from it insufficiently — even when the anchor is arbitrary.",
+          "Anchors work even when you know they're irrelevant. In studies, a random number from a wheel of fortune shifted people's estimates of unrelated facts.",
+          "It dominates negotiation, pricing, salary, and any judgement under uncertainty — whoever sets the first number shapes the range.",
+          "Adjustment from an anchor is almost always too small; we stay in its gravitational field.",
+          "The defence is to generate your own independent estimate BEFORE you hear theirs — and to set the anchor yourself when you can."
+        ],
+        "strategicSteps": [
+          "Decide your number before exposure: form your own estimate or target before hearing theirs.",
+          "When given an anchor, deliberately over-adjust — your instinct will under-correct.",
+          "Set the first anchor yourself in negotiations when you have a reasonable basis.",
+          "Question arbitrary anchors out loud: 'why is that the starting point?'",
+          "Use multiple reference points instead of one to dilute any single anchor's pull."
+        ],
+        "scenarios": {
+          "business": {
+            "title": "The Salary Negotiation",
+            "situation": "In a negotiation, the other side names a number first. Everything afterward — your counter, the final deal — orbits that opening figure.",
+            "whatHappens": "Their first number becomes the anchor. Your counteroffers adjust from it insufficiently, so the final outcome lands closer to their anchor than to fair value.",
+            "applicationSteps": [
+              "Prepare your own well-researched number and, where appropriate, anchor first.",
+              "If they anchor low, don't counter near it — reset with a justified figure of your own.",
+              "Name the anchor effect to yourself so you adjust enough.",
+              "Use objective benchmarks as competing anchors."
+            ]
+          },
+          "social": {
+            "title": "The Reputation That Precedes Someone",
+            "situation": "Before meeting someone, a friend describes them in vivid terms ('she's intense'). That description anchors how you read everything they do.",
+            "whatHappens": "The early label becomes an anchor; you interpret subsequent behaviour as confirming it, adjusting too little from the first impression you were handed.",
+            "applicationSteps": [
+              "Treat secondhand descriptions as one data point, not the frame.",
+              "Form your own read before reconciling it with what you were told.",
+              "Ask 'what would I think if no one had described them?'",
+              "Give later evidence its full weight instead of discounting it toward the anchor."
+            ]
+          },
+          "intimate": {
+            "title": "The First Fight Sets the Frame",
+            "situation": "Early in a relationship, one bad conflict anchors how you interpret later disagreements — every future tension gets read through that first one.",
+            "whatHappens": "The initial conflict becomes an emotional anchor. New disagreements are judged relative to it, distorting your read of how things actually are now.",
+            "applicationSteps": [
+              "Notice when you're judging the present against an old anchor.",
+              "Evaluate each situation on its current facts, not the first impression.",
+              "Update your baseline as the relationship accumulates new evidence.",
+              "Name old anchors aloud together so they lose their grip."
+            ]
+          }
+        }
+      },
+      {
+        "id": "growth-mindset",
+        "title": "Growth Mindset",
+        "source": "Psychology · Carol Dweck",
+        "tagline": "What you believe about whether you can change determines whether you do.",
+        "keyPoints": [
+          "Two mindsets shape how we meet challenge. A FIXED mindset believes ability is innate and unchangeable; a GROWTH mindset believes ability develops through effort. The belief itself becomes self-fulfilling.",
+          "Mindset decides which goals you chase. Fixed minds pursue 'performance goals' (prove you're smart); growth minds pursue 'learning goals' (get better). When proving dominates, challenge becomes threat; when learning dominates, challenge becomes opportunity.",
+          "How we're praised shapes mindset. Praise for intelligence ('you're so smart') breeds fixed mindset; praise for process ('you worked hard on that') breeds growth. The same applies to your own self-talk.",
+          "The 'not yet' reframe is powerful: 'I failed' collapses the future into a verdict; 'I haven't succeeded YET' keeps it open. A small linguistic shift with a large psychological effect.",
+          "Caveat: a growth mindset isn't 'just try harder' or denying real differences. It's the accurate belief that ability is more malleable than it feels — paired with the right strategies."
+        ],
+        "strategicSteps": [
+          "Catch fixed-mindset self-talk ('I'm bad at this') and rewrite it in process terms ('I haven't built this skill yet').",
+          "Add 'yet' to any statement of limitation. Notice how it changes what you do next.",
+          "When you praise others (children, colleagues, partners), praise the effort and strategy, not the trait.",
+          "Treat each failure as a data point, not a verdict: ask 'what did this specifically teach me about what to do differently?'",
+          "Pick one thing you believe you 'can't' do, and find a person who once couldn't and now can. Study what they actually did."
+        ],
+        "scenarios": {
+          "business": {
+            "title": "The Critical Performance Review",
+            "situation": "Your review highlights a real weakness. Your gut reaction is defensiveness — or quiet dismissal: 'that's just not my strength.'",
+            "whatHappens": "Fixed mindset reads feedback as a verdict on who you are, triggering defence. Growth mindset reads it as a map of where to go next. The reaction in that moment reveals — and reinforces — which world you live in.",
+            "applicationSteps": [
+              "Sit with critical feedback for 24 hours before responding — let it land before you defend.",
+              "Ask: 'What would I do with this if I genuinely believed I could improve?' Then do that.",
+              "Reframe 'I'm not good at X' as 'I haven't yet invested in developing X.'",
+              "Find one colleague who improved at exactly this, and ask them how."
+            ]
+          },
+          "social": {
+            "title": "Being Wrong in Public",
+            "situation": "You made a confident claim and someone politely corrected you. Your face flushes. Your instinct is to qualify, deflect, or double down.",
+            "whatHappens": "Fixed mindset treats public correction as a status threat. Growth mindset treats it as free information. How you respond signals — to others and to yourself — which mindset is running.",
+            "applicationSteps": [
+              "Practise saying cleanly: 'You're right, I got that wrong — thank you.' Notice the world doesn't end.",
+              "Ask a genuine follow-up about the correct information — curiosity dissolves embarrassment.",
+              "Track what topics you get corrected on; patterns reveal real gaps to close.",
+              "When you correct others, do it gently — model the grace you want when it's your turn."
+            ]
+          },
+          "intimate": {
+            "title": "'That's Just Who I Am'",
+            "situation": "Your partner names a pattern in your behaviour they find hurtful. Your first impulse: 'That's just who I am. They knew this when they met me.'",
+            "whatHappens": "Fixed mindset uses identity as a shield against the discomfort of change. But 'that's just who I am' is almost always a choice dressed as a fact — and it forecloses growth the relationship may need.",
+            "applicationSteps": [
+              "When you hear 'that's just who I am,' write it down and ask: 'Is this truly fixed, or have I never really tried to change it?'",
+              "Ask your partner: 'What would it look like if I changed this even 20%? What would you notice?' Specific is actionable.",
+              "Pick one small version of the change to practise for two weeks, then report back — growth is demonstrated, not declared.",
+              "Separate identity from behaviour: 'I sometimes do X' can change; 'I AM X' feels like it can't."
+            ]
+          }
+        }
+      }
+    ]
   }
 ]
