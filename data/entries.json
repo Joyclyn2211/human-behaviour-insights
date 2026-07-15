@@ -2217,5 +2217,122 @@
         }
       }
     ]
+  },
+  {
+    "date": "2026-07-15",
+    "day": 20,
+    "theme": "Living Intentionally",
+    "concepts": [
+      {
+        "id": "hyperbolic-discounting",
+        "title": "Hyperbolic Discounting",
+        "source": "Behavioural Economics · The Decision Lab",
+        "tagline": "The future feels unreal next to the present — which is why you keep choosing now over later, even when later is better.",
+        "keyPoints": [
+          "We discount the future steeply and irrationally: a reward available NOW feels far more valuable than the same reward tomorrow, even when waiting yields strictly more.",
+          "It creates a split between your present self (intensely values now) and your future self (who bears the consequences). When you plan to start 'Monday,' present-you is writing a cheque future-you must cash.",
+          "This single bias explains procrastination, undersaving, poor health choices, and most self-control failures. The knowledge is there; the future just doesn't feel real enough to compete with now.",
+          "Willpower is the wrong tool — it fails at the exact moment of temptation. Structure works: remove the moment of choice where the discount operates.",
+          "Making the future vivid and concrete shrinks the discount — abstract futures get discounted hardest."
+        ],
+        "strategicSteps": [
+          "Use commitment devices: lock future-you in before present-you can interfere (automatic savings transfers, prepaid classes, public commitments).",
+          "Make the future visceral: calculate the concrete compound result, or write a letter to your future self describing the life you're building.",
+          "Shrink the present-reward gap: pair the future-oriented behaviour with something immediately enjoyable (a favourite podcast only while exercising).",
+          "Replace vague goals with implementation intentions: 'I will run at 7am Mon/Wed/Fri from my front door' beats 'I'll exercise more.'",
+          "Automate the good choice so doing nothing IS the good choice (payday auto-transfer to savings)."
+        ],
+        "scenarios": {
+          "business": {
+            "title": "The Important Work You Keep Postponing",
+            "situation": "You know the big strategic project matters most. Instead you clear email, do small tasks, answer messages — the project's payoff is distant; email's hit of completion is immediate.",
+            "whatHappens": "Hyperbolic discounting favours the small immediate reward (a cleared inbox) over the large delayed one (the finished project). You're not lazy; the future reward is simply being discounted into irrelevance.",
+            "applicationSteps": [
+              "Give the project your first 90 minutes — no email, no phone — before discounting kicks in.",
+              "Remove the choice: full-screen the document, put the phone in another room.",
+              "Break the distant payoff into a visible daily milestone so progress feels immediate.",
+              "Reward yourself the moment you finish the block — give present-you something to encode."
+            ]
+          },
+          "social": {
+            "title": "Investing in Long-Term Friendships",
+            "situation": "Maintaining close friendships takes effort with no immediate payoff. A message, a visit, a call — each feels optional in the moment. The cost of drifting apart is distant; the effort is now.",
+            "whatHappens": "The immediate cost of effort outweighs the heavily-discounted future value of the bond. So nothing happens, repeatedly — until the friendship has quietly faded.",
+            "applicationSteps": [
+              "Schedule it — a standing monthly call or lunch removes the moment-of-choice where discounting wins.",
+              "Make maintenance automatic with recurring reminders, like automatic savings for relationships.",
+              "Lower the effort cost: a 20-second voice note counts.",
+              "Make the future concrete: picture the friendship in 10 years if you do nothing vs. if you stay in touch."
+            ]
+          },
+          "intimate": {
+            "title": "The Conversation You Keep Avoiding",
+            "situation": "There's an honest conversation you need to have with your partner. Having it now costs immediate discomfort. Avoiding it pushes the cost into the future — resentment, distance, a bigger conflict later.",
+            "whatHappens": "Hyperbolic discounting makes avoidance feel rational: the discomfort is now and vivid; the cost of avoidance is later and abstract. So you wait — and the future cost compounds.",
+            "applicationSteps": [
+              "Name the pattern: 'I'm avoiding this because the discomfort is now and the cost is later.'",
+              "Compare concretely: 'What does this conversation cost me today vs. what will silence cost in six months?'",
+              "Lower the activation energy: schedule a specific calm time rather than waiting for the 'right moment' (which present-bias never delivers).",
+              "Pre-commit out loud: 'Can we talk tonight after dinner?' — a small public commitment that future-you must honour."
+            ]
+          }
+        }
+      },
+      {
+        "id": "cognitive-biases",
+        "title": "Cognitive Biases",
+        "source": "Psychology · Kahneman & Tversky",
+        "tagline": "Your brain runs on shortcuts that were brilliant for survival and are quietly sabotaging your modern decisions.",
+        "keyPoints": [
+          "The mind has two systems (Kahneman). System 1 is fast, automatic, emotional — it generates instant impressions and is the source of almost every bias. System 2 is slow, effortful, logical — but lazy, and usually just rubber-stamps whatever System 1 decided.",
+          "Biases are not stupidity. They are efficient heuristics that were adaptive for ancestral survival but misfire in a world of statistics, markets, and strangers. Intelligent people are NOT protected — they're better at justifying biased conclusions.",
+          "The most consequential biases cluster predictably: judging people (fundamental attribution error, halo effect), handling gains/losses (loss aversion, sunk cost), estimating likelihood (availability, representativeness), and defending beliefs (confirmation, anchoring).",
+          "You cannot eliminate biases by knowing about them — System 1 runs below conscious control. What works is STRUCTURE: checklists, outside views, deliberate friction, decision rules that don't depend on in-the-moment judgement.",
+          "The bias blind spot: we see bias clearly in others and feel ourselves the rational exception. This meta-bias is why 'just be objective' never works."
+        ],
+        "strategicSteps": [
+          "Build decision friction for anything important. Force a 24-hour gap and write your reasoning before a consequential choice — this recruits System 2.",
+          "Use the 'outside view': ask 'how do projects like this usually go?' not 'how will MY project go?' Base rates beat gut feeling.",
+          "Run a pre-mortem: imagine it's a year later and the decision failed catastrophically; write how. This surfaces hidden risks.",
+          "Separate person from situation: ask 'what situation could make a reasonable person act this way?' before concluding it's their character.",
+          "Make the bias work FOR you: stake money you'll lose if you skip the gym — loss aversion out-motivates the pull of comfort."
+        ],
+        "scenarios": {
+          "business": {
+            "title": "The Sunk-Cost Project That Won't Die",
+            "situation": "Your team has spent 18 months and a large budget on a feature. The data now clearly shows customers don't want it. Yet every meeting ends with 'we've come too far to stop now.' More money goes in.",
+            "whatHappens": "Sunk cost fallacy compounded by loss aversion and confirmation bias. Money already spent is gone regardless — it should be irrelevant to the forward decision. But quitting feels like 'losing' the investment, so good resources chase bad and any hopeful data scrap gets amplified.",
+            "applicationSteps": [
+              "Erase the past in the question: 'Knowing only what we know today, would we START this now?' If no, the sunk cost is talking.",
+              "Make the loss explicit: 'We lose the 18 months either way. The only choice is whether we also lose the next 6.'",
+              "Assign someone to build the strongest case for KILLING it — without a challenger, only pro-continuation evidence gets aired.",
+              "Set a kill-criterion in advance for the next project, while you're still unbiased."
+            ]
+          },
+          "social": {
+            "title": "The Halo Effect in a New Acquaintance",
+            "situation": "You meet someone polished, articulate, and confident. You instantly assume they're also competent, trustworthy, and successful — and you agree with their opinions more readily than anyone else's.",
+            "whatHappens": "The halo effect: one salient trait (charisma) bleeds into unrelated judgements (competence, honesty). It's how confident frauds succeed and quiet experts get overlooked. System 1 built a whole character profile from 30 seconds.",
+            "applicationSteps": [
+              "Separate observed traits from inferred ones: 'I've seen they're articulate. I have zero evidence yet on competence or honesty.'",
+              "Look for the disconfirming evidence the halo hides — charismatic people get fewer hard questions; ask one.",
+              "Delay consequential trust; reliability only shows over repeated interactions, not first impressions.",
+              "Invert it for the overlooked: 'what might this awkward person be excellent at that their delivery hides?'"
+            ]
+          },
+          "intimate": {
+            "title": "The Fundamental Attribution Error in Conflict",
+            "situation": "Your partner forgets something important. Your instant read: 'They don't care, they're inconsiderate.' But last week when YOU forgot something, you explained it as 'I was overwhelmed' — a situation, not a flaw.",
+            "whatHappens": "We explain others' behaviour by character and our own identical behaviour by circumstances. This asymmetry is the engine of most relationship conflict — each person feels reasonable and sees the other as flawed.",
+            "applicationSteps": [
+              "Catch the character verdict ('they ARE inconsiderate') and convert it to a situational question ('what was going on for them?').",
+              "Apply the symmetry test: 'When I did this, what was my explanation? Is that same explanation available to them?'",
+              "Lead with the situation: 'You forgot X — was something going on?' opens a door; 'You never think of me' slams it.",
+              "Agree a shared rule in calm times: 'We assume good intent and ask about circumstances before assigning blame.'"
+            ]
+          }
+        }
+      }
+    ]
   }
 ]
