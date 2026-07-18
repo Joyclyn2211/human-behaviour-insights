@@ -2334,5 +2334,122 @@
         }
       }
     ]
+  },
+  {
+    "date": "2026-07-18",
+    "day": 21,
+    "theme": "Seeing Clearly",
+    "concepts": [
+      {
+        "id": "status-quo-bias",
+        "title": "Status Quo Bias",
+        "source": "Psychology · The Decision Lab",
+        "tagline": "We prefer whatever already exists — not because it's better, but because change feels like effort and risk.",
+        "keyPoints": [
+          "We systematically favour the current state, even when a clearly better option exists. Doing nothing feels safe by default; changing feels risky and effortful.",
+          "It's driven by loss aversion (the costs of change feel more salient than the benefits) plus omission bias (inaction feels less blameworthy than action, even for identical outcomes).",
+          "Defaults are enormously powerful: opt-out organ donation reaches 90%+ participation while opt-in averages ~15% — same people, different default. Choice architecture often beats actual preference.",
+          "It compounds with hyperbolic discounting (change's benefit is distant, its discomfort is now) and confirmation bias (once settled, we notice evidence the status quo is fine).",
+          "The status quo is what keeps bad jobs, stale habits, broken processes, and tired relationships in place long after better options are available."
+        ],
+        "strategicSteps": [
+          "Use the fresh-start question: 'If I were choosing today with no history, would I pick this?' It removes the status quo as the reference point.",
+          "Make the better option the default: design your environment so the good choice requires less effort than the bad one.",
+          "Frame changes as reversible experiments ('try for 30 days and review') to lower the perceived risk that fuels inertia.",
+          "Flip the default for broken systems: 'we'll keep this only if someone actively argues to' instead of 'we'll keep it unless someone changes it.'",
+          "Use the friend test: advise yourself as you'd advise a friend in the same situation — you're more objective about their status quo than your own."
+        ],
+        "scenarios": {
+          "business": {
+            "title": "The Broken Process Nobody Changes",
+            "situation": "Your team uses a weekly reporting process that takes hours and produces little value. No one likes it; no one changes it. 'It's just how we do things.'",
+            "whatHappens": "Status quo bias plus the coordination effort of change keeps a process alive that everyone privately knows is broken. Inertia masquerades as stability.",
+            "applicationSteps": [
+              "Ask the fresh-start question as a team: 'If we were designing reporting today, would we build this?'",
+              "Flip the default: 'we eliminate this unless someone argues to keep it.'",
+              "Run a 30-day experiment without it and measure what actually breaks (usually nothing).",
+              "Make the better option lower-effort than the current one so it sticks."
+            ]
+          },
+          "social": {
+            "title": "The Friendship on Autopilot",
+            "situation": "A friendship has run on autopilot for years — same conversations, same place, leaving slightly unfulfilled. Neither of you changes anything because this is just how it is.",
+            "whatHappens": "The relationship has a status quo that feels normal, so neither person disrupts it — even though both might welcome something fresher.",
+            "applicationSteps": [
+              "Introduce one new element: a different activity, a more genuine question.",
+              "Name it lightly: 'we always do the same thing — want to try something different?'",
+              "Treat it as a low-risk experiment; the downside of trying is tiny.",
+              "Notice that disruption is often met with relief, not resistance."
+            ]
+          },
+          "intimate": {
+            "title": "The Comfortable Distance",
+            "situation": "You and your partner have settled into a comfortable routine that's also become a comfortable distance. Nothing's wrong — but nothing's especially alive either.",
+            "whatHappens": "The relationship's status quo feels safe, so neither of you disrupts it. The inertia preserves the peace and the staleness together.",
+            "applicationSteps": [
+              "Ask the fresh-start question together: 'If we designed our relationship from scratch today, what would we keep and what would we change?'",
+              "Frame it with curiosity, not complaint — the question itself breaks the status quo frame.",
+              "Pick one small new shared practice as a 30-day experiment.",
+              "Revisit and keep what added life; drop what didn't."
+            ]
+          }
+        }
+      },
+      {
+        "id": "strategic-thinking",
+        "title": "Strategic Thinking",
+        "source": "Strategy · Sun Tzu",
+        "tagline": "Win before you fight: position, prepare, and adapt so that success flows rather than forces.",
+        "keyPoints": [
+          "Strategy isn't planning — it's seeing the whole situation clearly, positioning well before acting, and adapting continuously to what's real rather than what you assumed.",
+          "Self-knowledge is the foundation: 'know yourself, know your enemy.' Most defeats are self-inflicted — caused by misjudging your own capabilities, emotions, or situation.",
+          "The supreme skill is winning without fighting: resolving situations through positioning and timing before they escalate to costly conflict. Emotional regulation prevents most battles.",
+          "Adaptability beats rigidity: 'water shapes its course to the ground.' Fixed plans meet reality and break; principles stay constant while tactics flex.",
+          "Build 'shi' — leverage and momentum — so force flows naturally, like a boulder downhill, rather than grinding effort uphill."
+        ],
+        "strategicSteps": [
+          "Each morning, separate what you can influence from what you can't, and aim your energy only at the former.",
+          "Before any high-stakes situation, check the terrain: timing, your real capabilities, the other party's actual position.",
+          "Ask 'where am I fighting battles that don't need fighting?' — and what winning without fighting would look like.",
+          "Prepare before you need to: build the relationship, skill, or buffer in advance, not in the moment of crisis.",
+          "Before a hard conversation, get clear on the outcome you actually want and the minimum move that achieves it."
+        ],
+        "scenarios": {
+          "business": {
+            "title": "The Negotiation You're About to Lose",
+            "situation": "You're heading into a negotiation focused on what you want to say and win. You haven't mapped the other side's real position, constraints, or alternatives.",
+            "whatHappens": "Without knowing the terrain — their incentives, pressures, and walk-away point — you're fighting blind. Sun Tzu: victory is determined before the battle, in preparation, not in the room.",
+            "applicationSteps": [
+              "Map their actual position before the meeting: what do they need, fear, and have as alternatives?",
+              "Know your own walk-away point precisely (self-knowledge) so emotion can't move it.",
+              "Look for the win-win that resolves it without a fight — the cheapest victory.",
+              "Prepare your strongest position quietly; don't reveal it prematurely."
+            ]
+          },
+          "social": {
+            "title": "Choosing Which Battles to Fight",
+            "situation": "You find yourself drawn into every disagreement in your social or family group — correcting, debating, defending. It's exhausting and rarely changes anything.",
+            "whatHappens": "Fighting every battle wastes the finite energy that should go to the few that matter. The strategist knows when not to engage is itself a move.",
+            "applicationSteps": [
+              "Before engaging, ask 'is this battle worth my energy, and can I actually win it?'",
+              "Let small things go on purpose — conserve force for what matters.",
+              "When you do engage, aim at resolution, not at being right.",
+              "Notice that withdrawing from a pointless fight is strength, not weakness."
+            ]
+          },
+          "intimate": {
+            "title": "Winning the Argument, Losing the Relationship",
+            "situation": "You're skilled at winning arguments with your partner — but each 'win' leaves more distance between you. The scoreboard says you're ahead; the relationship says you're losing.",
+            "whatHappens": "You're treating an intimate relationship as a battlefield to win, when the supreme skill is not fighting at all. A won argument that costs connection is a strategic defeat.",
+            "applicationSteps": [
+              "Redefine victory: the goal is closeness and resolution, not being right.",
+              "Regulate before responding — most conflicts are won by not escalating.",
+              "Ask 'what does my partner actually need here?' before defending your position.",
+              "Choose the move that protects the relationship, even when you could 'win.'"
+            ]
+          }
+        }
+      }
+    ]
   }
 ]
