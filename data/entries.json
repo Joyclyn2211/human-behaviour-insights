@@ -2568,5 +2568,122 @@
         }
       }
     ]
+  },
+  {
+    "date": "2026-08-09",
+    "day": 23,
+    "theme": "Deliberate Change",
+    "concepts": [
+      {
+        "id": "sunk-cost-fallacy",
+        "title": "The Sunk Cost Fallacy",
+        "source": "Behavioural Economics · The Decision Lab",
+        "tagline": "Money, time, and effort already spent are gone — yet we keep paying more just to honour them.",
+        "keyPoints": [
+          "A sunk cost is anything already spent that can't be recovered. Rationally it should be irrelevant to what you do next — but emotionally, walking away feels like 'wasting' it.",
+          "It's powered by loss aversion: quitting forces us to formally register the loss, so we keep investing to avoid that feeling — and lose even more.",
+          "It keeps people in the wrong careers, films they're not enjoying, projects that won't work, and relationships that have ended in all but name.",
+          "The only rational question is forward-looking: 'from where I am now, what's the best use of my next hour / dollar / unit of energy?'",
+          "The fallacy intensifies with visible, effortful, personal investment — the more you've put in, the harder the trap grips."
+        ],
+        "strategicSteps": [
+          "Ask the forward question: 'knowing what I know now, would I start this today?' If no, the past is talking.",
+          "Name the sunk cost as already gone: 'that time/money is spent either way — it's not part of this decision.'",
+          "Set kill-criteria in advance, while unbiased, so you don't have to decide mid-attachment.",
+          "Separate the decision from the identity: quitting a bad path is wisdom, not failure.",
+          "Picture the regret of continuing: 'how will I feel having spent another year on this?'"
+        ],
+        "scenarios": {
+          "business": {
+            "title": "The Project Too Big to Kill",
+            "situation": "A major initiative has consumed a year and a large budget. It's clearly underperforming, but leadership says 'we've invested too much to stop now.'",
+            "whatHappens": "The past investment is treated as a reason to continue, when it's actually irrelevant. Good resources chase bad to avoid acknowledging the loss already incurred.",
+            "applicationSteps": [
+              "Reframe: 'the investment is gone regardless; the only choice is the next dollar.'",
+              "Ask 'would we fund this today as a fresh proposal?'",
+              "Assign someone to argue for stopping, free of the sunk-cost emotion.",
+              "Decide based on future return, not past spend."
+            ]
+          },
+          "social": {
+            "title": "The Commitment You've Outgrown",
+            "situation": "You joined a club, group, or volunteer role years ago. You no longer enjoy it, but you've given so much time that quitting feels like betraying all that effort.",
+            "whatHappens": "Years invested become a reason to stay, even though the time is unrecoverable. You keep spending present energy to honour past energy.",
+            "applicationSteps": [
+              "Ask 'if I were deciding today whether to join, would I?'",
+              "Acknowledge the past contribution as complete and valuable — and over.",
+              "Separate gratitude for what it was from obligation to continue.",
+              "Free the time for something that fits who you are now."
+            ]
+          },
+          "intimate": {
+            "title": "Staying Because of the Years",
+            "situation": "A relationship has run its course, but the thought 'we've been together so long, I can't throw that away' keeps you in it.",
+            "whatHappens": "The shared history becomes a sunk cost. The years are real and meaningful — but they're not a reason to spend more years if the relationship has genuinely ended.",
+            "applicationSteps": [
+              "Distinguish honouring the past from sacrificing the future to it.",
+              "Ask 'if we met today as the people we are now, would we choose this?'",
+              "Recognise the time together is not 'wasted' just because it ends — it was lived.",
+              "Decide forward, with compassion, not out of fear of 'wasting' history."
+            ]
+          }
+        }
+      },
+      {
+        "id": "mental-models",
+        "title": "Mental Models",
+        "source": "Philosophy · Charlie Munger",
+        "tagline": "You don't see reality — you see your model of it. The quality of your thinking is the quality of your models.",
+        "keyPoints": [
+          "A mental model is a simplified representation of how something works. You can't think without them; the question is whether yours are accurate, diverse, and consciously chosen.",
+          "Munger's 'latticework': a single model makes everything look like a nail. Models from many disciplines let you triangulate — when several point the same way, confidence rises; when they conflict, you've found an interesting edge.",
+          "You don't need to master whole fields — just the 5% of each that carries 95% of the value: the foundational Big Ideas (compounding, natural selection, incentives, probability, the dichotomy of control).",
+          "Inversion is one of the most underused models: instead of 'how do I achieve X?', ask 'what would guarantee I fail at X?' then avoid those things.",
+          "Every model is wrong somewhere — it simplifies by definition. Mistaking the model for reality is the source of most intellectual error; the most useful models become invisibly 'just how things are.'"
+        ],
+        "strategicSteps": [
+          "Pick one field outside your expertise and learn its single most important model; apply it to a current problem.",
+          "When stuck, run the problem through multiple lenses: 'what would a biologist / economist / philosopher say?'",
+          "Practise inversion weekly: define failure explicitly, then design to avoid it.",
+          "Keep a short list of the 10 models you use most — check whether they're diverse or all from one domain.",
+          "When confident, ask 'which model am I using, and where does it break down?'"
+        ],
+        "scenarios": {
+          "business": {
+            "title": "The One-Tool Decision",
+            "situation": "Your team analyses every problem through the same single lens — always a financial model, or always a marketing frame. Different problems get the same treatment, and some keep going wrong.",
+            "whatHappens": "The 'man with a hammer' syndrome: one model makes every problem look like the kind it solves. Important dimensions get missed because no one is looking through the right lens.",
+            "applicationSteps": [
+              "Before deciding, force the problem through 3 different disciplinary lenses.",
+              "Ask 'what model am I defaulting to, and what is it blind to?'",
+              "Invite someone with a different background specifically to disagree.",
+              "Run inversion: 'what would guarantee this decision fails?'"
+            ]
+          },
+          "social": {
+            "title": "Reading a Situation You Keep Misjudging",
+            "situation": "You keep misreading certain social situations — assuming people are motivated by what would motivate you, and being surprised when they aren't.",
+            "whatHappens": "You're applying a single model of human motivation (your own) to everyone. A richer latticework — incentives, status, fear, belonging — would predict behaviour far better.",
+            "applicationSteps": [
+              "Ask 'what incentives is this person actually facing?' rather than 'what would I do?'",
+              "Add models: status, in-group belonging, loss aversion — run the situation through each.",
+              "Hold your first read as a hypothesis, not a conclusion.",
+              "Check predictions against what actually happens, and update the model."
+            ]
+          },
+          "intimate": {
+            "title": "Assuming Your Partner Thinks Like You",
+            "situation": "You assume your partner processes emotion, conflict, or love the way you do — and feel hurt or confused when they clearly don't.",
+            "whatHappens": "You're running a single model (yourself) for a different person. Without a model of how THEY work — their attachment style, their language of care — you keep mispredicting them.",
+            "applicationSteps": [
+              "Build an explicit model of your partner: how do THEY recharge, show care, handle conflict?",
+              "Ask directly rather than assuming: 'what does feeling loved actually look like for you?'",
+              "Notice where your model of them keeps being wrong, and revise it.",
+              "Hold the difference as information, not as them being 'wrong.'"
+            ]
+          }
+        }
+      }
+    ]
   }
 ]
