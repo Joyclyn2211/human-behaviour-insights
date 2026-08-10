@@ -2685,5 +2685,122 @@
         }
       }
     ]
+  },
+  {
+    "date": "2026-08-10",
+    "day": 24,
+    "theme": "Knowing Yourself",
+    "concepts": [
+      {
+        "id": "loss-aversion",
+        "title": "Loss Aversion",
+        "source": "Behavioural Economics · Kahneman & Tversky",
+        "tagline": "Losing $100 hurts about twice as much as gaining $100 feels good — and that asymmetry runs your risk decisions.",
+        "keyPoints": [
+          "Losses loom larger than equivalent gains — roughly 2:1. We're wired to protect what we have far more strongly than to pursue what we don't.",
+          "It's the engine behind the endowment effect (we overvalue what we own), the status quo bias, and the sunk cost fallacy.",
+          "It makes us risk-averse for gains but risk-seeking to avoid losses — people take bigger gambles to avoid a sure loss than to lock in a sure gain.",
+          "Framing exploits it: 'don't lose this' moves people more than 'gain this,' though the outcome is identical.",
+          "Used consciously it's a tool — staking something you'll lose for non-performance out-motivates the promise of a reward."
+        ],
+        "strategicSteps": [
+          "Reframe decisions in neutral terms: 'what's the actual expected outcome?' rather than 'what might I lose?'",
+          "Notice when fear of loss, not pursuit of gain, is driving you — and ask if the asymmetry is distorting the choice.",
+          "Use it deliberately: create a real, concrete loss for skipping a commitment you want to keep.",
+          "For gains you keep avoiding, reframe inaction as a loss: 'not doing this costs me X.'",
+          "Counter the endowment effect: ask 'would I buy this at today's price if I didn't already own it?'"
+        ],
+        "scenarios": {
+          "business": {
+            "title": "Pricing and the Free Trial",
+            "situation": "You're deciding how to get customers to value your product. A plain feature list isn't converting.",
+            "whatHappens": "People undervalue gains they've never experienced. But once they HAVE something (a free trial), loss aversion makes giving it up painful — which is why trials convert.",
+            "applicationSteps": [
+              "Let people experience ownership first (trial, sample) so losing it engages loss aversion.",
+              "Frame cancellation as a loss of specific benefits, not a saving.",
+              "In proposals, name what's lost by inaction, not only what's gained.",
+              "Use deadlines carefully — scarcity triggers loss aversion but erodes trust if abused."
+            ]
+          },
+          "social": {
+            "title": "Clinging to a Commitment You'd Decline Today",
+            "situation": "You hold onto memberships, possessions, or obligations you wouldn't choose now, because giving them up feels like a loss.",
+            "whatHappens": "The endowment effect: ownership inflates value. Releasing something registers as a loss, even when it adds nothing to your life.",
+            "applicationSteps": [
+              "Ask 'would I acquire this today at full cost?' If no, you're holding by loss aversion.",
+              "Reframe letting go as gaining space, time, or freedom.",
+              "Do a periodic 'reset': evaluate keeps as if choosing fresh.",
+              "Notice the relief that usually follows release."
+            ]
+          },
+          "intimate": {
+            "title": "The Fear of Losing Outweighing the Joy of Having",
+            "situation": "You're so afraid of losing a relationship that the fear itself crowds out enjoying it — checking, controlling, bracing for loss.",
+            "whatHappens": "Loss aversion makes the possible loss feel larger than the present good, so anxiety about losing overshadows the experience of having.",
+            "applicationSteps": [
+              "Notice when protecting against loss is costing you the present good.",
+              "Practise appreciation deliberately to rebalance toward what you have.",
+              "Separate genuine risk from loss-aversion catastrophising.",
+              "Act from security, not scarcity — clinging often causes the loss it fears."
+            ]
+          }
+        }
+      },
+      {
+        "id": "dimensional-upgrading",
+        "title": "Dimensional Upgrading (升维)",
+        "source": "Philosophy of Science · 李善友 / Einstein",
+        "tagline": "You can't solve a problem at the level where it appears — rise a dimension and it dissolves.",
+        "keyPoints": [
+          "李善友's reading of Einstein: 'At the original dimension you cannot solve the problem; you can only display it. Only by changing dimension can you solve it.' The stuck feeling is often a signal you're at the wrong level.",
+          "Einstein united time and space into 'spacetime,' and mass and energy into 'mass-energy,' by moving up a dimension — problems that were contradictions at the lower level became coherent at the higher one.",
+          "Most conflict is a clash of options at the same level ('my way vs your way'). Upgrading reframes it as a shared higher question ('what are we actually trying to achieve?') where the options stop competing.",
+          "Dimensional upgrading isn't compromise or splitting the difference — it's finding the larger frame in which the original opposition no longer makes sense.",
+          "Physicist Michio Kaku: 'Nature is simpler in higher dimensions.' The same is often true of human problems — what's tangled at one level is clean one level up."
+        ],
+        "strategicSteps": [
+          "When stuck, ask: 'Am I trying to solve this at the wrong level? What larger question contains this one?'",
+          "Convert either/or into a higher why: behind 'A or B?' is usually 'what am I really trying to achieve?' — answer that first.",
+          "Look for the shared goal above a conflict; opposed positions often serve the same deeper aim.",
+          "Don't split the difference — find the frame where the trade-off disappears.",
+          "After upgrading, re-derive your options from the higher goal rather than defending the original ones."
+        ],
+        "scenarios": {
+          "business": {
+            "title": "The Either/Or Strategy Deadlock",
+            "situation": "Leadership is split: cut costs (Team A) or invest for growth (Team B). The debate is circular — each side has data, neither will move, and the meeting repeats every week.",
+            "whatHappens": "The argument is stuck at the level of two competing options. At that dimension it can only be displayed, not solved — there's no winner because both are partial answers to a question no one has named.",
+            "applicationSteps": [
+              "Rise a level: 'What outcome are both sides actually trying to protect?' (usually: survival + future viability).",
+              "Reframe from 'cut OR invest' to 'what's the path that secures both?' — often a sequenced or segmented answer appears.",
+              "Re-derive options from the higher goal, not from the entrenched positions.",
+              "Name the shared aim out loud so the room stops competing and starts building."
+            ]
+          },
+          "social": {
+            "title": "The Argument That Can't Be Won",
+            "situation": "You and a friend keep debating a topic — politics, a choice, a value — and neither budges. Each round just hardens both sides.",
+            "whatHappens": "You're trading positions at the same level, where the disagreement can only be repeated. The real difference usually sits one level up, in values or goals neither of you has surfaced.",
+            "applicationSteps": [
+              "Ask 'what do we both actually care about underneath this?' — find the shared higher value.",
+              "Shift from defending positions to exploring the level above them together.",
+              "Notice that agreeing on the higher goal often makes the surface disagreement matter less.",
+              "Let the relationship, not the point, be the dimension you optimise for."
+            ]
+          },
+          "intimate": {
+            "title": "My Way vs Your Way",
+            "situation": "You and your partner are locked on a recurring decision — how to spend money, raise kids, split chores — as a contest between two approaches. Whoever 'wins' leaves the other resentful.",
+            "whatHappens": "The conflict is framed at the level of two competing methods. At that dimension someone must lose. The opposition dissolves only when you rise to the shared goal both methods were trying to serve.",
+            "applicationSteps": [
+              "Replace 'my way or your way' with 'what are we both trying to build here?'",
+              "Define the higher shared goal first, before discussing any method.",
+              "Re-derive the approach together from that goal — new options usually appear that neither of you started with.",
+              "Treat the relationship's wellbeing as the top dimension; from there, most method fights shrink."
+            ]
+          }
+        }
+      }
+    ]
   }
 ]
