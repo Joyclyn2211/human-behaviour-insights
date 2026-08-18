@@ -2802,5 +2802,122 @@
         }
       }
     ]
+  },
+  {
+    "date": "2026-08-18",
+    "day": 25,
+    "theme": "Thinking Better",
+    "concepts": [
+      {
+        "id": "first-principles",
+        "title": "First Principles Thinking",
+        "source": "Philosophy · 李善友 (Li Shanyu)",
+        "tagline": "Strip away assumption and inherited convention until you reach what's actually true — then reason up from there.",
+        "keyPoints": [
+          "Most thinking is reasoning by analogy — copying what's been done, what others do, what convention says. It's fast and socially safe, but it inherits every hidden assumption baked into the original.",
+          "First principles thinking reasons up from bedrock truths that cannot be reduced further. The formula (李善友): first principle + deduction = a rational system.",
+          "The hidden enemy is the 'continuity assumption' — the unexamined belief that the future resembles the past and here resembles elsewhere. It's smuggled into almost every conclusion and is invisible because it's foundational.",
+          "Most 'constraints' are inherited conventions, not physical laws. When something seems impossible, ask whether it's a genuine constraint or just an assumption nobody has questioned.",
+          "The most personal application: which of your beliefs, values, and identity claims are genuinely yours (reasoned and tested) versus inherited (absorbed from family, culture, peers) and never examined?"
+        ],
+        "strategicSteps": [
+          "Pick one assumption you treat as fact and ask 'is this actually true, or just a continuity assumption?'",
+          "For any belief, keep asking 'why is this true?' until you reach a direct observation or a logical necessity — or discover you've hit unexamined convention.",
+          "Decompose 'impossible' goals into components and ask which parts are genuinely fixed vs. merely conventional.",
+          "Ask of any important belief: 'If I'd been raised in a different family or culture, would I still hold this?'",
+          "Notice what your community treats as obvious — that's where the unexamined axioms (and the opportunities) hide."
+        ],
+        "scenarios": {
+          "business": {
+            "title": "The Cost Everyone Accepts",
+            "situation": "Your industry 'knows' a certain cost is fixed — 'that's just what it costs.' Everyone plans around it. Margins stay thin because nobody questions the number.",
+            "whatHappens": "Reasoning by analogy ('this is what it has always cost') hides that the cost is a convention, not a physical law. Musk's battery example: $600/kWh was convention; the raw materials cost ~$80. The gap was unexamined assumption.",
+            "applicationSteps": [
+              "Ask 'what is this actually made of, at its most basic, and what does THAT cost?'",
+              "Separate genuine constraints (physics, math) from inherited conventions (how it's been done).",
+              "Rebuild the solution from the verified bedrock, not from competitors' approaches.",
+              "Test the riskiest assumption cheaply before committing."
+            ]
+          },
+          "social": {
+            "title": "The 'Should' You Never Chose",
+            "situation": "You feel obligated to do something socially — a tradition, an expectation, a way of doing things — that you've never actually questioned. It just feels like what one does.",
+            "whatHappens": "The 'should' is a continuity assumption inherited from your environment. It feels like a law of reality, but it's a convention you absorbed and never examined.",
+            "applicationSteps": [
+              "Ask: 'Where did this rule come from? Did I choose it or absorb it?'",
+              "Ask: 'Would someone from a very different background find this obviously necessary, or ask why?'",
+              "Keep what survives examination; consciously drop what doesn't.",
+              "Decide on purpose, rather than by inherited default."
+            ]
+          },
+          "intimate": {
+            "title": "The Inherited Relationship Script",
+            "situation": "You and your partner keep running a script about how relationships 'should' work — roles, rules, expectations — picked up from your families. Friction comes from clashing inherited scripts.",
+            "whatHappens": "Each of you imported first principles from your upbringing and never examined them. The conflict isn't really about the dishes; it's about two unexamined axioms colliding.",
+            "applicationSteps": [
+              "Surface the assumption: 'what do I believe a relationship 'should' do here, and where did I learn it?'",
+              "Have each partner trace a 'should' back to its origin family.",
+              "Ask together: 'what do WE actually want to build, from first principles, rather than inherit?'",
+              "Replace inherited rules with consciously chosen ones you both endorse."
+            ]
+          }
+        }
+      },
+      {
+        "id": "emotional-regulation",
+        "title": "Emotional Regulation",
+        "source": "Psychology · Affective Science",
+        "tagline": "You can't always choose what you feel — but you can shape how you relate to it, and that changes everything downstream.",
+        "keyPoints": [
+          "Emotional regulation is the set of processes by which we influence which emotions we have, when, and how we experience and express them. It's a skill, not a personality trait.",
+          "The most effective strategy is reappraisal — changing how you interpret a situation before the emotion peaks — which beats suppression, which is costly and leaks out anyway.",
+          "Naming an emotion reduces its intensity ('affect labelling'): putting a feeling into words engages the prefrontal cortex and dampens the amygdala.",
+          "There's a gap between stimulus and response, and regulation lives in that gap. Widening it — through a pause, a breath, a name — is where freedom is.",
+          "Suppression doesn't make emotion disappear; it pushes it underground where it drives behaviour you don't consciously choose."
+        ],
+        "strategicSteps": [
+          "Name it to tame it: when a strong feeling arises, label it precisely ('this is anxiety,' 'this is hurt').",
+          "Reappraise before reacting: 'what's another accurate way to see this situation?'",
+          "Build a pause habit: one breath between trigger and response widens the gap where choice lives.",
+          "Regulate the body first — emotion is physical; slow breathing and movement change the state faster than thinking does.",
+          "Don't suppress — express or process. Journalling or talking discharges what bottling only buries."
+        ],
+        "scenarios": {
+          "business": {
+            "title": "The Email That Makes You See Red",
+            "situation": "A curt, unfair email lands. Your heart rate spikes and your fingers are already drafting a scorching reply.",
+            "whatHappens": "System 1 emotion is driving toward a response you'll regret. Without regulation, the amygdala wins and you escalate a conflict that could have been defused.",
+            "applicationSteps": [
+              "Name the feeling: 'I'm angry and a bit disrespected' — labelling lowers the intensity.",
+              "Impose a delay rule: no replies to charged emails for 60 minutes.",
+              "Reappraise: 'what's the most charitable read of why they wrote this?'",
+              "Draft the hot reply, don't send it, then write the one you'd be proud of."
+            ]
+          },
+          "social": {
+            "title": "Feeling Slighted in the Moment",
+            "situation": "Someone says something at a gathering that stings. You feel the urge to snap back or go cold for the rest of the evening.",
+            "whatHappens": "The emotion arrives faster than thought. Unregulated, it controls your behaviour and can damage a relationship over a momentary feeling.",
+            "applicationSteps": [
+              "Take one slow breath before responding — it physically resets the surge.",
+              "Name internally what you're feeling to create distance from it.",
+              "Reappraise: 'did they likely mean it the way I took it?'",
+              "Choose your response from the widened gap, not the reflex."
+            ]
+          },
+          "intimate": {
+            "title": "Flooding During a Conflict",
+            "situation": "An argument with your partner escalates until you're 'flooded' — heart pounding, unable to think clearly, saying things you'll regret.",
+            "whatHappens": "Physiological flooding hijacks regulation; the thinking brain goes offline. Continuing to 'talk it out' while flooded only deepens the damage.",
+            "applicationSteps": [
+              "Recognise flooding as physical and call a timeout — agree the signal in advance.",
+              "Self-soothe for at least 20 minutes (the body needs that long to settle) before returning.",
+              "Name your state to your partner: 'I'm flooded, I need a short break, I'm not leaving the conversation.'",
+              "Return when regulated — reappraise the issue once your thinking brain is back online."
+            ]
+          }
+        }
+      }
+    ]
   }
 ]
