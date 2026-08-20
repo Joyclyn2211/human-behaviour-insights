@@ -3036,5 +3036,122 @@
         }
       }
     ]
+  },
+  {
+    "date": "2026-08-20",
+    "day": 27,
+    "theme": "Building Resilience",
+    "concepts": [
+      {
+        "id": "growth-mindset",
+        "title": "Growth Mindset",
+        "source": "Psychology · Carol Dweck",
+        "tagline": "What you believe about whether you can change determines whether you do.",
+        "keyPoints": [
+          "Two mindsets shape how we meet challenge. A FIXED mindset believes ability is innate and unchangeable; a GROWTH mindset believes ability develops through effort. The belief itself becomes self-fulfilling.",
+          "Mindset decides which goals you chase. Fixed minds pursue 'performance goals' (prove you're smart); growth minds pursue 'learning goals' (get better). When proving dominates, challenge becomes threat; when learning dominates, challenge becomes opportunity.",
+          "How we're praised shapes mindset. Praise for intelligence ('you're so smart') breeds fixed mindset; praise for process ('you worked hard on that') breeds growth. The same applies to your own self-talk.",
+          "The 'not yet' reframe is powerful: 'I failed' collapses the future into a verdict; 'I haven't succeeded YET' keeps it open. A small linguistic shift with a large psychological effect.",
+          "Caveat: a growth mindset isn't 'just try harder' or denying real differences. It's the accurate belief that ability is more malleable than it feels — paired with the right strategies."
+        ],
+        "strategicSteps": [
+          "Catch fixed-mindset self-talk ('I'm bad at this') and rewrite it in process terms ('I haven't built this skill yet').",
+          "Add 'yet' to any statement of limitation. Notice how it changes what you do next.",
+          "When you praise others (children, colleagues, partners), praise the effort and strategy, not the trait.",
+          "Treat each failure as a data point, not a verdict: ask 'what did this specifically teach me about what to do differently?'",
+          "Pick one thing you believe you 'can't' do, and find a person who once couldn't and now can. Study what they actually did."
+        ],
+        "scenarios": {
+          "business": {
+            "title": "The Critical Performance Review",
+            "situation": "Your review highlights a real weakness. Your gut reaction is defensiveness — or quiet dismissal: 'that's just not my strength.'",
+            "whatHappens": "Fixed mindset reads feedback as a verdict on who you are, triggering defence. Growth mindset reads it as a map of where to go next. The reaction in that moment reveals — and reinforces — which world you live in.",
+            "applicationSteps": [
+              "Sit with critical feedback for 24 hours before responding — let it land before you defend.",
+              "Ask: 'What would I do with this if I genuinely believed I could improve?' Then do that.",
+              "Reframe 'I'm not good at X' as 'I haven't yet invested in developing X.'",
+              "Find one colleague who improved at exactly this, and ask them how."
+            ]
+          },
+          "social": {
+            "title": "Being Wrong in Public",
+            "situation": "You made a confident claim and someone politely corrected you. Your face flushes. Your instinct is to qualify, deflect, or double down.",
+            "whatHappens": "Fixed mindset treats public correction as a status threat. Growth mindset treats it as free information. How you respond signals — to others and to yourself — which mindset is running.",
+            "applicationSteps": [
+              "Practise saying cleanly: 'You're right, I got that wrong — thank you.' Notice the world doesn't end.",
+              "Ask a genuine follow-up about the correct information — curiosity dissolves embarrassment.",
+              "Track what topics you get corrected on; patterns reveal real gaps to close.",
+              "When you correct others, do it gently — model the grace you want when it's your turn."
+            ]
+          },
+          "intimate": {
+            "title": "'That's Just Who I Am'",
+            "situation": "Your partner names a pattern in your behaviour they find hurtful. Your first impulse: 'That's just who I am. They knew this when they met me.'",
+            "whatHappens": "Fixed mindset uses identity as a shield against the discomfort of change. But 'that's just who I am' is almost always a choice dressed as a fact — and it forecloses growth the relationship may need.",
+            "applicationSteps": [
+              "When you hear 'that's just who I am,' write it down and ask: 'Is this truly fixed, or have I never really tried to change it?'",
+              "Ask your partner: 'What would it look like if I changed this even 20%? What would you notice?' Specific is actionable.",
+              "Pick one small version of the change to practise for two weeks, then report back — growth is demonstrated, not declared.",
+              "Separate identity from behaviour: 'I sometimes do X' can change; 'I AM X' feels like it can't."
+            ]
+          }
+        }
+      },
+      {
+        "id": "deliberate-practice",
+        "title": "Deliberate Practice",
+        "source": "Psychology · Anders Ericsson",
+        "tagline": "Not all practice improves you — only focused, effortful work at the edge of your ability, with feedback.",
+        "keyPoints": [
+          "Mere repetition doesn't build expertise — once something feels automatic, you stop improving. Deliberate practice is structured, effortful work specifically targeting weaknesses.",
+          "It happens at the edge of your current ability, where it feels uncomfortable and you make errors — the discomfort is the signal that learning is occurring.",
+          "It requires immediate, specific feedback so errors can be corrected, plus full concentration — it's mentally exhausting and can't be sustained for many hours a day.",
+          "It's about specific sub-skills, not vague 'getting better': identify the precise component that's weak and drill it in isolation.",
+          "The popular '10,000 hours' is a simplification — what matters is the QUALITY and structure of practice, not just the time logged."
+        ],
+        "strategicSteps": [
+          "Identify the specific weak sub-skill, not the whole activity — then drill that in isolation.",
+          "Work at the edge of your ability where it's uncomfortable; if it feels easy, it's not deliberate practice.",
+          "Build a feedback loop: a coach, a recording, or a metric that catches errors immediately.",
+          "Practise in focused, shorter bursts with full attention rather than long unfocused sessions.",
+          "Review errors deliberately — the correction, not the repetition, is where growth happens."
+        ],
+        "scenarios": {
+          "business": {
+            "title": "Plateauing at a Skill",
+            "situation": "You've done your job for years and stopped improving. You're experienced but not better than you were three years ago.",
+            "whatHappens": "Experience became automatic repetition. Without targeting specific weaknesses at the edge of ability, the years add tenure but not skill.",
+            "applicationSteps": [
+              "Identify one specific sub-skill that, if improved, would matter most.",
+              "Create a feedback mechanism — a mentor, a recording, a metric.",
+              "Drill that weakness deliberately, accepting the discomfort.",
+              "Review your mistakes specifically rather than just doing more volume."
+            ]
+          },
+          "social": {
+            "title": "Improving a Soft Skill",
+            "situation": "You want to get better at public speaking, listening, or difficult conversations — but just 'doing more of it' isn't moving the needle.",
+            "whatHappens": "Unstructured exposure isn't deliberate practice. Without isolating specific components and getting feedback, you repeat the same level indefinitely.",
+            "applicationSteps": [
+              "Break the soft skill into specific components (pacing, eye contact, questions).",
+              "Work on one component at a time with intentional focus.",
+              "Get feedback — record yourself or ask a trusted observer.",
+              "Target the uncomfortable edge, not what you already do well."
+            ]
+          },
+          "intimate": {
+            "title": "Getting Better at a Relationship Skill",
+            "situation": "You keep having the same kind of misstep with your partner — interrupting, getting defensive, shutting down — and willpower alone hasn't fixed it.",
+            "whatHappens": "Wanting to do better isn't deliberate practice. Without isolating the specific behaviour and building a feedback loop, the pattern repeats.",
+            "applicationSteps": [
+              "Name the one specific behaviour to change (e.g. interrupting).",
+              "Practise the replacement deliberately in low-stakes moments first.",
+              "Ask your partner for a gentle real-time signal as feedback.",
+              "Review afterwards: 'where did I catch it, where did I miss it?'"
+            ]
+          }
+        }
+      }
+    ]
   }
 ]
